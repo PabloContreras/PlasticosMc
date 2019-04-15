@@ -605,6 +605,7 @@
 }
 .icon-paperclip:before {
   content: "\f0c6";
+  color: #0a436c;
 }
 .icon-floppy-o:before {
   content: "\f0c7";
@@ -1525,7 +1526,8 @@
   content: "\f1d7";
 }
 .icon-paper-plane:before {
-  content: "\f1d8";
+  content: "\f1d8";  
+  color: #0a436c;
 }
 .icon-send:before {
   content: "\f1d8";
@@ -2744,6 +2746,7 @@
 }
 .icon-phone2:before {
   content: "\e0cd";
+  color: #0a436c;
 }
 .icon-call_end:before {
   content: "\e0b1";
