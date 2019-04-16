@@ -8012,7 +8012,7 @@ h1, h2, h3, h4, h5,
   color: #fda729 !important; }
 
 .bg-top {
-  background: #0a436c; }
+  background: #347292; }
 
 .topper {
   font-size: 15px;
@@ -8808,7 +8808,7 @@ h1, h2, h3, h4, h5,
     bottom: 0;
     content: '';
     opacity: .8;
-    background: #0a436c; }
+    background: #347292; }
 
 .staff {
   overflow: hidden;
@@ -9017,7 +9017,7 @@ textarea.form-control {
 
 .ftco-footer {
   font-size: 14px;
-  background: #0a436c;
+  background: #347292;
   padding: 6em 0; }
   .ftco-footer .ftco-footer-widget {
     width: 100%;
@@ -9374,7 +9374,7 @@ textarea.form-control {
     content: '';
     z-index: -1;
     opacity: 1;
-    background: #0a436c; }
+    background: #347292; }
 
 .ftco-counter {
   overflow-x: hidden;
@@ -9434,7 +9434,7 @@ textarea.form-control {
     right: 0;
     bottom: 0;
     content: '';
-    background: #0a436c;
+    background: #347292;
     opacity: 0;
     z-index: 1;
     -moz-transition: all 0.3s ease;
