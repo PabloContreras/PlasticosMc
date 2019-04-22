@@ -1,430 +1,121 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <title>MC Plásticos</title>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-    <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
-    <meta name="viewport" content="width=device-width" />
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+<head>
+	<title>MC Plásticos</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+<!--===============================================================================================-->	
+	<link rel="icon" type="image/png" href="images/mc.png"/>
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/bootstrap/css/bootstrap.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/animate/animate.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/select2/select2.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="css/util.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+<!--===============================================================================================-->
+</head>
+<body>
+	
+	
+	<div class="size1 bg0 where1-parent">
+		<!-- Coutdown -->
+		<div class="flex-c-m bg-img1 size2 where1 overlay1 where2 respon2" style="background-image: url('images/bg01.jpg');">
+			<div class="wsize2 flex-w flex-c-m cd100 js-tilt">
+				<div class="flex-col-c-m size6 bor2 m-l-10 m-r-10 m-t-15">
+					<span class="l2-txt1 p-b-9 days">7</span>
+					<span class="s2-txt4">Días</span>
+				</div>
 
-    
-    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:200,300,400,600,700,800,900" rel="stylesheet">
+				<div class="flex-col-c-m size6 bor2 m-l-10 m-r-10 m-t-15">
+					<span class="l2-txt1 p-b-9 hours">0</span>
+					<span class="s2-txt4">Horas</span>
+				</div>
 
-    <link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
-    <link rel="stylesheet" href="css/animate.css">
-    
-    <link rel="stylesheet" href="css/owl.carousel.min.css">
-    <link rel="stylesheet" href="css/owl.theme.default.min.css">
-    <link rel="stylesheet" href="css/magnific-popup.css">
+				<div class="flex-col-c-m size6 bor2 m-l-10 m-r-10 m-t-15">
+					<span class="l2-txt1 p-b-9 minutes">0</span>
+					<span class="s2-txt4">Minutos</span>
+				</div>
 
-    <link rel="stylesheet" href="css/aos.css">
-
-    <link rel="stylesheet" href="css/ionicons.min.css">
-
-    <link rel="stylesheet" href="css/bootstrap-datepicker.css">
-    <link rel="stylesheet" href="css/jquery.timepicker.css">
-
-    
-    <link rel="stylesheet" href="css/flaticon.css">
-    <link rel="stylesheet" href="css/icomoon.css">
-    <link rel="stylesheet" href="css/style.css">
-
-    <link rel="apple-touch-icon" sizes="96x96" href="images/mc.png" />
-  	<link rel="icon" type="image/png" href="images/mc.png" />
-  	</head>
-  	<body>
-	    <div class="bg-top navbar-light">
-	    	<div class="container">
-	    		<div class="row no-gutters d-flex align-items-center align-items-stretch">
-	    			<div class="col-md-4 d-flex align-items-center py-4">
-	    				<img src="images/mc.png" width="80" height="80" class="d-inline-block align-top" alt="Grupo MC"><a class="navbar-brand" href="index.html">MC Plásticos</a>
-	    			</div>
-		    		<div class="col-lg-8 d-block">
-			    		<div class="row d-flex">
-						    <div class="col-md d-flex topper align-items-center align-items-stretch py-md-4" style="top: 15px;">
-						    	<div class="icon d-flex justify-content-center align-items-center"><span class="icon-paper-plane"></span></div>
-						    	<div class="text d-flex align-items-center">
-							    	<span>info@mcplasticos.com</span><br>
-							    </div>
-						    </div>
-						    <div class="col-md d-flex topper align-items-center align-items-stretch py-md-4"  style="top: 15px; padding-bottom: 20px;">
-						    	<div class="icon d-flex justify-content-center align-items-center"><span class="icon-phone2"></span></div>
-							    <div class="text d-flex align-items-center">
-							    	<span>Llámanos: <br>01 (722) 2766570</span>
-							    </div>
-						    </div>
-					    </div>
-				    </div>
-			    </div>
-			  </div>
-	    </div>
-	  	<nav class="navbar navbar-expand-lg navbar-dark bg-dark ftco-navbar-light" id="ftco-navbar">
-		    <div class="container d-flex align-items-center">
-				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
-		        	<span class="oi oi-menu"></span> Menú
-		      	</button>
-		      	<div class="collapse navbar-collapse" id="ftco-nav">
-		        	<ul class="navbar-nav mr-auto">
-		        		<li class="nav-item active"><a href="index.html" class="nav-link pl-0">Inicio</a></li>
-		        		<li class="nav-item"><a href="about.html" class="nav-link">Nosotros</a></li>
-		        		<li class="nav-item"><a href="project.html" class="nav-link">Servicios</a></li>
-		          		<li class="nav-item"><a href="contact.html" class="nav-link">Contacto</a></li>
-		          		<!--<li class="nav-item"><a href="#" class="nav-link">Buzón para clientes</a></li>-->
-		        	</ul>
-		      	</div>
-		    </div>
-	  	</nav>
-	    <!-- END nav -->
-	    <!-- Carrousel -->
-	    <section class="home-slider owl-carousel">
-	      	<div class="slider-item" style="background-image:url(images/inicio1.png);" data-stellar-background-ratio="0.5">
-	      		<div class="overlay" style="width: 1500px; left: 0"></div>
-	        	<div class="container">
-	          		<div class="row no-gutters slider-text align-items-center justify-content-end" data-scrollax-parent="true">
-          				<div class="col-md-12 text ftco-animate pl-md-5">
-            				<center><h1>MC Plásticos</h1>
-            				<img src="images/slider1.png" style="width: 300px;" class="d-inline-block align-top" alt=""></center>
-            				<center><h2 class="subheading"><strong>Somos expertos en productos de plástico, <br> nos concentramos en cinco procesos de manufactura: <br> * Inyección <br> * Soplo <br> * Esferas <br> * Decorado y ensamble <br> * Metalizado </strong></h2></center>
-          				</div>
-	      			</div>
-	      		</div>
-	      	</div>
-		    <div class="slider-item" style="background-image:url(images/inicio3.png);" data-stellar-background-ratio="0.5">
-	      		<div class="overlay" style="width: 1500px; left: 0"></div>
-	        	<div class="container">
-	          		<div class="row no-gutters slider-text align-items-center justify-content-end" data-scrollax-parent="true">
-          				<div class="col-md-12 text ftco-animate pl-md-5">
-            				<center><h1>FORTALAB</h1>
-            				<img src="images/slider2.png" style="width: 400px; padding-right: 70px;" class="d-inline-block align-top" alt=""></center>
-            				<center><h2 class="subheading"><strong>Dedicados a la maquila de productos de cuidado personal</strong></h2></center>
-          				</div>
-	      			</div>
-	      		</div>
-	      	</div>
-	      	<div class="slider-item" style="background-image:url(images/inicio2.png);" data-stellar-background-ratio="0.5">
-	      		<div class="overlay" style="width: 1500px; left: 0"></div>
-	        	<div class="container">
-	          		<div class="row no-gutters slider-text align-items-center justify-content-end" data-scrollax-parent="true">
-          				<div class="col-md-12 text ftco-animate pl-md-5">
-            				<center><h1>PROSENTEC</h1>
-            				<img src="images/slider3.png" style="width: 400px; padding-right: 65px;" class="d-inline-block align-top" alt=""></center>
-            				<center><h2 class="subheading"><strong  style="padding-right: 10px;">Enfocados al sector del juguete      </strong></h2></center>
-          				</div>
-	      			</div>
-	      		</div>
-	      	</div>
-	    </section>
-	    <!-- End carrousel -->
-	    <!-- Our Products -->
-	    <section class="ftco-section ftco-no-pt ftco-no-pb">
-			<div class="container-fluid p-0">
-				<div class="row no-gutters justify-content-center mb-5 pb-2">
-	          		<div class="col-md-6 text-center heading-section ftco-animate">
-	          			<br><br>
-	            		<h2 class="mb-4">Nuestros productos</h2>
-	            		<!--<p>Separated they live in. A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country</p>-->
-	          		</div>
-	        	</div>
-	    		<div class="row no-gutters">
-	    			<div class="col-md-6 col-lg-3 ftco-animate">
-	    				<div class="project">
-		    				<img src="images/work-1.jpg" class="img-fluid" alt="Colorlib Template">
-		    				<a href="images/work-1.jpg" class="icon image-popup d-flex justify-content-center align-items-center">
-		    					<span class="icon-expand"></span>
-		    				</a>
-	    				</div>
-	    			</div>
-	    			<div class="col-md-6 col-lg-3 ftco-animate">
-	    				<div class="project">
-		    				<img src="images/work-2.jpg" class="img-fluid" alt="Colorlib Template">
-		    				<a href="images/work-2.jpg" class="icon image-popup d-flex justify-content-center align-items-center">
-		    					<span class="icon-expand"></span>
-		    				</a>
-	    				</div>
-	    			</div>
-	    			<div class="col-md-6 col-lg-3 ftco-animate">
-	    				<div class="project">
-		    				<img src="images/work-3.jpg" class="img-fluid" alt="Colorlib Template">
-		    				<a href="images/work-3.jpg" class="icon image-popup d-flex justify-content-center align-items-center">
-		    					<span class="icon-expand"></span>
-		    				</a>
-	    				</div>
-	    			</div>
-	    			<div class="col-md-6 col-lg-3 ftco-animate">
-	    				<div class="project">
-		    				<img src="images/work-4.jpg" class="img-fluid" alt="Colorlib Template">
-		    				<a href="images/work-4.jpg" class="icon image-popup d-flex justify-content-center align-items-center">
-		    					<span class="icon-expand"></span>
-		    				</a>
-	    				</div>
-	    			</div>
-	    			<div class="col-md-6 col-lg-3 ftco-animate">
-	    				<div class="project">
-		    				<img src="images/work-5.jpg" class="img-fluid" alt="Colorlib Template">
-		    				<a href="images/work-5.jpg" class="icon image-popup d-flex justify-content-center align-items-center">
-		    					<span class="icon-expand"></span>
-		    				</a>
-	    				</div>
-	    			</div>
-	    			<div class="col-md-6 col-lg-3 ftco-animate">
-	    				<div class="project">
-		    				<img src="images/work-6.jpg" class="img-fluid" alt="Colorlib Template">
-		    				<a href="images/work-6.jpg" class="icon image-popup d-flex justify-content-center align-items-center">
-		    					<span class="icon-expand"></span>
-		    				</a>
-	    				</div>
-	    			</div>
-	    			<div class="col-md-6 col-lg-3 ftco-animate">
-	    				<div class="project">
-		    				<img src="images/work-7.jpg" class="img-fluid" alt="Colorlib Template">
-		    				<a href="images/work-7.jpg" class="icon image-popup d-flex justify-content-center align-items-center">
-		    					<span class="icon-expand"></span>
-		    				</a>
-	    				</div>
-	    			</div>
-	    			<div class="col-md-6 col-lg-3 ftco-animate">
-	    				<div class="project">
-		    				<img src="images/work-8.jpg" class="img-fluid" alt="Colorlib Template">
-		    				<a href="images/work-8.jpg" class="icon image-popup d-flex justify-content-center align-items-center">
-		    					<span class="icon-expand"></span>
-		    				</a>
-	    				</div>
-	    			</div>
-	    		</div>
-	    	</div>
-		</section>
-	    <!-- End our products-->
-	    <!-- Quiénes somos -->
-	    <br><br><br>
-	    <section class="ftco-section" style="padding-bottom: 30px; padding-top: 20px;">
-	      	<div class="container">
-	        	<div class="row no-gutters">
-	          		<div class="col-md-6 wrap-about py-5 px-4 px-md-5 ftco-animate">
-	            		<div class="heading-section mb-5">
-	              			<h2 class="mb-4">Quiénes somos</h2>
-	            		</div>
-	            		<div class="">
-	              			<p><strong>MC Plásticos</strong> es una empresa consolidada al 100%, que ofrece a sus clientes soluciones integrales dentro de la industria del plástico, a nivel internacional</p>
-	            		</div>
-	          		</div>
-	          		<div class="col-md-4 p-md-5 img img-2 mt-5 mt-md-0" style="background-image: url(images/Imagen1.jpg);">
-	          		</div>
-	        	</div>
-	    	</div>
-	    </section>
-	    <!-- End quienes somos -->
-	    <!-- Counter -->
-	    <section class="ftco-counter img" id="section-counter" style="background-image: url(images/bg_3.jpg);" data-stellar-background-ratio="0.5">
-	    	<div class="container">
-				<div class="row">
-	          		<div class="col-md-6 col-lg-3 d-flex justify-content-center counter-wrap ftco-animate">
-	            		<div class="block-18 d-flex">
-	              			<div class="text d-flex align-items-center">
-	                			<strong class="number" data-number="45">0</strong>
-			              	</div>
-			              	<div class="text-2">
-			              		<span>Años de <br>Experiencia</span>
-			              	</div>
-			            </div>
-			        </div>
-			        <div class="col-md-6 col-lg-3 d-flex justify-content-center counter-wrap ftco-animate">
-			            <div class="block-18 d-flex">
-			            	<div class="text d-flex align-items-center">
-			                	<strong class="number" data-number="1500">0</strong>
-			              	</div>
-			              	<div class="text-2">
-			              		<span>Artículos <br> que se <br>producen</span>
-			              	</div>
-			            </div>
-			        </div>
-			        <div class="col-md-6 col-lg-3 d-flex justify-content-center counter-wrap ftco-animate">
-			            <div class="block-18 d-flex">
-			            	<div class="text d-flex align-items-center">
-			                	<strong class="number" data-number="100">0</strong>
-			              	</div>
-			              	<div class="text-2">
-			              		<span>Empleados <br>Capacitados</span>
-			              	</div>
-			            </div>
-			        </div>
-			        <div class="col-md-6 col-lg-3 d-flex justify-content-center counter-wrap ftco-animate">
-			            <div class="block-18 d-flex">
-			            	<div class="text d-flex align-items-center">
-			                	<strong class="number" data-number="300">0</strong>
-			              	</div>
-			              	<div class="text-2">
-			              		<span>Clientes <br>Felices</span>
-			              	</div>
-			            </div>
-			        </div>
-			    </div>
-	    	</div>
-	    </section>
-	    <!-- End counter -->
-	    <br><br>
-	    <!-- Nuestros clientes -->
-	    <section class="ftco-services ftco-no-pt">
-			<div class="container">
-				<div class="row justify-content-center mb-5 pb-2">
-			        <div class="col-md-8 text-center heading-section ftco-animate">
-			            <h2 class="mb-4">Nuestros clientes</h2>
-			        </div>
-		        </div>
-		        <div class="row no-gutters">
-	    			<div class="col-md-6 col-lg-3 ftco-animate">
-		    			<img src="images/avon.png" class="img-fluid" alt="AVON">
-	    			</div>
-	    			<div class="col-md-6 col-lg-3 ftco-animate">
-		    			<img src="images/genoma.png" class="img-fluid" alt="Genoma Lab">
-	    			</div>
-	    			<div class="col-md-6 col-lg-3 ftco-animate">
-		    			<img src="images/coty.png" class="img-fluid" alt="COTY">
-	    			</div>
-	    			<div class="col-md-6 col-lg-3 ftco-animate">
-		    			<img src="images/colgate.png" class="img-fluid" alt="Colgate">
-	    			</div>
-	    		</div>
-	    		<br>
-	    		<div class="row no-gutters">
-	    			<div class="col-md-6 col-lg-3 ftco-animate">
-		    			<img src="images/revlon.png" class="img-fluid" alt="Revlon">
-	    			</div>
-	    			<div class="col-md-6 col-lg-3 ftco-animate">
-		    			<img src="images/toms.png" class="img-fluid" alt="Toms">
-	    			</div>
-	    			<div class="col-md-6 col-lg-3 ftco-animate">
-		    			<img src="images/henkel.png" class="img-fluid" alt="Henkel">
-	    			</div>
-	    			<div class="col-md-6 col-lg-3 ftco-animate">
-		    			<img src="images/qualypharm.png" class="img-fluid" alt="qualypharm">
-	    			</div>
-	    		</div>
-	    		<br>
-	    		<div class="row no-gutters">
-	    			<div class="col-md-6 col-lg-3 ftco-animate">
-		    			<img src="images/loreal.png" class="img-fluid" alt="loreal">
-	    			</div>
-	    			<div class="col-md-6 col-lg-3 ftco-animate">
-		    			<img src="images/jafra.png" class="img-fluid" alt="jafra">
-	    			</div>
-	    			<div class="col-md-6 col-lg-3 ftco-animate">
-		    			<img src="images/natura.png" class="img-fluid" alt="natura">
-	    			</div>
-	    			<div class="col-md-6 col-lg-3 ftco-animate">
-		    			<img src="images/opi.png" class="img-fluid" alt="OPI">
-	    			</div>
-	    		</div>
-			</div>
-		</section>
-		<!-- End nuestros clientes -->
-		<!-- Frase -->
-		<section class="ftco-intro" style="background-image: url(images/bg_3.jpg);" data-stellar-background-ratio="0.5">
-			<div class="overlay"></div>
-			<div class="container">
-				<div class="row justify-content-center">
-					<div class="col-md-9 text-center">
-						<h2>Grupo MC es el resultado de una historia de más de 40 años de esfuerzo y dedicación...</h2>
-					</div>
+				<div class="flex-col-c-m size6 bor2 m-l-10 m-r-10 m-t-15">
+					<span class="l2-txt1 p-b-9 seconds">0</span>
+					<span class="s2-txt4">Segundos</span>
 				</div>
 			</div>
-		</section>
-		<br><br>
-		<!-- End frase -->  
-		<!-- Contacto -->
-		<section class="ftco-section ftco-no-pt ftco-no-pb contact-section">
-			<div class="container">
-				<div class="row d-flex align-items-stretch no-gutters">
-					<div class="col-md-6 p-4 p-md-5 order-md-last bg-light">
-						<h2 class="pull-right">Tu opinión es importante</h2>
-						<form action="#">
-              				<div class="form-group">
-                				<input type="text" class="form-control" placeholder="Nombre">
-		              		</div>
-	              			<div class="form-group">
-	               				<input type="text" class="form-control" placeholder="Email">
-	              			</div>
-	              			<div class="form-group">
-	                			<input type="text" class="form-control" placeholder="Asunto">
-	              			</div>
-	              			<div class="form-group">
-	                			<textarea name="" id="" cols="30" rows="7" class="form-control" placeholder="Mensaje"></textarea>
-	              			</div>
-	              			<div class="form-group">
-	                			<input type="submit" value="Enviar" class="btn btn-primary py-3 px-5">
-	              			</div>
-            			</form>
-					</div>
-					<br><br>
-					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3763.913598872037!2d-99.57222699764404!3d19.372893475459726!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d2b07012dbd093%3A0x8e75b555c71c1a31!2sMC+Pl%C3%A1sticos+de+M%C3%A9xico+SA+de+CV!5e0!3m2!1ses-419!2smx!4v1555362423348!5m2!1ses-419!2smx" width="600" height="450" frameborder="0" style="border:0; margin-top: 100px; margin-bottom: 50px;" allowfullscreen></iframe>
-				</div>
+		</div>
+		
+		<!-- Form -->
+		<div class="size3 flex-col-sb flex-w p-l-75 p-r-75 p-t-45 p-b-45 respon1">
+			<div class="wrap-pic1">
+				<img src="images/mc.png" alt="LOGO">
 			</div>
-		</section>
-		<!-- End contacto -->  
-		<!-- Footer -->
-	    <footer class="ftco-footer ftco-bg-dark ftco-section" style="padding-top: 20px; padding-bottom: 0px;">
-	      <div class="container">
-	        <div class="row mb-5">
-	          <div class="col-md">
-	            <div class="ftco-footer-widget mb-5">
+			<div class="p-t-50 p-b-60">
+				<p class="m1-txt1 p-b-36">
+					<strong>En construcción</strong><br>
+					¡Estamos trabajando para ti...!
+				</p>
+			</div>
 
-	              	<h2 class="ftco-heading-2 logo"><img src="images/mc.png" width="80" height="80" class="d-inline-block align-top" alt="" style="margin-left: 30px;"><br>MC Plásticos</h2>
-	              	<!--<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>-->
-	              	<p><i class="fas fa-map-marker-alt"></i> <span>Dirección:</span> <a href="maps://Av. Central No. 211, Parque Industrial Toluca 2000 C.P. 50200, Toluca, Estado de México."> Av. Central No. 211, Parque Industrial Toluca 2000 C.P. 50200, Toluca, Estado de México.</a> </p>
+			<div class="flex-w">
+				<!--<a href="#" class="flex-c-m size5 bg3 how1 trans-04 m-r-5">
+					<i class="fa fa-facebook"></i>
+				</a>
 
-	              	<p><i class="fas fa-phone"></i><span> Llámanos: <br>01 (722) 2766570</span></p>
+				<a href="#" class="flex-c-m size5 bg4 how1 trans-04 m-r-5">
+					<i class="fa fa-twitter"></i>
+				</a>
 
-	              	<p><i class="fas fa-at"></i> <span>info@mcplasticos.com</span></p>
-		            <ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-3">
-		                <li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
-		                <li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
-		                <li class="ftco-animate"><a href="#"><span class="icon-instagram"></span></a></li>
-		            </ul>
-	            </div>
-	            
-	          </div>
-	          <div class="col-md">
-	            <div class="ftco-footer-widget mb-5 ml-md-4">
-	              <h2 class="ftco-heading-2">Servicios</h2>
-	              <ul class="list-unstyled">
-	                <li><a href="#"><span class="ion-ios-arrow-round-forward mr-2"></span>Inyección </a></li>
-	                <li><a href="#"><span class="ion-ios-arrow-round-forward mr-2"></span>Soplo</a></li>
-	                <li><a href="#"><span class="ion-ios-arrow-round-forward mr-2"></span>Esferas </a></li>
-	                <li><a href="#"><span class="ion-ios-arrow-round-forward mr-2"></span>Decorado y ensamble</a></li>
-	                <li><a href="#"><span class="ion-ios-arrow-round-forward mr-2"></span>Metalizado</a></li>
-	              </ul>
-	            </div>
-	          </div>
-	        </div>
-	        <div class="row">
-	          <div class="col-md-12 text-center">
+				<a href="#" class="flex-c-m size5 bg5 how1 trans-04 m-r-5">
+					<i class="fa fa-youtube-play"></i>
+				</a>-->
+			</div>
+		</div>
+	</div>
 
-	            <p>
-	            &copy;<script>document.write(new Date().getFullYear());</script>  Hecho con <i class="icon-heart" alt="love"></i> Por <a href="http://www.eostechnology.com.mx" target="_blank"> EOS Technology </a></p>
-	          </div>
-	        </div>
-	      </div>
-	    </footer>
-	    <!-- End footer -->
-	  	<!-- loader -->
-		<div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#04233a"/></svg></div>
-		<!-- End loader -->
-		<script src="js/jquery.min.js"></script>
-	  	<script src="js/jquery-migrate-3.0.1.min.js"></script>
-	  	<script src="js/popper.min.js"></script>
-	  	<script src="js/bootstrap.min.js"></script>
-	  	<script src="js/jquery.easing.1.3.js"></script>
-	  	<script src="js/jquery.waypoints.min.js"></script>
-	  	<script src="js/jquery.stellar.min.js"></script>
-	  	<script src="js/owl.carousel.min.js"></script>
-	  	<script src="js/jquery.magnific-popup.min.js"></script>
-	  	<script src="js/aos.js"></script>
-	  	<script src="js/jquery.animateNumber.min.js"></script>
-	  	<script src="js/bootstrap-datepicker.js"></script>
-	  	<script src="js/jquery.timepicker.min.js"></script>
-	  	<script src="js/scrollax.min.js"></script>
-	  	<script src="js/main.js"></script>
-	    
-	</body>
+
+
+	
+
+<!--===============================================================================================-->	
+	<script src="vendor/jquery/jquery-3.2.1.min.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/bootstrap/js/popper.js"></script>
+	<script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/select2/select2.min.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/countdowntime/moment.min.js"></script>
+	<script src="vendor/countdowntime/moment-timezone.min.js"></script>
+	<script src="vendor/countdowntime/moment-timezone-with-data.min.js"></script>
+	<script src="vendor/countdowntime/countdowntime.js"></script>
+	<script>
+		$('.cd100').countdown100({
+			/*Set Endtime here*/
+			/*Endtime must be > current time*/
+			endtimeYear: 0,
+			endtimeMonth: 0,
+			endtimeDate: 7,
+			endtimeHours: 0,
+			endtimeMinutes: 0,
+			endtimeSeconds: 0,
+			timeZone: "" 
+			// ex:  timeZone: "America/New_York"
+			//go to " http://momentjs.com/timezone/ " to get timezone
+		});
+	</script>
+<!--===============================================================================================-->
+	<script src="vendor/tilt/tilt.jquery.min.js"></script>
+	<script >
+		$('.js-tilt').tilt({
+			scale: 1.1
+		})
+	</script>
+<!--===============================================================================================-->
+	<script src="js/main.js"></script>
+
+</body>
 </html>
