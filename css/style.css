@@ -7985,7 +7985,8 @@ body {
   font-size: 16px;
   line-height: 1.8;
   font-weight: 400;
-  color: rgba(0, 0, 0, 0.5); }
+  color: rgba(255, 255, 255); 
+}
   body.menu-show {
     overflow: hidden;
     position: fixed;
@@ -8081,12 +8082,12 @@ h1, h2, h3, h4, h5,
 
 .ftco-navbar-light {
   background: transparent !important;
-  background: #347292 !important;
+  background: #ffffff !important;
   z-index: 3;
   padding: 0; }
   @media (max-width: 991.98px) {
     .ftco-navbar-light {
-      background: #000000 !important;
+      background: #ffffff !important;
       position: relative;
       top: 0;
       padding: 10px 15px; } }
@@ -8101,13 +8102,13 @@ h1, h2, h3, h4, h5,
     .ftco-navbar-light .navbar-nav {
       padding-bottom: 10px; } }
   .ftco-navbar-light .navbar-nav > .nav-item > .nav-link {
-    font-size: 14px;
+    font-size: 22px;
     padding-top: 1.2rem;
     padding-bottom: 1.2rem;
     padding-left: 20px;
     padding-right: 20px;
     font-weight: 400;
-    color: #fff;
+    color: #000000;
     opacity: 1 !important; }
     .ftco-navbar-light .navbar-nav > .nav-item > .nav-link:hover {
       color: #000000; }
@@ -8117,7 +8118,7 @@ h1, h2, h3, h4, h5,
         padding-right: 0;
         padding-top: .9rem;
         padding-bottom: .9rem;
-        color: rgba(255, 255, 255, 0.7); }
+        color: rgba(0, 0, 0); }
         .ftco-navbar-light .navbar-nav > .nav-item > .nav-link:hover {
           color: #fff; } }
   .ftco-navbar-light .navbar-nav > .nav-item .dropdown-menu {
@@ -8158,16 +8159,16 @@ h1, h2, h3, h4, h5,
         padding-right: 15px; } }
     @media (max-width: 991.98px) {
       .ftco-navbar-light .navbar-nav > .nav-item.cta > a {
-        color: #fff;
+        color: #000000;
         background: #fda729; } }
   .ftco-navbar-light .navbar-nav > .nav-item.active > a {
     color: #04233a; }
     @media (max-width: 991.98px) {
       .ftco-navbar-light .navbar-nav > .nav-item.active > a {
-        color: #fff; } }
+        color: #000000; } }
   .ftco-navbar-light .navbar-toggler {
     border: none;
-    color: rgba(255, 255, 255, 0.5) !important;
+    color: rgba(0, 0, 0) !important;
     cursor: pointer;
     padding-right: 0;
     text-transform: uppercase;
