@@ -1,10 +1,9 @@
 <?php
 
-use Illuminate\Support\Facades\Schema;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-class CreateEscritorsTable extends Migration
+class CreateEditorPasswordResetsTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,9 +12,10 @@ class CreateEscritorsTable extends Migration
      */
     public function up()
     {
-        Schema::create('escritors', function (Blueprint $table) {
-            $table->bigIncrements('id');
-            $table->timestamps();
+        Schema::create('editor_password_resets', function (Blueprint $table) {
+            $table->string('email')->index();
+            $table->string('token')->index();
+            $table->timestamp('created_at')->nullable();
         });
     }
 
@@ -26,6 +26,6 @@ class CreateEscritorsTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('escritors');
+        Schema::drop('editor_password_resets');
     }
 }

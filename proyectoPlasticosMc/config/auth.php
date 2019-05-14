@@ -36,6 +36,21 @@ return [
     */
 
     'guards' => [
+        'empleado' => [
+            'driver' => 'session',
+            'provider' => 'empleados',
+        ],
+
+        'editor' => [
+            'driver' => 'session',
+            'provider' => 'editors',
+        ],
+
+        'administrador' => [
+            'driver' => 'session',
+            'provider' => 'administradors',
+        ],
+
         'web' => [
             'driver' => 'session',
             'provider' => 'users',
@@ -66,6 +81,21 @@ return [
     */
 
     'providers' => [
+        'empleados' => [
+            'driver' => 'eloquent',
+            'model' => App\Empleado::class,
+        ],
+
+        'editors' => [
+            'driver' => 'eloquent',
+            'model' => App\Editor::class,
+        ],
+
+        'administradors' => [
+            'driver' => 'eloquent',
+            'model' => App\Administrador::class,
+        ],
+
         'users' => [
             'driver' => 'eloquent',
             'model' => App\User::class,
@@ -93,6 +123,24 @@ return [
     */
 
     'passwords' => [
+        'empleados' => [
+            'provider' => 'empleados',
+            'table' => 'empleado_password_resets',
+            'expire' => 60,
+        ],
+
+        'editors' => [
+            'provider' => 'editors',
+            'table' => 'editor_password_resets',
+            'expire' => 60,
+        ],
+
+        'administradors' => [
+            'provider' => 'administradors',
+            'table' => 'administrador_password_resets',
+            'expire' => 60,
+        ],
+
         'users' => [
             'provider' => 'users',
             'table' => 'password_resets',

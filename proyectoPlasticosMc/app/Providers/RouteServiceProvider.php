@@ -39,7 +39,70 @@ class RouteServiceProvider extends ServiceProvider
 
         $this->mapWebRoutes();
 
+        $this->mapEmpleadoRoutes();
+
+        $this->mapEditorRoutes();
+
+        $this->mapAdministradorRoutes();
+
         //
+    }
+
+    /**
+     * Define the "administrador" routes for the application.
+     *
+     * These routes all receive session state, CSRF protection, etc.
+     *
+     * @return void
+     */
+    protected function mapAdministradorRoutes()
+    {
+        Route::group([
+            'middleware' => ['web', 'administrador', 'auth:administrador'],
+            'prefix' => 'administrador',
+            'as' => 'administrador.',
+            'namespace' => $this->namespace,
+        ], function ($router) {
+            require base_path('routes/administrador.php');
+        });
+    }
+
+    /**
+     * Define the "editor" routes for the application.
+     *
+     * These routes all receive session state, CSRF protection, etc.
+     *
+     * @return void
+     */
+    protected function mapEditorRoutes()
+    {
+        Route::group([
+            'middleware' => ['web', 'editor', 'auth:editor'],
+            'prefix' => 'editor',
+            'as' => 'editor.',
+            'namespace' => $this->namespace,
+        ], function ($router) {
+            require base_path('routes/editor.php');
+        });
+    }
+
+    /**
+     * Define the "empleado" routes for the application.
+     *
+     * These routes all receive session state, CSRF protection, etc.
+     *
+     * @return void
+     */
+    protected function mapEmpleadoRoutes()
+    {
+        Route::group([
+            'middleware' => ['web', 'empleado', 'auth:empleado'],
+            'prefix' => 'empleado',
+            'as' => 'empleado.',
+            'namespace' => $this->namespace,
+        ], function ($router) {
+            require base_path('routes/empleado.php');
+        });
     }
 
     /**

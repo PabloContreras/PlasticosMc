@@ -15,6 +15,9 @@ class CreateAvisoEventosTable extends Migration
     {
         Schema::create('aviso-eventos', function (Blueprint $table) {
             $table->bigIncrements('id');
+            $table->boolean('evento/aviso'),
+            $table->string('titulo'),
+            $table->text('descripcion'),
             $table->timestamps();
         });
     }
