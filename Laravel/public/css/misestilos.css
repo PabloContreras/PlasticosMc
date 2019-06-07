@@ -1,0 +1,7 @@
+.ftco-navbar-light .navbar-nav > .nav-item > .nav-link{
+	font-size: 15px;
+}
+
+dropdown-item:hover{
+	color: #0f3a5d;
+}

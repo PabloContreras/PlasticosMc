@@ -11,8 +11,8 @@ Nosotros
 	<div class="container">
 		<div class="row no-gutters slider-text align-items-center justify-content-center">
 			<div class="col-md-9 ftco-animate text-center">
-				<h1 class="mb-2 bread">Acerca de nosotros</h1>
-				<p class="breadcrumbs"><span class="mr-2"><a href="{{ route('inicio') }}">Inicio <i class="ion-ios-arrow-forward"></i></a></span> <span>Acerca de nosotros <i class="ion-ios-arrow-forward"></i></span></p>
+				<h1 class="mb-2 bread">Nuestra compañia</h1>
+				<p class="breadcrumbs"><span class="mr-2"><a href="{{ route('inicio') }}">Inicio <i class="ion-ios-arrow-forward"></i></a></span> <span>Nuestra compañia<i class="ion-ios-arrow-forward"></i></span></p>
 			</div>
 		</div>
 	</div>
@@ -112,7 +112,7 @@ Nosotros
 	</div>
 </section>
 
-<section class="ftco-section" style="padding-bottom: 10px;">
+<section class="ftco-section" style="padding-bottom: 10px;" id="diseño">
 	<div class="container">
 		<div class="row justify-content-center mb-5 pb-2">
 			<div class="col-md-8 text-center heading-section ftco-animate">

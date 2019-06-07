@@ -30,7 +30,7 @@
 	<link rel="stylesheet" href="{{ asset('css/flaticon.css') }}">
 	<link rel="stylesheet" href="{{ asset('css/icomoon.css') }}">
 	<link rel="stylesheet" href="{{ asset('css/style.css') }}">
-
+	<link rel="stylesheet" href="{{ asset('css/misestilos.css') }}">
 	<link rel="apple-touch-icon" sizes="96x96" href="{{ asset('images/favicon.png') }}" />
 	<link rel="icon" type="image/png" href="{{ asset('images/favicon.png') }}" />
 </head>
@@ -45,11 +45,66 @@
 			</button>
 			<div class="collapse navbar-collapse" id="ftco-nav" style="background-color: white">
 				<ul class="navbar-nav mr-auto">
-					<li class="nav-item active"><a href="{{ route('inicio') }}" class="nav-link pl-0" style="margin-left: 15px">Inicio</a></li>
-					<li class="nav-item"><a href="{{ route('nosotros') }}" class="nav-link" style="margin-left: 15px">Nosotros</a></li>
-					<li class="nav-item"><a href="{{ route('servicios') }}" class="nav-link" style="margin-left: 15px">Servicios</a></li>
-					<li class="nav-item"><a href="{{ route('contacto') }}" class="nav-link" style="margin-left: 15px">Contacto</a></li>
-					<li class="nav-item"><a href="{{ route('buzoncli') }}" class="nav-link"  style="margin-left: 15px">Buzón para clientes</a></li>
+					<li class="nav-item active"><a href="{{ route('inicio') }}" class="nav-link pl-0" style="margin-left: 15px">Home</a></li>
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Nuestra compañia</a>
+						<div class="dropdown-menu">
+							<a class="dropdown-item" href="#">Historia</a>
+							<a class="dropdown-item" href="#">Nuestra filosofia</a>
+							<a class="dropdown-item" href="#">Calidad</a>
+							<a class="dropdown-item" href="#">Innovacion</a>
+							<a class="dropdown-item" href="#">Full service</a>
+							<a class="dropdown-item" href="#">Responsabilidad social</a>
+						</div>
+					</li>
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Procesos y servicios</a>
+						<div class="dropdown-menu">
+							<a class="dropdown-item" href="#">Decorado</a>
+							<a class="dropdown-item" href="#">Ensamble</a>
+							<a class="dropdown-item" href="#">Esferas</a>
+							<a class="dropdown-item" href="#">Inyeccion</a>
+							<a class="dropdown-item" href="#">Metalizado</a>
+							<a class="dropdown-item" href="#">Moldes</a>
+						</div>
+					</li>
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Mercados y clientes</a>
+						<div class="dropdown-menu">
+							<a class="dropdown-item" href="#">Alimentos</a>
+							<a class="dropdown-item" href="#">Cosmeticos</a>
+							<a class="dropdown-item" href="#">Cuidado personal</a>
+							<a class="dropdown-item" href="#">Farmaceutica</a>
+							<a class="dropdown-item" href="#">Hogar</a>
+							<a class="dropdown-item" href="#">Perfumes</a>
+							<a class="dropdown-item" href="#">Nuestros clientes</a>
+							<a class="dropdown-item" href="#">Clientes internacionales</a>
+						</div>
+					</li>
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Desarrollo</a>
+						<div class="dropdown-menu">
+							<a class="dropdown-item" href="#">Diseño de prototipos</a>
+							<a class="dropdown-item" href="#">Ingenieria de nuevos productos</a>
+							<a class="dropdown-item" href="#">Generacion de dummies</a>
+							<a class="dropdown-item" href="#">Desarrollo de ideas y nuevos productos</a>
+						</div>
+					</li>
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Carrera</a>
+						<div class="dropdown-menu">
+							<a class="dropdown-item" href="#">Vacantes</a>
+							<a class="dropdown-item" href="#">Reclutamiento</a>
+						</div>
+					</li>
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Contacto</a>
+						<div class="dropdown-menu">
+							<a class="dropdown-item" href="#">Telefono: (722) 276 65 70</a>
+							<a class="dropdown-item" href="#">Correo: info@mcplasticos.com</a>
+						</div>
+					</li>
+
 				</ul>
 			</div>
 		</div>
