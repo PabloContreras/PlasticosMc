@@ -104,6 +104,9 @@
 							<a class="dropdown-item" href="#">Correo: info@mcplasticos.com</a>
 						</div>
 					</li>
+					<li class="nav-item dropdown">
+						<a class="nav-link" href="{{ url('/employee/login') }}" role="button" aria-haspopup="true" aria-expanded="false"><i class="icon-person"></i></a>
+					</li>
 
 				</ul>
 			</div>

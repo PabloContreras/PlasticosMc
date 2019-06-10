@@ -33,8 +33,20 @@ Inicio
 
 			<!-- END nav -->
 			<!-- Carrousel -->
+            <div class="slider-item" style="background-image:url(images/inicio1.png);" data-stellar-background-ratio="0.5">
+                <div class="overlay" style="width: 1500px; left: 0"></div>
+                <div class="container">
+                    <div class="row no-gutters slider-text align-items-center justify-content-end" data-scrollax-parent="true">
+                        <!--<div class="col-md-12 text ftco-animate pl-md-5">
+                            <center><h1>FORTALAB</h1>
+                            <img src="images/slider2.png" style="width: 400px; padding-right: 70px;" class="d-inline-block align-top" alt=""></center>
+                            <center><h2 class="subheading"><strong>Dedicados a la maquila de productos de cuidado personal</strong></h2></center>
+                        </div>-->
+                    </div>
+                </div>
+            </div>
 			<section class="home-slider owl-carousel">
-				<div class="slider-item" style="background-image:url(images/inicio2.png);" data-stellar-background-ratio="0.5">
+				<div class="slider-item" style="background-image:url(images/inicio2.jpg);" data-stellar-background-ratio="0.5">
 					<div class="overlay" style="width: 1500px; left: 0"></div>
 					<div class="container">
 						<div class="row no-gutters slider-text align-items-center justify-content-end" data-scrollax-parent="true">
@@ -46,7 +58,7 @@ Inicio
             		</div>
             	</div>
             </div>
-            <div class="slider-item" style="background-image:url(images/inicio3.png);" data-stellar-background-ratio="0.5">
+            <div class="slider-item" style="background-image:url(images/inicio3.jpg);" data-stellar-background-ratio="0.5">
             	<div class="overlay" style="width: 1500px; left: 0"></div>
             	<div class="container">
             		<div class="row no-gutters slider-text align-items-center justify-content-end" data-scrollax-parent="true">
@@ -57,6 +69,18 @@ Inicio
             			</div>-->
             		</div>
             	</div>
+            </div>
+            <div class="slider-item" style="background-image:url(images/inicio4.png);" data-stellar-background-ratio="0.5">
+                <div class="overlay" style="width: 1500px; left: 0"></div>
+                <div class="container">
+                    <div class="row no-gutters slider-text align-items-center justify-content-end" data-scrollax-parent="true">
+                        <!--<div class="col-md-12 text ftco-animate pl-md-5">
+                            <center><h1>FORTALAB</h1>
+                            <img src="images/slider2.png" style="width: 400px; padding-right: 70px;" class="d-inline-block align-top" alt=""></center>
+                            <center><h2 class="subheading"><strong>Dedicados a la maquila de productos de cuidado personal</strong></h2></center>
+                        </div>-->
+                    </div>
+                </div>
             </div>
             <div class="slider-item" style="background-image:url(images/inicio1.png);" data-stellar-background-ratio="0.5">
             	<div class="overlay" style="width: 1500px; left: 0"></div>
