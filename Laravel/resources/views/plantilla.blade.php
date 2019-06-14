@@ -66,6 +66,7 @@
 							<a class="dropdown-item" href="#">Inyeccion</a>
 							<a class="dropdown-item" href="#">Metalizado</a>
 							<a class="dropdown-item" href="#">Moldes</a>
+							<a class="dropdown-item" href="#">Soṕlo</a>
 						</div>
 					</li>
 					<li class="nav-item dropdown">
@@ -129,11 +130,11 @@
 						<p><i class="fas fa-phone"></i><span> Llámanos: <br>01 (722) 2766570</span></p>
 
 						<p><i class="fas fa-at"></i> <span>info@mcplasticos.com</span></p>
-						<ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-3">
+						{{--<ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-3">
 							<li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
 							<li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
 							<li class="ftco-animate"><a href="#"><span class="icon-instagram"></span></a></li>
-						</ul>
+						</ul>--}} 
 					</div>
 					
 				</div>
@@ -154,7 +155,7 @@
 				<div class="col-md-12 text-center">
 
 					<p>
-						&copy;<script>document.write(new Date().getFullYear());</script>  Hecho con <i class="icon-heart" alt="love"></i> Por <a href="http://www.eostechnology.com.mx" target="_blank"> EOS Technology </a></p>
+						&copy;<script>document.write(new Date().getFullYear());</script>  Hecho con <i class="icon-heart" alt="love"></i> Por <a href="http://www.eostechnology.mx" target="_blank"> EOS Technology </a></p>
 					</div>
 				</div>
 			</div>

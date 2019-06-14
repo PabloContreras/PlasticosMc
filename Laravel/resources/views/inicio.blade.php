@@ -244,7 +244,7 @@ Inicio
         <!-- End counter -->
         <br><br>
         <!-- Nuestros clientes -->
-        <section class="ftco-services ftco-no-pt">
+        {{--<section class="ftco-services ftco-no-pt">
         	<div class="container">
         		<div class="row justify-content-center mb-5 pb-2">
         			<div class="col-md-8 text-center heading-section ftco-animate">
@@ -296,7 +296,7 @@ Inicio
         			</div>
         		</div>
         	</div>
-        </section>
+        </section>--}}
         <!-- End nuestros clientes -->
         <!-- Frase -->
         <section class="ftco-intro" style="background-image: url(images/bg_3.jpg);" data-stellar-background-ratio="0.5">
