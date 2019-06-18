@@ -11,8 +11,8 @@ Nosotros
 	<div class="container">
 		<div class="row no-gutters slider-text align-items-center justify-content-center">
 			<div class="col-md-9 ftco-animate text-center">
-				<h1 class="mb-2 bread">Nuestra compañia</h1>
-				<p class="breadcrumbs"><span class="mr-2"><a href="{{ route('inicio') }}">Inicio <i class="ion-ios-arrow-forward"></i></a></span> <span>Nuestra compañia<i class="ion-ios-arrow-forward"></i></span></p>
+				<h1 class="mb-2 bread">Nuestra compañía</h1>
+				<p class="breadcrumbs"><span class="mr-2"><a href="{{ route('inicio') }}">Inicio <i class="ion-ios-arrow-forward"></i></a></span> <span>Nuestra compañía<i class="ion-ios-arrow-forward"></i></span></p>
 			</div>
 		</div>
 	</div>
@@ -118,7 +118,7 @@ Nosotros
 			<div class="col-md-8 text-center heading-section ftco-animate">
 				<h2 class="mb-4">Nuestros valores</h2>
 			</div>
-		</div>	
+		</div>
 		<div class="row">
 			<div class="col-md-6 col-lg-3 ftco-animate">
 				<div class="staff">
@@ -126,7 +126,7 @@ Nosotros
 						<div class="img align-self-stretch" style="background-image: url(images/team-1.jpg);"></div>
 					</div>
 					<div class="text pt-3 text-center">
-						<span class="position mb-2">Trabajo en equipo</span>								
+						<span class="position mb-2">Trabajo en equipo</span>
 					</div>
 				</div>
 			</div>
@@ -136,7 +136,7 @@ Nosotros
 						<div class="img align-self-stretch" style="background-image: url(images/team-2.jpg);"></div>
 					</div>
 					<div class="text pt-3 text-center">
-						<span class="position mb-2">Innovación</span>                
+						<span class="position mb-2">Innovación</span>
 					</div>
 				</div>
 			</div>
@@ -146,7 +146,7 @@ Nosotros
 						<div class="img align-self-stretch" style="background-image: url(images/team-3.jpg);"></div>
 					</div>
 					<div class="text pt-3 text-center">
-						<span class="position mb-2">Integridad</span>                
+						<span class="position mb-2">Integridad</span>
 					</div>
 				</div>
 			</div>
@@ -156,7 +156,7 @@ Nosotros
 						<div class="img align-self-stretch" style="background-image: url(images/team-4.jpg);"></div>
 					</div>
 					<div class="text pt-3 text-center">
-						<span class="position mb-2">Servicio de excelencia</span>                
+						<span class="position mb-2">Servicio de excelencia</span>
 					</div>
 				</div>
 			</div>

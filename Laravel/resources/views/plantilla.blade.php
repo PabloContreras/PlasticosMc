@@ -47,12 +47,12 @@
 				<ul class="navbar-nav mr-auto">
 					<li class="nav-item active"><a href="{{ route('inicio') }}" class="nav-link pl-0" style="margin-left: 15px">Home</a></li>
 					<li class="nav-item dropdown">
-						<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Nuestra compañia</a>
+						<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Nuestra compañía</a>
 						<div class="dropdown-menu">
 							<a class="dropdown-item" href="#">Historia</a>
-							<a class="dropdown-item" href="#">Nuestra filosofia</a>
+							<a class="dropdown-item" href="#">Nuestra Filosofía</a>
 							<a class="dropdown-item" href="#">Calidad</a>
-							<a class="dropdown-item" href="#">Innovacion</a>
+							<a class="dropdown-item" href="#">Innovación</a>
 							<a class="dropdown-item" href="#">Full service</a>
 							<a class="dropdown-item" href="#">Responsabilidad social</a>
 						</div>
@@ -63,7 +63,7 @@
 							<a class="dropdown-item" href="#">Decorado</a>
 							<a class="dropdown-item" href="#">Ensamble</a>
 							<a class="dropdown-item" href="#">Esferas</a>
-							<a class="dropdown-item" href="#">Inyeccion</a>
+							<a class="dropdown-item" href="#">Inyección</a>
 							<a class="dropdown-item" href="#">Metalizado</a>
 							<a class="dropdown-item" href="#">Moldes</a>
 							<a class="dropdown-item" href="#">Soplo</a>
@@ -73,9 +73,9 @@
 						<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Mercados y clientes</a>
 						<div class="dropdown-menu">
 							<a class="dropdown-item" href="#">Alimentos</a>
-							<a class="dropdown-item" href="#">Cosmeticos</a>
+							<a class="dropdown-item" href="#">Cosméticos</a>
 							<a class="dropdown-item" href="#">Cuidado personal</a>
-							<a class="dropdown-item" href="#">Farmaceutica</a>
+							<a class="dropdown-item" href="#">Farmacéutica</a>
 							<a class="dropdown-item" href="#">Hogar</a>
 							<a class="dropdown-item" href="#">Perfumes</a>
 							<a class="dropdown-item" href="#">Nuestros clientes</a>
@@ -86,8 +86,8 @@
 						<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Desarrollo</a>
 						<div class="dropdown-menu">
 							<a class="dropdown-item" href="#">Diseño de prototipos</a>
-							<a class="dropdown-item" href="#">Ingenieria de nuevos productos</a>
-							<a class="dropdown-item" href="#">Generacion de dummies</a>
+							<a class="dropdown-item" href="#">Ingeniería de nuevos productos</a>
+							<a class="dropdown-item" href="#">Generación de dummies</a>
 							<a class="dropdown-item" href="#">Desarrollo de ideas y nuevos productos</a>
 						</div>
 					</li>
@@ -101,7 +101,7 @@
 					<li class="nav-item dropdown">
 						<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Contacto</a>
 						<div class="dropdown-menu">
-							<a class="dropdown-item" href="#">Telefono: (722) 276 65 70</a>
+							<a class="dropdown-item" href="#">Teléfono: (722) 276 65 70</a>
 							<a class="dropdown-item" href="#">Correo: info@mcplasticos.com</a>
 						</div>
 					</li>
@@ -182,14 +182,14 @@
 		<script>
 			$(function () {
 				$.scrollUp({
-				    scrollName: 'scrollUp', // Element ID
-				    topDistance: '300', // Distance from top before showing element (px)
-				    topSpeed: 300, // Speed back to top (ms)
-				    animation: 'fade', // Fade, slide, none
-				    animationInSpeed: 200, // Animation in speed (ms)
-				    animationOutSpeed: 200, // Animation out speed (ms)
-				    scrollText: '',
-				    activeOverlay: false, // Set CSS color to display scrollUp active point, e.g '#00FFFF'
+					scrollName: 'scrollUp',
+					topDistance: '300',
+					topSpeed: 300,
+					animation: 'fade',
+					animationInSpeed: 200,
+					animationOutSpeed: 200,
+					scrollText: '',
+					activeOverlay: false,
 				});
 			});
 		</script>
