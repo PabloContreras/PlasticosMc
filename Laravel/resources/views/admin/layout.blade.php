@@ -6,6 +6,7 @@
 	<title>Dashboard</title>
 	<link rel="stylesheet" href="{{ asset('css/admin/sb-admin-2.min.css') }}">
 	<link rel="stylesheet" href="{{ asset('css/admin/all.min.css') }}">
+	@yield('links')
 </head>
 <body>
 	<body id="page-top">
