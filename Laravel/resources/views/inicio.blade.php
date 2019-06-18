@@ -204,17 +204,27 @@ Inicio
         						<strong class="number" data-number="45">0</strong>
         					</div>
         					<div class="text-2">
-        						<span>Años de <br>Experiencia</span>
+        						<span>Años <br> de <br>Experiencia</span>
         					</div>
         				</div>
         			</div>
         			<div class="col-md-6 col-lg-3 d-flex justify-content-center counter-wrap ftco-animate">
         				<div class="block-18 d-flex">
         					<div class="text d-flex align-items-center">
-        						<strong class="number" data-number="1500">0</strong>
+        						<strong class="number" data-number="40">0</strong>
         					</div>
         					<div class="text-2">
-        						<span>Artículos <br> que se <br>producen</span>
+        						<span>Millones de<br> componentes <br>mensuales</span>
+        					</div>
+        				</div>
+        			</div>
+        			<div class="col-md-6 col-lg-3 d-flex justify-content-center counter-wrap ftco-animate">
+        				<div class="block-18 d-flex">
+        					<div class="text d-flex align-items-center">
+        						<strong class="number" data-number="626">0</strong>
+        					</div>
+        					<div class="text-2">
+        						<span>Colaboradores <br>Comprometidos</span>
         					</div>
         				</div>
         			</div>
@@ -224,17 +234,7 @@ Inicio
         						<strong class="number" data-number="100">0</strong>
         					</div>
         					<div class="text-2">
-        						<span>Empleados <br>Capacitados</span>
-        					</div>
-        				</div>
-        			</div>
-        			<div class="col-md-6 col-lg-3 d-flex justify-content-center counter-wrap ftco-animate">
-        				<div class="block-18 d-flex">
-        					<div class="text d-flex align-items-center">
-        						<strong class="number" data-number="300">0</strong>
-        					</div>
-        					<div class="text-2">
-        						<span>Clientes <br>Felices</span>
+        						<span>% <br>Clientes <br> Satisfechos</span>
         					</div>
         				</div>
         			</div>

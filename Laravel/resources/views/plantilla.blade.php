@@ -66,7 +66,7 @@
 							<a class="dropdown-item" href="#">Inyeccion</a>
 							<a class="dropdown-item" href="#">Metalizado</a>
 							<a class="dropdown-item" href="#">Moldes</a>
-							<a class="dropdown-item" href="#">Soṕlo</a>
+							<a class="dropdown-item" href="#">Soplo</a>
 						</div>
 					</li>
 					<li class="nav-item dropdown">
@@ -125,7 +125,7 @@
 
 						<h2 class="ftco-heading-2 logo"><img src="images/mc.png" width="80" height="80" class="d-inline-block align-top" alt="" style="margin-left: 30px;"><br>MC Plásticos</h2>
 						<!--<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>-->
-						<p><i class="fas fa-map-marker-alt"></i> <span>Dirección:</span> <a href="maps://Av. Central No. 211, Parque Industrial Toluca 2000 C.P. 50200, Toluca, Estado de México."> Av. Central No. 211, Parque Industrial Toluca 2000 C.P. 50200, Toluca, Estado de México.</a> </p>
+						<p><i class="fas fa-map-marker-alt"></i> <span>Dirección:</span> <a href="maps://Av. Central No. 211, Parque Industrial Toluca 2000 C.P. 50200, Toluca, Estado de México."> Av. Central No. 211, Parque Industrial Toluca 2000 C.P. 50233, Toluca, Estado de México.</a> </p>
 
 						<p><i class="fas fa-phone"></i><span> Llámanos: <br>01 (722) 2766570</span></p>
 
