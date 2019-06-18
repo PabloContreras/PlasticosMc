@@ -45,7 +45,7 @@ Inicio
                     </div>
                 </div>
             </div>
-			<section class="home-slider owl-carousel">
+			<section class="home-slider owl-carousel mx-auto">
 				<div class="slider-item" style="background-image:url(images/inicio2.jpg);" data-stellar-background-ratio="0.5">
 					<div class="overlay" style="width: 1500px; left: 0"></div>
 					<div class="container">
@@ -62,11 +62,11 @@ Inicio
             	<div class="overlay" style="width: 1500px; left: 0"></div>
             	<div class="container">
             		<div class="row no-gutters slider-text align-items-center justify-content-end" data-scrollax-parent="true">
-          				<!--<div class="col-md-12 text ftco-animate pl-md-5">
+          				<div class="col-md-12 text ftco-animate pl-md-5">
             				<center><h1>FORTALAB</h1>
             				<img src="images/slider2.png" style="width: 400px; padding-right: 70px;" class="d-inline-block align-top" alt=""></center>
             				<center><h2 class="subheading"><strong>Dedicados a la maquila de productos de cuidado personal</strong></h2></center>
-            			</div>-->
+            			</div>
             		</div>
             	</div>
             </div>
@@ -96,6 +96,7 @@ Inicio
             </div>
         </section>
         <!-- End carrousel -->
+
         <!-- Our Products -->
         <section class="ftco-section ftco-no-pt ftco-no-pb">
         	<div class="container-fluid p-0">
@@ -310,7 +311,7 @@ Inicio
         	</div>
         </section>
         <br><br>
-        <!-- End frase -->  
+        <!-- End frase -->
         <!-- Contacto -->
         <section class="ftco-section ftco-no-pt ftco-no-pb contact-section">
         	<div class="container">
