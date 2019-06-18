@@ -114,8 +114,7 @@
 		</div>
 	</nav>
 	@yield('contenido')
-
-	<!-- End contacto -->  
+	<!-- End contacto -->
 	<!-- Footer -->
 	<footer class="ftco-footer ftco-bg-dark ftco-section" style="padding-top: 20px; padding-bottom: 0px;">
 		<div class="container">
@@ -134,9 +133,9 @@
 							<li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
 							<li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
 							<li class="ftco-animate"><a href="#"><span class="icon-instagram"></span></a></li>
-						</ul>--}} 
+						</ul>--}}
 					</div>
-					
+
 				</div>
 				<div class="col-md">
 					<div class="ftco-footer-widget mb-5 ml-md-4">
@@ -179,5 +178,20 @@
 		<script src="{{ asset('js/jquery.timepicker.min.js') }}"></script>
 		<script src="{{ asset('js/scrollax.min.js') }}"></script>
 		<script src="{{ asset('js/main.js') }}"></script>
+		<script src="{{ asset('js/jquery.scrollUp.js') }}"></script>
+		<script>
+			$(function () {
+				$.scrollUp({
+				    scrollName: 'scrollUp', // Element ID
+				    topDistance: '300', // Distance from top before showing element (px)
+				    topSpeed: 300, // Speed back to top (ms)
+				    animation: 'fade', // Fade, slide, none
+				    animationInSpeed: 200, // Animation in speed (ms)
+				    animationOutSpeed: 200, // Animation out speed (ms)
+				    scrollText: '',
+				    activeOverlay: false, // Set CSS color to display scrollUp active point, e.g '#00FFFF'
+				});
+			});
+		</script>
 	</body>
 	</html>

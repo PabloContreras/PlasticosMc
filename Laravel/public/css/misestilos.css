@@ -5,3 +5,11 @@
 dropdown-item:hover{
 	color: #0f3a5d;
 }
+
+#scrollUp {
+    background-image: url("../images/top.png");
+    bottom: 20px;
+    right: 20px;
+    width: 38px;    /* Width of image */
+    height: 38px;   /* Height of image */
+}
