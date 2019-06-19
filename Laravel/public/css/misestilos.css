@@ -13,3 +13,29 @@ dropdown-item:hover{
     width: 38px;    /* Width of image */
     height: 38px;   /* Height of image */
 }
+
+section.home-slider{
+	width: 75%;
+	margin-top: 10px;
+}
+
+.nav-c{
+	font-size: 40px;
+	color: white;
+}
+
+/*.owl-carousel.home-slider{
+	height: 100vh;
+}*/
+
+.owl-carousel.home-slider .owl-nav{
+	top: 50%;
+}
+
+.owl-carousel.home-slider:hover .owl-nav .owl-prev{
+	left: 10%;
+}
+
+.owl-carousel.home-slider:hover .owl-nav .owl-next{
+	right: 10%;
+}
