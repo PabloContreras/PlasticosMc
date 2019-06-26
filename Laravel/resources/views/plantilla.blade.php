@@ -72,14 +72,10 @@
 					<li class="nav-item dropdown">
 						<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Mercados y clientes</a>
 						<div class="dropdown-menu">
-							<a class="dropdown-item" href="#">Alimentos</a>
-							<a class="dropdown-item" href="#">Cosméticos</a>
-							<a class="dropdown-item" href="#">Cuidado personal</a>
-							<a class="dropdown-item" href="#">Farmacéutica</a>
-							<a class="dropdown-item" href="#">Hogar</a>
-							<a class="dropdown-item" href="#">Perfumes</a>
-							<a class="dropdown-item" href="#">Nuestros clientes</a>
+							<a class="dropdown-item"> Mercados</a>
+							<a class="dropdown-item"> Clientes</a>
 							<a class="dropdown-item" href="#">Clientes internacionales</a>
+							<a class="dropdown-item"> Buzón de clientes</a>
 						</div>
 					</li>
 					<li class="nav-item dropdown">
