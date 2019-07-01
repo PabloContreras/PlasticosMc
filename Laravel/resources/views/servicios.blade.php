@@ -1,7 +1,7 @@
 @extends('plantilla')
 
 @section('titulo')
-Servicios
+Mercados y clientes
 @endsection
 
 @section('contenido')
@@ -10,117 +10,42 @@ Servicios
 	<div class="container">
 		<div class="row no-gutters slider-text align-items-center justify-content-center">
 			<div class="col-md-9 ftco-animate text-center">
-				<h1 class="mb-2 bread">Servicios</h1>
-				<p class="breadcrumbs"><span class="mr-2"><a href="{{ route('inicio') }}">Inicio <i class="ion-ios-arrow-forward"></i></a></span> <span>Servicios <i class="ion-ios-arrow-forward"></i></span></p>
+				<h1 class="mb-2 bread">Mercados y clientes<h1>
+					<p class="breadcrumbs"><span class="mr-2"><a href="{{ route('inicio') }}">Inicio <i class="ion-ios-arrow-forward"></i></a></span> <span>Mercados y clientes<i class="ion-ios-arrow-forward"></i></span></p>
+				</div>
 			</div>
 		</div>
-	</div>
-</section>
+	</section>
 
-<section class="ftco-section ftco-no-pt ftco-no-pb">
-	<div class="container-fluid p-0">
-		<div class="row no-gutters">
-			<div class="col-md-6 col-lg-3 ftco-animate">
-				<div class="project">
-					<img src="images/work-1.jpg" class="img-fluid" alt="Colorlib Template">
-					<a href="images/work-1.jpg" class="icon image-popup d-flex justify-content-center align-items-center">
-						<span class="icon-expand"></span>
-					</a>
+	<section class="ftco-section ftco-no-pt ftco-no-pb">
+		<div class="container p-0">
+			<div class="row no-gutters justify-content-center mb-4">
+				<div class="col-auto">
+					<h2>Nuestros mercados</h2>
 				</div>
 			</div>
-			<div class="col-md-6 col-lg-3 ftco-animate">
-				<div class="project">
-					<img src="images/work-2.jpg" class="img-fluid" alt="Colorlib Template">
-					<a href="images/work-2.jpg" class="icon image-popup d-flex justify-content-center align-items-center">
-						<span class="icon-expand"></span>
-					</a>
+			<div class="row justify-content-center">
+				<div class="col-2">
+					<img class="img-fluid" src="{{ asset('images/mercados/i1.png') }}" style="margin-right: auto; margin-left: auto; display: block" alt="" width="60%">
+				</div>
+				<div class="col-2">
+					<img src="{{ asset('images/mercados/i2.png') }}" style="margin-right: auto; margin-left: auto; display: block" alt="" width="60%">
+				</div>
+				<div class="col-2">
+					<img src="{{ asset('images/mercados/i3.png') }}" style="margin-right: auto; margin-left: auto; display: block" alt="" width="60%">
 				</div>
 			</div>
-			<div class="col-md-6 col-lg-3 ftco-animate">
-				<div class="project">
-					<img src="images/work-3.jpg" class="img-fluid" alt="Colorlib Template">
-					<a href="images/work-3.jpg" class="icon image-popup d-flex justify-content-center align-items-center">
-						<span class="icon-expand"></span>
-					</a>
+			<div class="row justify-content-center my-4">
+				<div class="col-2">
+					<img src="{{ asset('images/mercados/i2.png') }}" style="margin-right: auto; margin-left: auto; display: block" alt="" width="60%">
+				</div>
+				<div class="col-2">
+					<img src="{{ asset('images/mercados/i5.png') }}" style="margin-right: auto; margin-left: auto; display: block" alt="" width="60%">
+				</div>
+				<div class="col-2">
+					<img src="{{ asset('images/mercados/i6.png') }}" style="margin-right: auto; margin-left: auto; display: block" alt="" width="60%">
 				</div>
 			</div>
-			<div class="col-md-6 col-lg-3 ftco-animate">
-				<div class="project">
-					<img src="images/work-4.jpg" class="img-fluid" alt="Colorlib Template">
-					<a href="images/work-4.jpg" class="icon image-popup d-flex justify-content-center align-items-center">
-						<span class="icon-expand"></span>
-					</a>
-				</div>
-			</div>
-			<div class="col-md-6 col-lg-3 ftco-animate">
-				<div class="project">
-					<img src="images/work-5.jpg" class="img-fluid" alt="Colorlib Template">
-					<a href="images/work-5.jpg" class="icon image-popup d-flex justify-content-center align-items-center">
-						<span class="icon-expand"></span>
-					</a>
-				</div>
-			</div>
-			<div class="col-md-6 col-lg-3 ftco-animate">
-				<div class="project">
-					<img src="images/work-6.jpg" class="img-fluid" alt="Colorlib Template">
-					<a href="images/work-6.jpg" class="icon image-popup d-flex justify-content-center align-items-center">
-						<span class="icon-expand"></span>
-					</a>
-				</div>
-			</div>
-			<div class="col-md-6 col-lg-3 ftco-animate">
-				<div class="project">
-					<img src="images/work-7.jpg" class="img-fluid" alt="Colorlib Template">
-					<a href="images/work-7.jpg" class="icon image-popup d-flex justify-content-center align-items-center">
-						<span class="icon-expand"></span>
-					</a>
-				</div>
-			</div>
-			<div class="col-md-6 col-lg-3 ftco-animate">
-				<div class="project">
-					<img src="images/work-8.jpg" class="img-fluid" alt="Colorlib Template">
-					<a href="images/work-8.jpg" class="icon image-popup d-flex justify-content-center align-items-center">
-						<span class="icon-expand"></span>
-					</a>
-				</div>
-			</div>
-    			<!--<div class="col-md-6 col-lg-3 ftco-animate">
-    				<div class="project">
-	    				<img src="images/work-9.jpg" class="img-fluid" alt="Colorlib Template">
-	    				<a href="images/work-9.jpg" class="icon image-popup d-flex justify-content-center align-items-center">
-	    					<span class="icon-expand"></span>
-	    				</a>
-    				</div>
-    			</div>
-    			<div class="col-md-6 col-lg-3 ftco-animate">
-    				<div class="project">
-	    				<img src="images/work-10.jpg" class="img-fluid" alt="Colorlib Template">
-	    				<a href="images/work-10.jpg" class="icon image-popup d-flex justify-content-center align-items-center">
-	    					<span class="icon-expand"></span>
-	    				</a>
-    				</div>
-    			</div>
-    			<div class="col-md-6 col-lg-3 ftco-animate">
-    				<div class="project">
-	    				<img src="images/work-11.jpg" class="img-fluid" alt="Colorlib Template">
-	    				<a href="images/work-11.jpg" class="icon image-popup d-flex justify-content-center align-items-center">
-	    					<span class="icon-expand"></span>
-	    				</a>
-    				</div>
-    			</div>
-    			<div class="col-md-6 col-lg-3 ftco-animate">
-    				<div class="project">
-	    				<img src="images/work-12.jpg" class="img-fluid" alt="Colorlib Template">
-	    				<div class="text">
-	    					<span>Commercial</span>
-	    					<h3><a href="project.html">San Francisco Tower</a></h3>
-	    				</div>
-	    				<a href="images/work-12.jpg" class="icon image-popup d-flex justify-content-center align-items-center">
-	    					<span class="icon-expand"></span>
-	    				</a>
-    				</div>
-    			</div>-->
-    		</div>
-    	</div>
-    </section>
-    @endsection
+		</div>
+	</section>
+	@endsection

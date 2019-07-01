@@ -70,13 +70,13 @@
 						</div>
 					</li>
 					<li class="nav-item dropdown">
-						<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Mercados y clientes</a>
-						<div class="dropdown-menu">
+						<a class="nav-link" href="{{ route('mercados.clientes') }}">Mercados y clientes</a>
+{{-- 						<div class="dropdown-menu">
 							<a class="dropdown-item"> Mercados</a>
 							<a class="dropdown-item"> Clientes</a>
 							<a class="dropdown-item" href="#">Clientes internacionales</a>
 							<a class="dropdown-item"> Buzón de clientes</a>
-						</div>
+						</div> --}}
 					</li>
 					<li class="nav-item dropdown">
 						<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Desarrollo</a>

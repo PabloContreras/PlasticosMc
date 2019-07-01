@@ -15,7 +15,7 @@ dropdown-item:hover{
 }
 
 section.home-slider{
-	width: 75%;
+	width: 90%;
 	margin-top: 10px;
 }
 
@@ -38,4 +38,8 @@ section.home-slider{
 
 .owl-carousel.home-slider:hover .owl-nav .owl-next{
 	right: 10%;
+}
+
+.slider-item{
+	background-size: cover !important;
 }
