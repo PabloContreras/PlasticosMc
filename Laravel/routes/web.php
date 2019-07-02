@@ -18,6 +18,10 @@ Route::get('/inicio', function(){
     return view('inicio');
 })->name('inicio');
 
+Route::get('/procesos', function(){
+  return view('servicios');
+});
+
 Route::get('/',['as'=>'inicio','uses'=>'PageController@inicio']);
 
 Route::get('/nosotros',['as'=>'nosotros','uses'=>'PageController@nosotros']);
