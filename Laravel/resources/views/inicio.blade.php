@@ -33,8 +33,8 @@ Inicio
 
 			<!-- END nav -->
 			<!-- Carrousel -->
-            <div class="slider-item" style="background-image:url('images/slider/s1.png');" data-stellar-background-ratio="0.5">
-                <div class="overlay" style="width: 1500px; left: 0"></div>
+            <div class="slider-item" style="background-image:url('images/slider/s1.png'); background-size: cover" data-stellar-background-ratio="0.5">
+                <div class="" style="width: 1500px; left: 0"></div>
                 <div class="container">
                     <div class="row no-gutters slider-text align-items-center justify-content-end" data-scrollax-parent="true">
                         <!--<div class="col-md-12 text ftco-animate pl-md-5">
@@ -46,8 +46,8 @@ Inicio
                 </div>
             </div>
             <section class="home-slider owl-carousel mx-auto">
-            <div class="slider-item" style="background-image:url('images/slider/s2.png');" data-stellar-background-ratio="0.5">
-                   <div class="overlay" style="width: 1500px; left: 0"></div>
+            <div class="slider-item" style="background-image:url('images/slider/s2.png'); background-size: cover" data-stellar-background-ratio="0.5">
+                   <div class="" style="width: 1500px; left: 0"></div>
                    <div class="container">
                       <div class="row no-gutters slider-text align-items-center justify-content-end" data-scrollax-parent="true">
                          <div class="col-md-12 text ftco-animate pl-md-5">
@@ -58,8 +58,8 @@ Inicio
             		</div>
             	</div>
             </div>
-            <div class="slider-item" style="background-image:url('images/slider/s3.png');" data-stellar-background-ratio="0.5">
-            	<div class="overlay" style="width: 1500px; left: 0"></div>
+            <div class="slider-item" style="background-image:url('images/slider/s3.png'); background-size: cover" data-stellar-background-ratio="0.5">
+            	<div class="" style="width: 1500px; left: 0"></div>
             	<div class="container">
             		<div class="row no-gutters slider-text align-items-center justify-content-end" data-scrollax-parent="true">
           				{{-- <div class="col-md-12 text ftco-animate pl-md-5">
@@ -70,8 +70,8 @@ Inicio
             		</div>
             	</div>
             </div>
-            <div class="slider-item" style="background-image:url('images/slider/s4.png');" data-stellar-background-ratio="0.5">
-                <div class="overlay" style="width: 1500px; left: 0"></div>
+            <div class="slider-item" style="background-image:url('images/slider/s4.png'); background-size: cover" data-stellar-background-ratio="0.5">
+                <div class="" style="width: 1500px; left: 0"></div>
                 <div class="container">
                     <div class="row no-gutters slider-text align-items-center justify-content-end" data-scrollax-parent="true">
                         <!--<div class="col-md-12 text ftco-animate pl-md-5">
@@ -82,8 +82,8 @@ Inicio
                     </div>
                 </div>
             </div>
-            <div class="slider-item" style="background-image:url('images/slider/s5.png');" data-stellar-background-ratio="0.5">
-            	<div class="overlay" style="width: 1500px; left: 0"></div>
+            <div class="slider-item" style="background-image:url('images/slider/s5.png'); background-size: cover" data-stellar-background-ratio="0.5">
+            	<div class="" style="width: 1500px; left: 0"></div>
             	<div class="container">
             		<div class="row no-gutters slider-text align-items-center justify-content-end" data-scrollax-parent="true">
           				<!--<div class="col-md-12 text ftco-animate pl-md-5">
