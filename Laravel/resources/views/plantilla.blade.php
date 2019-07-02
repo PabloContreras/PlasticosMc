@@ -94,7 +94,8 @@
 						<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Carrera</a>
 						<div class="dropdown-menu">
 							<a class="dropdown-item" href="#">Vacantes</a>
-							<a class="dropdown-item" href="#">Reclutamiento</a>
+							<a class="dropdown-item" href="{{ url('/reclutamiento') }}">Reclutamiento</a>
+							<a class="dropdown-item" href="{{ url('/buzon')}}">Buzón para clientes</a>
 						</div>
 					</li>
 					<li class="nav-item dropdown">

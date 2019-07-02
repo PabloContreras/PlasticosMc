@@ -24,6 +24,9 @@ Route::get('/procesos', function(){
 Route::get('/desarrollo', function(){
   return view('desarrollo');
 });
+Route::get('/reclutamiento', function(){
+  return view('reclutamiento');
+});
 
 Route::get('/',['as'=>'inicio','uses'=>'PageController@inicio']);
 

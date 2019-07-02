@@ -1,7 +1,7 @@
 @extends('plantilla')
 
 @section('titulo')
-Buzon para clientes
+Reclutamiento
 @endsection
 
 @section('contenido')
@@ -10,8 +10,8 @@ Buzon para clientes
 	<div class="container">
 		<div class="row no-gutters slider-text align-items-center justify-content-center">
 			<div class="col-md-9 ftco-animate text-center">
-				<h1 class="mb-2 bread">Buzón para clientes</h1>
-				<p class="breadcrumbs"><span class="mr-2"><a href="{{ route('inicio') }}">Inicio <i class="ion-ios-arrow-forward"></i></a></span> <span>Buzón para clientes <i class="ion-ios-arrow-forward"></i></span></p>
+				<h1 class="mb-2 bread">Reclutamiento</h1>
+				<p class="breadcrumbs"><span class="mr-2"><a href="{{ route('inicio') }}">Inicio <i class="ion-ios-arrow-forward"></i></a></span> <span>Reclutamiento <i class="ion-ios-arrow-forward"></i></span></p>
 			</div>
 		</div>
 	</div>
@@ -22,9 +22,6 @@ Buzon para clientes
 		<div class="row d-flex align-items-stretch no-gutters justify-content-around">
 			<div class="col-md-6 p-6 p-md-5 order-md-last bg-light">
 				<form action="#">
-					<div class="form-group">
-						<input type="text" class="form-control" placeholder="Clave de cliente">
-					</div>
 					<div class="form-group">
 						<input type="text" class="form-control" placeholder="Nombre">
 					</div>
