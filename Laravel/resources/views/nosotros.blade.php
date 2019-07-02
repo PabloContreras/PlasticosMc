@@ -109,7 +109,7 @@ Nosotros
 <section class="ftco-section" style="padding-bottom: 20px; padding-top: 20px;">
 	<div class="container">
 		<div class="row no-gutters">
-			<div class="col-md-5 p-md-5 img img-2 mt-5 mt-md-0" style="background-image: url(images/bg_2.jpg);">
+			<div class="col-md-5 p-md-5 img img-2 mt-5 mt-md-0" style="background-image: url(images/inicio1.png);">
 			</div>
 			<div class="col-md-7 wrap-about py-5 px-4 px-md-5 ftco-animate">
 				<div class="heading-section mb-5">
