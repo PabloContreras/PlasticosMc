@@ -46,8 +46,9 @@
 			<div class="collapse navbar-collapse" id="ftco-nav" style="background-color: white">
 				<ul class="navbar-nav mr-auto">
 					<li class="nav-item active"><a href="{{ route('inicio') }}" class="nav-link pl-0" style="margin-left: 15px">Home</a></li>
-					<li class="nav-item dropdown">
-						<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Nuestra compañía</a>
+					<li class="nav-item active">
+						<a class="nav-link" href="{{ url('/nosotros') }}">Nuestra Compañía</a>
+						{{--<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Nuestra compañía</a>
 						<div class="dropdown-menu">
 							<a class="dropdown-item" href="#">Historia</a>
 							<a class="dropdown-item" href="#">Nuestra Filosofía</a>
@@ -55,7 +56,7 @@
 							<a class="dropdown-item" href="#">Innovación</a>
 							<a class="dropdown-item" href="#">Full service</a>
 							<a class="dropdown-item" href="#">Responsabilidad social</a>
-						</div>
+						</div>--}}
 					</li>
 					<li class="nav-item active"><a href="{{ url('/procesos') }}" class="nav-link pl-0" style="margin-left: 15px">Procesos y Servicios</a></li>
 					{{--<li class="nav-item dropdown">
@@ -70,7 +71,7 @@
 							<a class="dropdown-item" href="#">Soplo</a>
 						</div>--}}
 					</li>
-					<li class="nav-item dropdown">
+					<li class="nav-item active">
 						<a class="nav-link" href="{{ route('mercados.clientes') }}">Mercados y clientes</a>
 {{-- 						<div class="dropdown-menu">
 							<a class="dropdown-item"> Mercados</a>
@@ -79,7 +80,7 @@
 							<a class="dropdown-item"> Buzón de clientes</a>
 						</div> --}}
 					</li>
-					<li class="nav-item dropdown">
+					<li class="nav-item active">
 						<a class="nav-link" href="{{ url('/desarrollo') }}">Desarrollo</a>
 						{{--<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Desarrollo</a>
 						<div class="dropdown-menu">
