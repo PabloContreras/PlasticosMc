@@ -15,7 +15,7 @@ Nuestros Productos
 				</div>
 			</div>
 			<div class="row no-gutters">
-				<div class="col-md-6 col-lg-3 ftco-animate">
+				{{--<div class="col-md-6 col-lg-3 ftco-animate">
 					<div class="project">
 						<img src="images/work-1.jpg" class="img-fluid" alt="Colorlib Template">
 						<a href="images/work-1.jpg" class="icon image-popup d-flex justify-content-center align-items-center">
@@ -78,7 +78,7 @@ Nuestros Productos
 							<span class="icon-expand"></span>
 						</a>
 					</div>
-				</div>
+				</div>--}}
 				<div class="col-md-6 col-lg-3 ftco-animate">
 					<div class="project">
 						<img src="images/productos/productos con base/productos_con_base-02.png" class="img-fluid" alt="Colorlib Template">

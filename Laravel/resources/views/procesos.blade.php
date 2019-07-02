@@ -37,13 +37,52 @@ Mercados y clientes
 			</div>
 			<div class="row justify-content-center my-4">
 				<div class="col-2">
-					<img src="{{ asset('images/mercados/i2.png') }}" style="margin-right: auto; margin-left: auto; display: block" alt="" width="60%">
+					<img src="{{ asset('images/mercados/i4.png') }}" style="margin-right: auto; margin-left: auto; display: block" alt="" width="60%">
 				</div>
 				<div class="col-2">
 					<img src="{{ asset('images/mercados/i5.png') }}" style="margin-right: auto; margin-left: auto; display: block" alt="" width="60%">
 				</div>
 				<div class="col-2">
 					<img src="{{ asset('images/mercados/i6.png') }}" style="margin-right: auto; margin-left: auto; display: block" alt="" width="60%">
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="ftco-section ftco-no-pt ftco-no-pb">
+		<div class="container p-0">
+			<div class="row no-gutters justify-content-center mb-4">
+				<div class="col-auto">
+					<h2>Nuestros clientes</h2>
+				</div>
+			</div>
+			<div class="row justify-content-center">
+				<div class="col-4">
+					<img class="img-fluid" src="{{ asset('images/clientes/avon.png') }}" style="margin-right: auto; margin-left: auto; display: block" alt="" width="60%">
+				</div>
+				<div class="col-4">
+					<img src="{{ asset('images/clientes/coty.png') }}" style="margin-right: auto; margin-left: auto; display: block" alt="" width="60%">
+				</div>
+				<div class="col-4">
+					<img src="{{ asset('images/clientes/loreal.png') }}" style="margin-right: auto; margin-left: auto; display: block" alt="" width="60%">
+				</div>
+			</div>
+			<div class="row justify-content-center my-4">
+				<div class="col-4">
+					<img src="{{ asset('images/clientes/revlon.png') }}" style="margin-right: auto; margin-left: auto; display: block" alt="" width="60%">
+				</div>
+				<div class="col-4">
+					<img src="{{ asset('images/clientes/missionhills.png') }}" style="margin-right: auto; margin-left: auto; display: block" alt="" width="60%">
+				</div>
+				<div class="col-4">
+					<img src="{{ asset('images/clientes/fortalab.png') }}" style="margin-right: auto; margin-left: auto; display: block" alt="" width="60%">
+				</div>
+			</div>
+			<div class="row justify-content-center my-4">
+				<div class="col-4">
+					<img src="{{ asset('images/clientes/wella.png') }}" style="margin-right: auto; margin-left: auto; display: block" alt="" width="60%">
+				</div>
+				<div class="col-4">
+					<img src="{{ asset('images/clientes/smasac.png') }}" style="margin-right: auto; margin-left: auto; display: block" alt="" width="60%">
 				</div>
 			</div>
 		</div>

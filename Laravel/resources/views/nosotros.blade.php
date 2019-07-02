@@ -17,7 +17,16 @@ Nosotros
 		</div>
 	</div>
 </section>
-
+<center>
+	<div class="col-md-8 wrap-about py-5 ftco-animate">
+		<div class="heading-section mb-5">
+			<h2 class="mb-4">Nuestra filosofía</h2>
+		</div>
+		<div class="">
+			<p class="mb-5">En MC Plásticos S.A. de C.V. ofrecemos a nuestros clientes productos de calidad, fabricados de acuerdo a sus específicaciones, con un alto nivel de servicio y precios competitivos, empleando tecnología de vanguardia.</p>
+		</div>
+	</div>
+</center>
 <section class="ftco-counter img" id="section-counter" style="background-image: url(images/bg_3.jpg);" data-stellar-background-ratio="0.5">
 	<div class="container">
 		<div class="row">
@@ -97,6 +106,31 @@ Nosotros
 		</div>
 	</div>
 </section>
+<section class="ftco-section" style="padding-bottom: 20px; padding-top: 20px;">
+	<div class="container">
+		<div class="row no-gutters">
+			<div class="col-md-5 p-md-5 img img-2 mt-5 mt-md-0" style="background-image: url(images/inicio1.png);">
+			</div>
+			<div class="col-md-7 wrap-about py-5 px-4 px-md-5 ftco-animate">
+				<div class="heading-section mb-5">
+					<h2 class="mb-4">Innovación</h2>
+				</div>
+				<div class="">
+					<p>MC Plásticos tiene diferentes productos, trabajamos de la mano con nuestros clientes, basándonos en sus diseños, especificaciones y muestras para la elaboración de cada producto, anteponiendo la innovación en nuestros procesos y la más alta tecnología en plástico.</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<section class="ftco-section ftco-no-pt ftco-no-pb">
+	<div class="container p-0">
+		<div class="row justify-content-center my-4">
+			<div class="col-12">
+				<img src="{{ asset('images/politica.png') }}" style="margin-right: auto; margin-left: auto; display: block" alt="" width="70%">
+			</div>
+		</div>
+	</div>
+</section>
 
 
 
@@ -164,14 +198,6 @@ Nosotros
 		</div>
 	</div>
 </section>
-<center>
-	<div class="col-md-8 wrap-about py-5 ftco-animate">
-		<div class="heading-section mb-5">
-			<h2 class="mb-4">Nuestra filosofía</h2>
-		</div>
-		<div class="">
-			<p class="mb-5">En MC Plásticos S.A. de C.V. ofrecemos a nuestros clientes productos de calidad, fabricados de acuerdo a sus específicaciones, con un alto nivel de servicio y precios competitivos, empleando tecnología de vanguardia.</p>
-		</div>
-	</div>
-</center>
+
+
 @endsection

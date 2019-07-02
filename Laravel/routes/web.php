@@ -21,6 +21,9 @@ Route::get('/inicio', function(){
 Route::get('/procesos', function(){
   return view('servicios');
 });
+Route::get('/desarrollo', function(){
+  return view('desarrollo');
+});
 
 Route::get('/',['as'=>'inicio','uses'=>'PageController@inicio']);
 
