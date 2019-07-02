@@ -109,71 +109,73 @@ Inicio
         		</div>
         		<div class="row no-gutters">
         			<div class="col-md-6 col-lg-3 ftco-animate">
-        				<div class="project">
-        					<img src="images/work-1.jpg" class="img-fluid" alt="Colorlib Template">
-        					<a href="images/work-1.jpg" class="icon image-popup d-flex justify-content-center align-items-center">
-        						<span class="icon-expand"></span>
-        					</a>
-        				</div>
-        			</div>
-        			<div class="col-md-6 col-lg-3 ftco-animate">
-        				<div class="project">
-        					<img src="images/work-2.jpg" class="img-fluid" alt="Colorlib Template">
-        					<a href="images/work-2.jpg" class="icon image-popup d-flex justify-content-center align-items-center">
-        						<span class="icon-expand"></span>
-        					</a>
-        				</div>
-        			</div>
-        			<div class="col-md-6 col-lg-3 ftco-animate">
-        				<div class="project">
-        					<img src="images/work-3.jpg" class="img-fluid" alt="Colorlib Template">
-        					<a href="images/work-3.jpg" class="icon image-popup d-flex justify-content-center align-items-center">
-        						<span class="icon-expand"></span>
-        					</a>
-        				</div>
-        			</div>
-        			<div class="col-md-6 col-lg-3 ftco-animate">
-        				<div class="project">
-        					<img src="images/work-4.jpg" class="img-fluid" alt="Colorlib Template">
-        					<a href="images/work-4.jpg" class="icon image-popup d-flex justify-content-center align-items-center">
-        						<span class="icon-expand"></span>
-        					</a>
-        				</div>
-        			</div>
-        			<div class="col-md-6 col-lg-3 ftco-animate">
-        				<div class="project">
-        					<img src="images/work-5.jpg" class="img-fluid" alt="Colorlib Template">
-        					<a href="images/work-5.jpg" class="icon image-popup d-flex justify-content-center align-items-center">
-        						<span class="icon-expand"></span>
-        					</a>
-        				</div>
-        			</div>
-        			<div class="col-md-6 col-lg-3 ftco-animate">
-        				<div class="project">
-        					<img src="images/work-6.jpg" class="img-fluid" alt="Colorlib Template">
-        					<a href="images/work-6.jpg" class="icon image-popup d-flex justify-content-center align-items-center">
-        						<span class="icon-expand"></span>
-        					</a>
-        				</div>
-        			</div>
-        			<div class="col-md-6 col-lg-3 ftco-animate">
-        				<div class="project">
-        					<img src="images/work-7.jpg" class="img-fluid" alt="Colorlib Template">
-        					<a href="images/work-7.jpg" class="icon image-popup d-flex justify-content-center align-items-center">
-        						<span class="icon-expand"></span>
-        					</a>
-        				</div>
-        			</div>
-        			<div class="col-md-6 col-lg-3 ftco-animate">
-        				<div class="project">
-        					<img src="images/work-8.jpg" class="img-fluid" alt="Colorlib Template">
-        					<a href="images/work-8.jpg" class="icon image-popup d-flex justify-content-center align-items-center">
-        						<span class="icon-expand"></span>
-        					</a>
-        				</div>
-        			</div>
+                    <div class="project">
+                        <img src="images/productos/productos con base/productos_con_base-02.png" class="img-fluid" alt="Colorlib Template">
+                        <a href="images/productos/productos con base/productos_con_base-02.png" class="icon image-popup d-flex justify-content-center align-items-center">
+                            <span class="icon-expand"></span>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 ftco-animate">
+                    <div class="project">
+                        <img src="images/productos/productos con base/productos_con_base-03.png" class="img-fluid" alt="Colorlib Template">
+                        <a href="images/productos/productos con base/productos_con_base-03.png" class="icon image-popup d-flex justify-content-center align-items-center">
+                            <span class="icon-expand"></span>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 ftco-animate">
+                    <div class="project">
+                        <img src="images/productos/productos con base/productos_con_base-04.png" class="img-fluid" alt="Colorlib Template">
+                        <a href="images/productos/productos con base/productos_con_base-04.png" class="icon image-popup d-flex justify-content-center align-items-center">
+                            <span class="icon-expand"></span>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 ftco-animate">
+                    <div class="project">
+                        <img src="images/productos/productos con base/productos_con_base-05.png" class="img-fluid" alt="Colorlib Template">
+                        <a href="images/productos/productos con base/productos_con_base-05.png" class="icon image-popup d-flex justify-content-center align-items-center">
+                            <span class="icon-expand"></span>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 ftco-animate">
+                    <div class="project">
+                        <img src="images/productos/productos con base/productos_con_base-06.png" class="img-fluid" alt="Colorlib Template">
+                        <a href="images/productos/productos con base/productos_con_base-06.png" class="icon image-popup d-flex justify-content-center align-items-center">
+                            <span class="icon-expand"></span>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-3 ftco-animate">
+                    <div class="project">
+                        <img src="images/productos/productos con base/productos_con_base-07.png" class="img-fluid" alt="Colorlib Template">
+                        <a href="images/productos/productos con base/productos_con_base-07.png" class="icon image-popup d-flex justify-content-center align-items-center">
+                            <span class="icon-expand"></span>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 ftco-animate">
+                    <div class="project">
+                        <img src="images/productos/productos con base/productos_con_base-08.png" class="img-fluid" alt="Colorlib Template">
+                        <a href="images/productos/productos con base/productos_con_base-08.png" class="icon image-popup d-flex justify-content-center align-items-center">
+                            <span class="icon-expand"></span>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 ftco-animate">
+                    <div class="project">
+                        <img src="images/productos/productos con base/productos_con_base-09.png" class="img-fluid" alt="Colorlib Template">
+                        <a href="images/productos/productos con base/productos_con_base-09.png" class="icon image-popup d-flex justify-content-center align-items-center">
+                            <span class="icon-expand"></span>
+                        </a>
+                    </div>
+                </div>
         		</div>
                 <center>
+                <br>
                 <div style="width: 360px; margin: 0 auto;">
                              <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger " href="{{ route('productos')}}">Ver mas...</a>
                 </div>
