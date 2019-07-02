@@ -173,6 +173,11 @@ Inicio
         				</div>
         			</div>
         		</div>
+                <center>
+                <div style="width: 360px; margin: 0 auto;">
+                             <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger " href="{{ route('productos')}}">Ver mas...</a>
+                </div>
+            </center>
         	</div>
         </section>
         <!-- End our products-->
