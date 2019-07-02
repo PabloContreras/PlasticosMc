@@ -33,7 +33,7 @@ Inicio
 
 			<!-- END nav -->
 			<!-- Carrousel -->
-            <div class="slider-item" style="background-image:url(images/slide/s1.png);" data-stellar-background-ratio="0.5">
+            <div class="slider-item" style="background-image:url('images/slider/s1.png');" data-stellar-background-ratio="0.5">
                 <div class="overlay" style="width: 1500px; left: 0"></div>
                 <div class="container">
                     <div class="row no-gutters slider-text align-items-center justify-content-end" data-scrollax-parent="true">
@@ -46,7 +46,7 @@ Inicio
                 </div>
             </div>
             <section class="home-slider owl-carousel mx-auto">
-            <div class="slider-item" style="background-image:url(images/slide/s2.png);" data-stellar-background-ratio="0.5">
+            <div class="slider-item" style="background-image:url('images/slider/s2.png');" data-stellar-background-ratio="0.5">
                    <div class="overlay" style="width: 1500px; left: 0"></div>
                    <div class="container">
                       <div class="row no-gutters slider-text align-items-center justify-content-end" data-scrollax-parent="true">
@@ -58,7 +58,7 @@ Inicio
             		</div>
             	</div>
             </div>
-            <div class="slider-item" style="background-image:url(images/slide/s3.png);" data-stellar-background-ratio="0.5">
+            <div class="slider-item" style="background-image:url('images/slider/s3.png');" data-stellar-background-ratio="0.5">
             	<div class="overlay" style="width: 1500px; left: 0"></div>
             	<div class="container">
             		<div class="row no-gutters slider-text align-items-center justify-content-end" data-scrollax-parent="true">
@@ -70,7 +70,7 @@ Inicio
             		</div>
             	</div>
             </div>
-            <div class="slider-item" style="background-image:url(images/slide/s4.png);" data-stellar-background-ratio="0.5">
+            <div class="slider-item" style="background-image:url('images/slider/s4.png');" data-stellar-background-ratio="0.5">
                 <div class="overlay" style="width: 1500px; left: 0"></div>
                 <div class="container">
                     <div class="row no-gutters slider-text align-items-center justify-content-end" data-scrollax-parent="true">
@@ -82,7 +82,7 @@ Inicio
                     </div>
                 </div>
             </div>
-            <div class="slider-item" style="background-image:url(images/slide/s5.png);" data-stellar-background-ratio="0.5">
+            <div class="slider-item" style="background-image:url('images/slider/s5.png');" data-stellar-background-ratio="0.5">
             	<div class="overlay" style="width: 1500px; left: 0"></div>
             	<div class="container">
             		<div class="row no-gutters slider-text align-items-center justify-content-end" data-scrollax-parent="true">
