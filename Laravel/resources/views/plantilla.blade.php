@@ -80,13 +80,14 @@
 						</div> --}}
 					</li>
 					<li class="nav-item dropdown">
-						<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Desarrollo</a>
+						<a class="nav-link" href="{{ url('/desarrollo') }}">Desarrollo</a>
+						{{--<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Desarrollo</a>
 						<div class="dropdown-menu">
 							<a class="dropdown-item" href="#">Diseño de prototipos</a>
 							<a class="dropdown-item" href="#">Ingeniería de nuevos productos</a>
 							<a class="dropdown-item" href="#">Generación de dummies</a>
 							<a class="dropdown-item" href="#">Desarrollo de ideas y nuevos productos</a>
-						</div>
+						</div>--}}
 					</li>
 					<li class="nav-item dropdown">
 						<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Carrera</a>
