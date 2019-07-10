@@ -18,6 +18,10 @@ Route::get('/inicio', function(){
     return view('inicio');
 })->name('inicio');
 
+Route::get('/Responsabilidad-social', function(){
+    return view('ResponsabilidadSocial');
+})->name('ResponsabilidadSocial');
+
 Route::get('/procesos', function(){
   return view('servicios');
 });

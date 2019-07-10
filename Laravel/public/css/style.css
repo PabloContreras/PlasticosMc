@@ -7987,6 +7987,7 @@ body {
   font-weight: 400;
   color: black !important; 
 }
+
   body.menu-show {
     overflow: hidden;
     position: fixed;

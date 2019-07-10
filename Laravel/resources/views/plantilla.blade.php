@@ -31,21 +31,24 @@
 	<link rel="stylesheet" href="{{ asset('css/icomoon.css') }}">
 	<link rel="stylesheet" href="{{ asset('css/style.css') }}">
 	<link rel="stylesheet" href="{{ asset('css/misestilos.css') }}">
-	<link rel="apple-touch-icon" sizes="96x96" href="{{ asset('images/favicon.png') }}" />
+	<link rel="apple-touch-icon" sizes="96x96" href="{{ asset('images/favicon.png') }}" />	
 	<link rel="icon" type="image/png" href="{{ asset('images/favicon.png') }}" />
+
 </head>
-<body>
-	<nav class="navbar navbar-expand-lg navbar-dark bg-dark ftco-navbar-light" id="ftco-navbar">
+<body >
+	<font face="Verdana">
+		<nav class="navbar navbar-expand-lg navbar-dark bg-dark ftco-navbar-light" id="ftco-navbar">
 		<div class="container d-flex align-items-center" style="height: 110px">
 			<div class="d-flex align-items-center py-4">
-				<img src="images/mc.png" width="60" height="60" class="d-inline-block align-top" alt="Grupo MC"><a class="navbar-brand" href="index.html"></a>
+				<a class="navbar-brand" href="{{route('inicio')}}">
+					<img src="images/mc.png" width="60" height="60" class="d-inline-block align-top" alt="Grupo MC">
+				</a>
 			</div>
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
 				<span class="oi oi-menu"></span> Menú
 			</button>
 			<div class="collapse navbar-collapse" id="ftco-nav" style="background-color: white">
 				<ul class="navbar-nav mr-auto">
-					<li class="nav-item active"><a href="{{ route('inicio') }}" class="nav-link pl-0" style="margin-left: 15px">Home</a></li>
 					<li class="nav-item active">
 						<a class="nav-link" href="{{ url('/nosotros') }}">Nuestra Compañía</a>
 						{{--<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Nuestra compañía</a>
@@ -58,7 +61,7 @@
 							<a class="dropdown-item" href="#">Responsabilidad social</a>
 						</div>--}}
 					</li>
-					<li class="nav-item active"><a href="{{ url('/procesos') }}" class="nav-link pl-0" style="margin-left: 15px">Procesos y Servicios</a></li>
+					<li class="nav-item active"><a href="{{ url('/procesos') }}" class="nav-link pl-0" >Procesos y Servicios</a></li>
 					{{--<li class="nav-item dropdown">
 						<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Procesos y servicios</a>
 						<div class="dropdown-menu">
@@ -73,7 +76,7 @@
 					</li>
 					<li class="nav-item active">
 						<a class="nav-link" href="{{ route('mercados.clientes') }}">Mercados y clientes</a>
-{{-- 						<div class="dropdown-menu">
+						{{-- 						<div class="dropdown-menu">
 							<a class="dropdown-item"> Mercados</a>
 							<a class="dropdown-item"> Clientes</a>
 							<a class="dropdown-item" href="#">Clientes internacionales</a>
@@ -98,6 +101,7 @@
 							<a class="dropdown-item" href="{{ url('/buzon')}}">Buzón para clientes</a>
 						</div>
 					</li>
+					<li class="nav-item active"><a href="{{ route('ResponsabilidadSocial') }}" class="nav-link pl-0" style="margin-left: 15px">Responsabilidad social</a></li>
 					<li class="nav-item dropdown">
 						<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Contacto</a>
 						<div class="dropdown-menu">
@@ -113,9 +117,11 @@
 			</div>
 		</div>
 	</nav>
+	</font>
 	@yield('contenido')
 	<!-- End contacto -->
 	<!-- Footer -->
+	<font face="Verdana">
 	<footer class="ftco-footer ftco-bg-dark ftco-section" style="padding-top: 20px; padding-bottom: 0px;">
 		<div class="container">
 			<div class="row mb-5">
@@ -158,6 +164,7 @@
 					</div>
 				</div>
 			</div>
+			</font>
 		</footer>
 		<!-- End footer -->
 		<!-- loader -->
