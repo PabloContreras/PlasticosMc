@@ -98,10 +98,12 @@
 						<div class="dropdown-menu">
 							<a class="dropdown-item" href="#">Vacantes</a>
 							<a class="dropdown-item" href="{{ url('/reclutamiento') }}">Reclutamiento</a>
-							<a class="dropdown-item" href="{{ url('/buzon')}}">Buzón para clientes</a>
+							
 						</div>
 					</li>
 					<li class="nav-item active"><a href="{{ route('ResponsabilidadSocial') }}" class="nav-link pl-0" style="margin-left: 15px">Responsabilidad social</a></li>
+					<li class="nav-item active">
+						<a href="{{ url('/buzon')}}" class="nav-link pl-0" style="margin-left: 15px">Buzón para clientes</a></li>
 					<li class="nav-item dropdown">
 						<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Contacto</a>
 						<div class="dropdown-menu">

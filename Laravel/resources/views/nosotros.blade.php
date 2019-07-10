@@ -30,7 +30,7 @@ Nosotros
 <section class="ftco-counter img" id="section-counter" style="background-image: url(images/bg_3.jpg);" data-stellar-background-ratio="0.5">
 	<div class="container">
 		<div class="row">
-			<div class="col-md-6 col-lg-3 d-flex justify-content-center counter-wrap ftco-animate">
+			<div class="col-md-6 col-lg-4 d-flex justify-content-center counter-wrap ftco-animate">
 				<div class="block-18 d-flex">
 					<div class="text d-flex align-items-center">
 						<strong class="number" data-number="45">0</strong>
@@ -40,7 +40,7 @@ Nosotros
 					</div>
 				</div>
 			</div>
-			<div class="col-md-6 col-lg-3 d-flex justify-content-center counter-wrap ftco-animate">
+			<div class="col-md-6 col-lg-4 d-flex justify-content-center counter-wrap ftco-animate">
 				<div class="block-18 d-flex">
 					<div class="text d-flex align-items-center">
 						<strong class="number" data-number="1500">0</strong>
@@ -50,23 +50,13 @@ Nosotros
 					</div>
 				</div>
 			</div>
-			<div class="col-md-6 col-lg-3 d-flex justify-content-center counter-wrap ftco-animate">
+			<div class="col-md-6 col-lg-4 d-flex justify-content-center counter-wrap ftco-animate">
 				<div class="block-18 d-flex">
 					<div class="text d-flex align-items-center">
 						<strong class="number" data-number="100">0</strong>
 					</div>
 					<div class="text-2">
 						<span>Empleados <br>Capacitados</span>
-					</div>
-				</div>
-			</div>
-			<div class="col-md-6 col-lg-3 d-flex justify-content-center counter-wrap ftco-animate">
-				<div class="block-18 d-flex">
-					<div class="text d-flex align-items-center">
-						<strong class="number" data-number="300">0</strong>
-					</div>
-					<div class="text-2">
-						<span>Clientes <br>Felices</span>
 					</div>
 				</div>
 			</div>
