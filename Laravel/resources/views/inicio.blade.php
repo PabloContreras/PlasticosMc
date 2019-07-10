@@ -84,7 +84,7 @@ Inicio
 					<div class="row no-gutters justify-content-center mb-5 pb-2">
 						<div class="col-md-6 text-center heading-section ftco-animate">
 							<br><br>
-							<h2 class="mb-4">Nuestros productos</h2>
+							<h2 class="mb-4"><font face="Encode Sans Black">Nuestros productos</font></h2>
 							<!--<p>Separated they live in. A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country</p>-->
 						</div>
 					</div>
@@ -173,7 +173,7 @@ Inicio
 					<div class="row no-gutters">
 						<div class="col-md-6 wrap-about py-5 px-4 px-md-5 ftco-animate">
 							<div class="heading-section mb-5">
-								<h2 class="mb-4">Quiénes somos</h2>
+								<h2 class="mb-4"><font face="Encode Sans Black">Quiénes somos</font></h2>
 							</div>
 							<div class="">
 								<p><strong>MC Plásticos</strong> es una empresa consolidada al 100%, que ofrece a sus clientes soluciones integrales dentro de la industria del plástico, a nivel internacional</p>
@@ -298,7 +298,7 @@ Inicio
 				<div class="container">
 					<div class="row d-flex align-items-stretch no-gutters">
 						<div class="col-md-6 p-4 p-md-5 order-md-last bg-light">
-							<h2 class="pull-right">Tu opinión es importante</h2>
+							<h2 class="pull-right"><font face="Encode Sans Black">Tu opinión es importante</font></h2>
 							<form action="#">
 								<div class="form-group">
 									<input type="text" class="form-control" placeholder="Nombre">
