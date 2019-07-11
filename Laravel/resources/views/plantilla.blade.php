@@ -76,7 +76,7 @@
 						</div>--}}
 					</li>
 					<li class="nav-item active">
-						<a class="nav-link" href="{{ route('mercados.clientes') }}">Mercados y clientes</a>
+						<a class="nav-link" href="{{ route('mercados.clientes') }}">Mercados</a>
 						{{-- 						<div class="dropdown-menu">
 							<a class="dropdown-item"> Mercados</a>
 							<a class="dropdown-item"> Clientes</a>

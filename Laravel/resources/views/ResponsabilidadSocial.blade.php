@@ -19,9 +19,9 @@ Responsabilidad social
 				</div>
 			</div>
 		</div>
-		<font face="Verdena">
+		<font face="Verdana">
 		<div class="">
-			<p class="mb-5" style="text-align: justify;  ">
+			<p class="mb-5" style="text-align: justify;">
 				La alta dirección de <strong>Grupo MC</strong> se compromete a cumplir y hacer cumplir a las empresas del Grupo y sus colaboradores el Código de Ética y Conducta en referencia a la Política de Responsabilidad Social.
 				<br><br>
 

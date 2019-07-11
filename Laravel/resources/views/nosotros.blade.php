@@ -23,7 +23,7 @@ Nosotros
 			<h2 class="mb-4">Nuestra filosofía</h2>
 		</div>
 		<div class="">
-			<p class="mb-5" style="text-align: justify;">En Grupo MC, estamos comprometidos con nuestros clientes a brindar productos y  servicios de calidad que cumplan con las  especificaciones requeridas. Trabajamos con colaboradores enfocados al cumplimiento de los objetivos de calidad. Nos esforzamos por la mejora continua en nuestros procesos y nos aseguramos de cumplir con los requisitos legales y reglamentarios.</p>
+			<p class="mb-5" style="text-align: justify;">En <strong>Grupo MC</strong>, estamos comprometidos con nuestros clientes a brindar productos y  servicios de calidad que cumplan con las  especificaciones requeridas. Trabajamos con colaboradores enfocados al cumplimiento de los objetivos de calidad. Nos esforzamos por la mejora continua en nuestros procesos y nos aseguramos de cumplir con los requisitos legales y reglamentarios.</p>
 		</div>
 	</div>
 </center>
