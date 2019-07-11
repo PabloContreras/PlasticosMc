@@ -34,6 +34,7 @@
 	<link rel="apple-touch-icon" sizes="96x96" href="{{ asset('images/favicon.png') }}" />	
 	<link rel="icon" type="image/png" href="{{ asset('images/favicon.png') }}" />
 
+
 </head>
 <body >
 	<font face="Verdana">
@@ -202,5 +203,6 @@
 				});
 			});
 		</script>
+		@yield('scripts')
 	</body>
 	</html>

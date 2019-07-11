@@ -23,7 +23,7 @@ Nosotros
 			<h2 class="mb-4">Nuestra filosofía</h2>
 		</div>
 		<div class="">
-			<p class="mb-5">En MC Plásticos S.A. de C.V. ofrecemos a nuestros clientes productos de calidad, fabricados de acuerdo a sus específicaciones, con un alto nivel de servicio y precios competitivos, empleando tecnología de vanguardia.</p>
+			<p class="mb-5" style="text-align: justify;">En Grupo MC, estamos comprometidos con nuestros clientes a brindar productos y  servicios de calidad que cumplan con las  especificaciones requeridas. Trabajamos con colaboradores enfocados al cumplimiento de los objetivos de calidad. Nos esforzamos por la mejora continua en nuestros procesos y nos aseguramos de cumplir con los requisitos legales y reglamentarios.</p>
 		</div>
 	</div>
 </center>
@@ -67,14 +67,16 @@ Nosotros
 <section class="ftco-section" style="padding-bottom: 20px; padding-top: 20px;">
 	<div class="container">
 		<div class="row no-gutters">
-			<div class="col-md-5 p-md-5 img img-2 mt-5 mt-md-0" style="background-image: url(images/bg_2.jpg);">
+			<div class="col-md-5 p-md-5 img img-2 mt-5 mt-md-0" style="background-image: url(images/mision.JPG);">
 			</div>
 			<div class="col-md-7 wrap-about py-5 px-4 px-md-5 ftco-animate">
 				<div class="heading-section mb-5">
-					<h2 class="mb-4">Misión</h2>
+					<h2 class="mb-4"><font face="Encode Sans Black">Misión</font></h2>
 				</div>
-				<div class="">
+				<div class="" style="text-align: justify; " >
+					<font face="Verdana">
 					<p>Ser la mejor propuesta de valor para nuestros clientes a través del cumplimiento de sus necesidades y expectativas, que generen beneficios económicos para nuestros socios comerciales, nuestro personal y la comunidad buscando siempre la excelencia en todo lo que hacemos.</p>
+					</font>
 				</div>
 			</div>
 		</div>
@@ -85,11 +87,13 @@ Nosotros
 		<div class="row no-gutters">
 			<div class="col-md-7 wrap-about py-5 px-4 px-md-5 ftco-animate">
 				<div class="heading-section mb-5">
-					<h2 class="mb-4">Visión</h2>
+					<h2 class="mb-4"><font face="Encode Sans Black">Visión</font></h2>
 				</div>
 				<div class="">
-					<p style="color: black">Ser la empresa líder en la transformación del plástico a nivel mundial en componentes para la industria cosmética y de cuidado personal, a través de la ejecución de procesos primarios y secundarios, adquiriendo continuamente tecnología de punta que nos ayude a incursionar en nuevos mercados, siempre siendo responsables de nuestro entorno.</p>
+					<font face="Verdana">
+					<p style=" text-align: justify;" >Ser la empresa líder en la transformación del plástico a nivel mundial en componentes para la industria cosmética y de cuidado personal, a través de la ejecución de procesos primarios y secundarios, adquiriendo continuamente tecnología de punta que nos ayude a incursionar en nuevos mercados, siempre siendo responsables de nuestro entorno.</p>
 				</div>
+				</font>
 			</div>
 			<div class="col-md-5 p-md-5 img img-2 mt-5 mt-md-0" style="background-image: url(images/bg_4.jpg);">
 			</div>
@@ -99,15 +103,17 @@ Nosotros
 <section class="ftco-section" style="padding-bottom: 20px; padding-top: 20px;">
 	<div class="container">
 		<div class="row no-gutters">
-			<div class="col-md-5 p-md-5 img img-2 mt-5 mt-md-0" style="background-image: url(images/inicio1.png);">
+			<div class="col-md-5 p-md-5 img img-2 mt-5 mt-md-0" style="background-image: url(images/inicio1.png); ">
 			</div>
 			<div class="col-md-7 wrap-about py-5 px-4 px-md-5 ftco-animate">
 				<div class="heading-section mb-5">
-					<h2 class="mb-4">Innovación</h2>
+					<h2 class="mb-4"><font face="Encode Sans Black">Innovación</font></h2>
 				</div>
-				<div class="">
+				<font face="Verdana">
+				<div class=""  style=" fac text-align: justify;  ">
 					<p>MC Plásticos tiene diferentes productos, trabajamos de la mano con nuestros clientes, basándonos en sus diseños, especificaciones y muestras para la elaboración de cada producto, anteponiendo la innovación en nuestros procesos y la más alta tecnología en plástico.</p>
 				</div>
+				</font>
 			</div>
 		</div>
 	</div>
@@ -116,7 +122,7 @@ Nosotros
 	<div class="container p-0">
 		<div class="row justify-content-center my-4">
 			<div class="col-12">
-				<img src="{{ asset('images/politica.png') }}" style="margin-right: auto; margin-left: auto; display: block" alt="" width="70%">
+				<img src="{{ asset('images/POLITCA-DE-CALIDA-MC-WEB.jpg') }}" style="margin-right: auto; margin-left: auto; display: block" alt="" width="70%">
 			</div>
 		</div>
 	</div>

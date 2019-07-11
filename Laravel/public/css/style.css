@@ -70,10 +70,12 @@ hr {
 
 h1, h2, h3, h4, h5, h6 {
   margin-top: 0;
+  color:navy;
   margin-bottom: 0.5rem; }
 
 p {
   margin-top: 0;
+  color:navy;
   margin-bottom: 1rem; }
 
 abbr[title],
@@ -100,7 +102,9 @@ ol ol,
 ul ul,
 ol ul,
 ul ol {
-  margin-bottom: 0; }
+  margin-bottom: 0; 
+  color:navy;
+}
 
 dt {
   font-weight: 700; }

@@ -78,85 +78,132 @@ Inicio
 					</div>
 				</div>
 			</section>
+
+			<br><br><br><br>
+
+			<section class="ftco-section " style="padding-bottom: 30px; padding-top: 20px;">
+				<div class="container">
+					<div class="row no-gutters">
+						<div class="col-md-6 wrap-about py-5 px-4 px-md-5 ftco-animate">
+							<div class="heading-section mb-5">
+								<h2 class="mb-4"><font face="Verdana">Quiénes somos</font></h2>
+							</div>
+							<div class="" style="text-align: justify;">
+								<p><strong>MC Plásticos</strong> es una empresa consolidada al 100%, que ofrece a sus clientes soluciones integrales dentro de la industria del plástico, a nivel internacional</p>
+							</div>
+						</div>
+						<div class="col-md-4 p-md-5 img img-2 mt-5 mt-md-0" style="background-image: url(images/Imagen1.jpg);">
+						</div>
+					</div>
+				</div>
+			</section>
 			<!-- Our Products -->
+
+
 			<section class="ftco-section ftco-no-pt ftco-no-pb">
 				<div class="container-fluid p-0">
 					<div class="row no-gutters justify-content-center mb-5 pb-2">
 						<div class="col-md-6 text-center heading-section ftco-animate">
 							<br><br>
-							<h2 class="mb-4"><font face="Encode Sans Black">Nuestros productos</font></h2>
+							<h2 class="mb-4"><font face="Verdana">Nuestros productos</font></h2>
 							<!--<p>Separated they live in. A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country</p>-->
 						</div>
 					</div>
-					<div class="row" >
-						<div class="col-md-3 col-lg-3 mb-4 ftco-animate">
-							<div class="project">
-								<img  src="images/productos/productos con base/productos_con_base-24.png" class="img-fluid" alt="Colorlib Template">
-								<a href="images/productos/productos con base/productos_con_base-24.png" class="icon image-popup d-flex justify-content-center align-items-center">
-									<span class="icon-expand"></span>
-								</a>
-							</div>
-						</div>
-						<div class="col-md-3 col-lg-3 mb-4 ftco-animate">
-							<div class="project">
-								<img src="images/productos/productos con base/productos_con_base-28.png" class="img-fluid" alt="Colorlib Template">
-								<a href="images/productos/productos con base/productos_con_base-28.png" class="icon image-popup d-flex justify-content-center align-items-center">
-									<span class="icon-expand"></span>
-								</a>
-							</div>
-						</div>
-						<div class="col-md-3 col-lg-3 mb-4 ftco-animate">
-							<div class="project">
-								<img src="images/productos/productos con base/productos_con_base-29.png" class="img-fluid" alt="Colorlib Template">
-								<a href="images/productos/productos con base/productos_con_base-29.png" class="icon image-popup d-flex justify-content-center align-items-center">
-									<span class="icon-expand"></span>
-								</a>
-							</div>
-						</div>
-						<div class="col-md-3 col-lg-3 mb-4 ftco-animate " >
-							<div class="project">
-								<img src="images/productos/productos con base/productos_con_base-05.png" class="img-fluid" alt="Colorlib Template">
-								<a href="images/productos/productos con base/productos_con_base-05.png" class="icon image-popup d-flex justify-content-center align-items-center">
-									<span class="icon-expand"></span>
-								</a>
-							</div>
-						</div>
-					</div>
-					<div class="row">
-						<div class="col-md-3 col-lg-3 mb-4 ftco-animate">
-							<div class="project">
-								<img src="images/productos/productos con base/productos_con_base-34.png" class="img-fluid" alt="Colorlib Template">
-								<a href="images/productos/productos con base/productos_con_base-34.png" class="icon image-popup d-flex justify-content-center align-items-center">
-									<span class="icon-expand"></span>
-								</a>
-							</div>
-						</div>
 
-						<div class="col-md-3 col-lg-3  mb-4 ftco-animate">
-							<div class="project">
-								<img src="images/productos/productos con base/productos_con_base-21.png" class="img-fluid" alt="Colorlib Template">
-								<a href="images/productos/productos con base/productos_con_base-21.png" class="icon image-popup d-flex justify-content-center align-items-center">
-									<span class="icon-expand"></span>
-								</a>
-							</div>
-						</div>
-						<div class="col-md-3 col-lg-3  mb-4 ftco-animate">
-							<div class="project">
-								<img src="images/productos/productos con base/productos_con_base-08.png" class="img-fluid" alt="Colorlib Template">
-								<a href="images/productos/productos con base/productos_con_base-08.png" class="icon image-popup d-flex justify-content-center align-items-center">
-									<span class="icon-expand"></span>
-								</a>
-							</div>
-						</div>
-						<div class="col-md-3 col-lg-3  mb-4 ftco-animate">
-							<div class="project">
-								<img src="images/productos/productos con base/productos_con_base-32.png" class="img-fluid" alt="Colorlib Template">
-								<a href="images/productos/productos con base/productos_con_base-32.png" class="icon image-popup d-flex justify-content-center align-items-center">
-									<span class="icon-expand"></span>
-								</a>
+			<section id="carousel" >
+				<div class="container-fluid">
+					<div class="row justify-content-center" >
+						<div class="col-8">
+							<div id="carouselTiempo" class="carousel slide" data-ride="carousel">
+								<div class="carousel-inner">
+									<div class="carousel-item active">
+										<img class="d-block w-100" src="images/productos_marca-Agua/productos con base-03.png">
+									</div>
+									<div class="carousel-item">
+										<img class="d-block w-100" src="images/productos_marca-Agua/productos con base-04.png" >
+									</div>
+									<div class="carousel-item">
+										<img class="d-block w-100" src="images/productos_marca-Agua/productos con base-05.png" >
+									</div>
+									<div class="carousel-item">
+										<img class="d-block w-100" src="images/productos_marca-Agua/productos con base-06.png" >
+									</div>
+									<div class="carousel-item">
+										<img class="d-block w-100" src="images/productos_marca-Agua/productos con base-07.png" >
+									</div>
+									<div class="carousel-item ">
+										<img class="d-block w-100" src="images/productos_marca-Agua/productos con base-09.png">
+									</div>
+									<div class="carousel-item">
+										<img class="d-block w-100" src="images/productos_marca-Agua/productos con base-14.png" >
+									</div>
+									<div class="carousel-item">
+										<img class="d-block w-100" src="images/productos_marca-Agua/productos con base-15.png" >
+									</div>
+									<div class="carousel-item">
+										<img class="d-block w-100" src="images/productos_marca-Agua/productos con base-16.png" >
+									</div>
+									<div class="carousel-item">
+										<img class="d-block w-100" src="images/productos_marca-Agua/productos con base-17.png" >
+									</div>
+									<div class="carousel-item ">
+										<img class="d-block w-100" src="images/productos_marca-Agua/productos con base-18.png">
+									</div>
+									<div class="carousel-item">
+										<img class="d-block w-100" src="images/productos_marca-Agua/productos con base-19.png" >
+									</div>
+									<div class="carousel-item">
+										<img class="d-block w-100" src="images/productos_marca-Agua/productos con base-21.png" >
+									</div>
+									<div class="carousel-item">
+										<img class="d-block w-100" src="images/productos_marca-Agua/productos con base-23.png" >
+									</div>
+									<div class="carousel-item">
+										<img class="d-block w-100" src="images/productos_marca-Agua/productos con base-24.png" >
+									</div>
+									<div class="carousel-item ">
+										<img class="d-block w-100" src="images/productos_marca-Agua/productos con base-25.png">
+									</div>
+									<div class="carousel-item">
+										<img class="d-block w-100" src="images/productos_marca-Agua/productos con base-26.png" >
+									</div>
+									<div class="carousel-item">
+										<img class="d-block w-100" src="images/productos_marca-Agua/productos con base-27.png" >
+									</div>
+									<div class="carousel-item">
+										<img class="d-block w-100" src="images/productos_marca-Agua/productos con base-28.png" >
+									</div>
+									<div class="carousel-item">
+										<img class="d-block w-100" src="images/productos_marca-Agua/productos con base-29.png" >
+									</div>
+									<div class="carousel-item">
+										<img class="d-block w-100" src="images/productos_marca-Agua/productos con base-30.png">
+									</div>
+									<div class="carousel-item">
+										<img class="d-block w-100" src="images/productos_marca-Agua/productos con base-31.png" >
+									</div>
+									<div class="carousel-item">
+										<img class="d-block w-100" src="images/productos_marca-Agua/productos con base-32.png" >
+									</div>
+									<div class="carousel-item">
+										<img class="d-block w-100" src="images/productos_marca-Agua/productos con base-33.png" >
+									</div>
+									<div class="carousel-item">
+										<img class="d-block w-100" src="images/productos_marca-Agua/productos con base-34.png" >
+									</div>
+									<div class="carousel-item">
+										<img class="d-block w-100" src="images/productos_marca-Agua/productos con base_Mesa de trabajo 1.png" >
+									</div>
+									<div class="carousel-item">
+										<img class="d-block w-100" src="images/productos_marca-Agua/productos-con-base-02.png" >
+									</div>
+								</div>
 							</div>
 						</div>
 					</div>
+				</div>
+			</section>
+					
 					<center>
 						<br>
 						<div style="width: 360px; margin: 0 auto;">
@@ -167,23 +214,7 @@ Inicio
 			</section>
 			<!-- End our products-->
 			<!-- Quiénes somos -->
-			<br><br><br>
-			<section class="ftco-section" style="padding-bottom: 30px; padding-top: 20px;">
-				<div class="container">
-					<div class="row no-gutters">
-						<div class="col-md-6 wrap-about py-5 px-4 px-md-5 ftco-animate">
-							<div class="heading-section mb-5">
-								<h2 class="mb-4"><font face="Encode Sans Black">Quiénes somos</font></h2>
-							</div>
-							<div class="">
-								<p><strong>MC Plásticos</strong> es una empresa consolidada al 100%, que ofrece a sus clientes soluciones integrales dentro de la industria del plástico, a nivel internacional</p>
-							</div>
-						</div>
-						<div class="col-md-4 p-md-5 img img-2 mt-5 mt-md-0" style="background-image: url(images/Imagen1.jpg);">
-						</div>
-					</div>
-				</div>
-			</section>
+			
 			<!-- End quienes somos -->
 			<!-- Counter -->
 			<section class="ftco-counter img" id="section-counter" style="background-image: url(images/bg_3.jpg);" data-stellar-background-ratio="0.5">
@@ -322,4 +353,13 @@ Inicio
 					</div>
 				</div>
 			</section>
+			@endsection
+
+			@section('scripts')
+				<script type="text/javascript">
+					$('#carouselTiempo').carousel({
+						interval: 50,
+						pause: false
+					});
+				</script>
 			@endsection
