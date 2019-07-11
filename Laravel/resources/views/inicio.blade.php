@@ -202,7 +202,8 @@ Inicio
 						</div>
 					</div>
 				</div>
-			</section>
+			<!-- cd /var/www/plasticosmc/html/
+</section>
 					
 					<center>
 						<br>
@@ -211,7 +212,7 @@ Inicio
 						</div>
 					</center>
 				</div>
-			</section>
+			</section> -->
 			<!-- End our products-->
 			<!-- Quiénes somos -->
 			

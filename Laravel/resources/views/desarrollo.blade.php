@@ -17,13 +17,14 @@ Desarrollo
 		</div>
 	</section>
 
+	
 	<section class="ftco-section ftco-no-pt ftco-no-pb">
-		<div class="container p-0">
-			<div class="row justify-content-center my-4">
-				<div class="col-12">
-					<img src="{{ asset('images/info.png') }}" style="margin-right: auto; margin-left: auto; display: block" alt="" height="60%">
-				</div>
+	<div class="container p-0">
+		<div class="row justify-content-center my-4">
+			<div class="col-12">
+				<img src="{{ asset('images/info.png') }}" style="margin-right: auto; margin-left: auto; display: block" alt="" width="70%">
 			</div>
 		</div>
-	</section>
+	</div>
+</section>
 	@endsection
