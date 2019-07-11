@@ -24,30 +24,19 @@ Mercados y clientes
 					<h2>Nuestros mercados</h2>
 				</div>
 			</div>
-			<div class="row justify-content-center">
-				<div class="col-2">
-					<img class="img-fluid" src="{{ asset('images/mercados/i1.png') }}" style="margin-right: auto; margin-left: auto; display: block" alt="" width="60%">
-				</div>
-				<div class="col-2">
-					<img src="{{ asset('images/mercados/i2.png') }}" style="margin-right: auto; margin-left: auto; display: block" alt="" width="60%">
-				</div>
-				<div class="col-2">
-					<img src="{{ asset('images/mercados/i3.png') }}" style="margin-right: auto; margin-left: auto; display: block" alt="" width="60%">
-				</div>
-			</div>
-			<div class="row justify-content-center my-4">
-				<div class="col-2">
-					<img src="{{ asset('images/mercados/i4.png') }}" style="margin-right: auto; margin-left: auto; display: block" alt="" width="60%">
-				</div>
-				<div class="col-2">
-					<img src="{{ asset('images/mercados/i5.png') }}" style="margin-right: auto; margin-left: auto; display: block" alt="" width="60%">
-				</div>
-				<div class="col-2">
-					<img src="{{ asset('images/mercados/i6.png') }}" style="margin-right: auto; margin-left: auto; display: block" alt="" width="60%">
-				</div>
-			</div>
 		</div>
 	</section>
+
+	<section class="ftco-section ftco-no-pt ftco-no-pb">
+	<div class="container p-0">
+		<div class="row justify-content-center my-4">
+			<div class="col-12">
+				<img src="{{ asset('images/mercados_y_clientes.png') }}" style="margin-right: auto; margin-left: auto; display: block" alt="" width="70%">
+			</div>
+		</div>
+	</div>
+</section>
+
 	<section class="ftco-section ftco-no-pt ftco-no-pb">
 		<div class="container p-0">
 			<div class="row no-gutters justify-content-center mb-4">

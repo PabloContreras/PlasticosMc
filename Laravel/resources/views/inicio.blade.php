@@ -80,19 +80,32 @@ Inicio
 			</section>
 
 			<br><br><br><br>
-
-			<section class="ftco-section " style="padding-bottom: 30px; padding-top: 20px;">
+			<!-- Frase -->
+			<section class="ftco-intro" style="background-image: url(images/bg_3.jpg);" data-stellar-background-ratio="0.5">
+				<div class="overlay"></div>
 				<div class="container">
-					<div class="row no-gutters">
-						<div class="col-md-6 wrap-about py-5 px-4 px-md-5 ftco-animate">
+					<div class="row justify-content-center">
+						<div class="col-md-9 text-center">
+							<h2>MC Plásticos es el resultado de una historia de más de 40 años de esfuerzo y dedicación...</h2>
+						</div>
+					</div>
+				</div>
+			</section>
+			<br><br>
+			<!-- End frase -->
+
+			<section class="ftco-section " style="padding-bottom: 30px; padding-top: 20px; padding-left: 40px; padding-right: 40px;">
+				<div class="container justify-content-center">
+					<div class="row justify-content-center	">
+						<div class="col-md-7 wrap-about py-5 px-4 px-md-4 ftco-animate" >
 							<div class="heading-section mb-5">
 								<h2 class="mb-4"><font face="Verdana">Quiénes somos</font></h2>
 							</div>
-							<div class="" style="text-align: justify;">
+							<div class="col-md-12" style="text-align: justify; ">
 								<p><strong>MC Plásticos</strong> es una empresa consolidada al 100%, que ofrece a sus clientes soluciones integrales dentro de la industria del plástico, a nivel internacional</p>
 							</div>
 						</div>
-						<div class="col-md-4 p-md-5 img img-2 mt-5 mt-md-0" style="background-image: url(images/Imagen1.jpg);">
+						<div  class="col-md-4 p-md-5 img img-2 mt-6 mt-md-0" style="background-image: url(images/Imagen1.jpg);">
 						</div>
 					</div>
 				</div>
@@ -109,11 +122,11 @@ Inicio
 							<!--<p>Separated they live in. A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country</p>-->
 						</div>
 					</div>
-
+			</section>
 			<section id="carousel" >
 				<div class="container-fluid">
 					<div class="row justify-content-center" >
-						<div class="col-8">
+						<div class="col-10">
 							<div id="carouselTiempo" class="carousel slide" data-ride="carousel">
 								<div class="carousel-inner">
 									<div class="carousel-item active">
@@ -202,6 +215,8 @@ Inicio
 						</div>
 					</div>
 				</div>
+			</section>
+			<br><br>
 			<!-- cd /var/www/plasticosmc/html/
 </section>
 					
@@ -312,19 +327,7 @@ Inicio
 				</div>
 			</section>--}}
 			<!-- End nuestros clientes -->
-			<!-- Frase -->
-			<section class="ftco-intro" style="background-image: url(images/bg_3.jpg);" data-stellar-background-ratio="0.5">
-				<div class="overlay"></div>
-				<div class="container">
-					<div class="row justify-content-center">
-						<div class="col-md-9 text-center">
-							<h2>MC Plásticos es el resultado de una historia de más de 40 años de esfuerzo y dedicación...</h2>
-						</div>
-					</div>
-				</div>
-			</section>
-			<br><br>
-			<!-- End frase -->
+			
 			<!-- Contacto -->
 			<section class="ftco-section ftco-no-pt ftco-no-pb contact-section">
 				<div class="container">
@@ -359,7 +362,7 @@ Inicio
 			@section('scripts')
 				<script type="text/javascript">
 					$('#carouselTiempo').carousel({
-						interval: 50,
+						interval: 500,
 						pause: false
 					});
 				</script>
