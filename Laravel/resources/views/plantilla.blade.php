@@ -37,116 +37,129 @@
 
 </head>
 <body >
-	<font face="Verdana">
+
+	<font face="Encode Sans">
 		<nav class="navbar navbar-expand-lg navbar-dark bg-dark ftco-navbar-light" id="ftco-navbar">
-		<div class="container d-flex align-items-center" style="height: 110px">
-			<div class="d-flex align-items-center py-4">
-				<a class="navbar-brand" href="{{route('inicio')}}">
-					<img src="images/mc.png" width="60" height="60" class="d-inline-block align-top" alt="Grupo MC">
-				</a>
-			</div>
-			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
-				<span class="oi oi-menu"></span> Menú
-			</button>
-			<div class="collapse navbar-collapse" id="ftco-nav" style="background-color: white">
-				<ul class="navbar-nav mr-auto">
-					<li class="nav-item active">
-						<a class="nav-link" href="{{ url('/nosotros') }}">Nuestra Compañía</a>
-						{{--<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Nuestra compañía</a>
-						<div class="dropdown-menu">
-							<a class="dropdown-item" href="#">Historia</a>
-							<a class="dropdown-item" href="#">Nuestra Filosofía</a>
-							<a class="dropdown-item" href="#">Calidad</a>
-							<a class="dropdown-item" href="#">Innovación</a>
-							<a class="dropdown-item" href="#">Full service</a>
-							<a class="dropdown-item" href="#">Responsabilidad social</a>
-						</div>--}}
-					</li>
-					<li class="nav-item active"><a href="{{ url('/procesos') }}" class="nav-link pl-0" >Procesos y Servicios</a></li>
-					{{--<li class="nav-item dropdown">
-						<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Procesos y servicios</a>
-						<div class="dropdown-menu">
-							<a class="dropdown-item" href="#">Decorado</a>
-							<a class="dropdown-item" href="#">Ensamble</a>
-							<a class="dropdown-item" href="#">Esferas</a>
-							<a class="dropdown-item" href="#">Inyección</a>
-							<a class="dropdown-item" href="#">Metalizado</a>
-							<a class="dropdown-item" href="#">Moldes</a>
-							<a class="dropdown-item" href="#">Soplo</a>
-						</div>--}}
-					</li>
-					<li class="nav-item active">
-						<a class="nav-link" href="{{ route('mercados.clientes') }}">Mercados</a>
-						{{-- 						<div class="dropdown-menu">
-							<a class="dropdown-item"> Mercados</a>
-							<a class="dropdown-item"> Clientes</a>
-							<a class="dropdown-item" href="#">Clientes internacionales</a>
-							<a class="dropdown-item"> Buzón de clientes</a>
-						</div> --}}
-					</li>
-					<li class="nav-item active">
-						<a class="nav-link" href="{{ url('/desarrollo') }}">Desarrollo</a>
-						{{--<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Desarrollo</a>
-						<div class="dropdown-menu">
-							<a class="dropdown-item" href="#">Diseño de prototipos</a>
-							<a class="dropdown-item" href="#">Ingeniería de nuevos productos</a>
-							<a class="dropdown-item" href="#">Generación de dummies</a>
-							<a class="dropdown-item" href="#">Desarrollo de ideas y nuevos productos</a>
-						</div>--}}
-					</li>
-					<li class="nav-item dropdown">
-						<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Carrera</a>
-						<div class="dropdown-menu">
-							<a class="dropdown-item" href="#">Vacantes</a>
-							<a class="dropdown-item" href="{{ url('/reclutamiento') }}">Reclutamiento</a>
-							
-						</div>
-					</li>
-					<li class="nav-item active"><a href="{{ route('ResponsabilidadSocial') }}" class="nav-link pl-0" style="margin-left: 15px">Responsabilidad social</a></li>
-					<li class="nav-item active">
-						<a href="{{ url('/buzon')}}" class="nav-link pl-0" style="margin-left: 15px">Buzón para clientes</a></li>
-					<li class="nav-item dropdown">
-						<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Contacto</a>
-						<div class="dropdown-menu">
-							<a class="dropdown-item" href="#">Teléfono: (722) 276 65 70</a>
-							<a class="dropdown-item" href="#">Correo: info@mcplasticos.com</a>
-						</div>
-					</li>
-					<li class="nav-item dropdown">
-						<a class="nav-link" href="{{ url('/employee/login') }}" role="button" aria-haspopup="true" aria-expanded="false"><i class="icon-person"></i></a>
-					</li>
-
-				</ul>
-			</div>
-		</div>
-	</nav>
-	</font>
-	@yield('contenido')
-	<!-- End contacto -->
-	<!-- Footer -->
-	<font face="Verdana">
-	<footer class="ftco-footer ftco-bg-dark ftco-section" style="padding-top: 20px; padding-bottom: 0px;">
-		<div class="container">
-			<div class="row mb-5">
-				<div class="col-md">
-					<div class="ftco-footer-widget mb-5">
-
-						<h2 class="ftco-heading-2 logo"><img src="images/mc.png" width="80" height="80" class="d-inline-block align-top" alt="" style="margin-left: 30px;"><br>MC Plásticos</h2>
-						<!--<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>-->
-						<p><i class="fas fa-map-marker-alt"></i> <span>Dirección:</span> <a href="maps://Av. Central No. 211, Parque Industrial Toluca 2000 C.P. 50200, Toluca, Estado de México."> Av. Central No. 211, Parque Industrial Toluca 2000 C.P. 50233, Toluca, Estado de México.</a> </p>
-
-						<p><i class="fas fa-phone"></i><span> Llámanos: <br>01 (722) 2766570</span></p>
-
-						<p><i class="fas fa-at"></i> <span>info@mcplasticos.com</span></p>
-						{{--<ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-3">
-							<li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
-							<li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
-							<li class="ftco-animate"><a href="#"><span class="icon-instagram"></span></a></li>
-						</ul>--}}
-					</div>
-
+			<div class="container d-flex align-items-center" style="height: 110px">
+				<div class="d-flex align-items-center py-4">
+					<a class="navbar-brand" href="{{route('inicio')}}">
+						<img src="images/mc.png" width="60" height="60" class="d-inline-block align-top" alt="Grupo MC">
+					</a>
 				</div>
-				<div class="col-md">
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="oi oi-menu"></span> Menú
+				</button>
+				<div class="collapse navbar-collapse" id="ftco-nav" style="background-color: white">
+					<ul class="navbar-nav mr-auto">
+						<li class="nav-item active">
+							<a class="nav-link" href="{{ url('/nosotros') }}">Nuestra Compañía</a>
+							{{--<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Nuestra compañía</a>
+							<div class="dropdown-menu">
+								<a class="dropdown-item" href="#">Historia</a>
+								<a class="dropdown-item" href="#">Nuestra Filosofía</a>
+								<a class="dropdown-item" href="#">Calidad</a>
+								<a class="dropdown-item" href="#">Innovación</a>
+								<a class="dropdown-item" href="#">Full service</a>
+								<a class="dropdown-item" href="#">Responsabilidad social</a>
+							</div>--}}
+						</li>
+						<li class="nav-item active"><a href="{{ url('/procesos') }}" class="nav-link pl-0" >Procesos y Servicios</a></li>
+						{{--<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Procesos y servicios</a>
+							<div class="dropdown-menu">
+								<a class="dropdown-item" href="#">Decorado</a>
+								<a class="dropdown-item" href="#">Ensamble</a>
+								<a class="dropdown-item" href="#">Esferas</a>
+								<a class="dropdown-item" href="#">Inyección</a>
+								<a class="dropdown-item" href="#">Metalizado</a>
+								<a class="dropdown-item" href="#">Moldes</a>
+								<a class="dropdown-item" href="#">Soplo</a>
+							</div>--}}
+						</li>
+						<li class="nav-item active">
+							<a class="nav-link" href="{{ route('mercados.clientes') }}">Mercados</a>
+							{{-- 						<div class="dropdown-menu">
+								<a class="dropdown-item"> Mercados</a>
+								<a class="dropdown-item"> Clientes</a>
+								<a class="dropdown-item" href="#">Clientes internacionales</a>
+								<a class="dropdown-item"> Buzón de clientes</a>
+							</div> --}}
+						</li>
+						<li class="nav-item active">
+							<a class="nav-link" href="{{ url('/desarrollo') }}">Desarrollo</a>
+							{{--<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Desarrollo</a>
+							<div class="dropdown-menu">
+								<a class="dropdown-item" href="#">Diseño de prototipos</a>
+								<a class="dropdown-item" href="#">Ingeniería de nuevos productos</a>
+								<a class="dropdown-item" href="#">Generación de dummies</a>
+								<a class="dropdown-item" href="#">Desarrollo de ideas y nuevos productos</a>
+							</div>--}}
+						</li>
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Carrera</a>
+							<div class="dropdown-menu">
+								<a class="dropdown-item" href="#">Vacantes</a>
+								<a class="dropdown-item" href="{{ url('/reclutamiento') }}">Reclutamiento</a>
+								
+							</div>
+						</li>
+						<li class="nav-item active"><a href="{{ route('ResponsabilidadSocial') }}" class="nav-link pl-0" style="margin-left: 15px">Responsabilidad social</a></li>
+						<li class="nav-item active">
+							<a href="{{ url('/buzon')}}" class="nav-link pl-0" style="margin-left: 15px">Buzón para clientes</a></li>
+							<li class="nav-item dropdown">
+								<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Contacto</a>
+								<div class="dropdown-menu">
+									<a class="dropdown-item" href="#">Teléfono: (722) 276 65 70</a>
+									<a class="dropdown-item" href="#">Correo: info@mcplasticos.com</a>
+								</div>
+							</li>
+							<li class="nav-item dropdown">
+								<a class="nav-link" href="{{ url('/employee/login') }}" role="button" aria-haspopup="true" aria-expanded="false"><i class="icon-person"></i></a>
+							</li>
+
+						</ul>
+					</div>
+				</div>
+			</nav>
+		</font>
+		@yield('contenido')
+		<!-- End contacto -->
+		<!-- Footer -->
+		<font face="Verdana">
+			<footer class="ftco-footer ftco-bg-dark ftco-section" style="padding-top: 20px; padding-bottom: 0px; ">
+				<div class="container">
+					<div class="row mb-5">
+						<div class="col-md">
+							<div class="ftco-footer-widget mb-5">
+								<font face="Encode Sans">
+									<h2 class="ftco-heading-2 logo"><img src="images/mc.png" width="80" height="80" class="d-inline-block align-top" alt="" style="margin-left: 30px; "><br>MC Plásticos</h2>
+								</font>
+								<!--<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>-->
+								<p><i class="fas fa-map-marker-alt"></i> <span style="color:navy;">Dirección:</span> <a href="maps://Av. Central No. 211, Parque Industrial Toluca 2000 C.P. 50200, Toluca, Estado de México."> <br>Av. Central No. 211, Parque Industrial Toluca 2000 C.P. 50233, Toluca, Estado de México.</a> </p>
+
+								<p><i class="fas fa-phone"></i><span style="color:navy;"> Llámanos: <br>
+								</span>
+								01 (722) 2766570
+							</p>
+
+
+							<p>
+								<i class="fas fa-globe-americas"></i>
+								<span style="color: navy;"> Sitio web: <br>
+									<a href="http://mcplasticos.com">www.mcplasticos.com</a>
+								</span>
+							</p>
+
+							<p><i class="fas fa-at"></i> <span style="color:navy;">info@mcplasticos.com</span></p>
+							{{--<ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-3">
+								<li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
+								<li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
+								<li class="ftco-animate"><a href="#"><span class="icon-instagram"></span></a></li>
+							</ul>--}}
+						</div>
+
+					</div>
+				<!-- <div class="col-md">
 					<div class="ftco-footer-widget mb-5 ml-md-4">
 						<h2 class="ftco-heading-2">Servicios</h2>
 						<ul class="list-unstyled">
@@ -157,7 +170,7 @@
 							<li><a href="#"><span class="ion-ios-arrow-round-forward mr-2"></span>Metalizado</a></li>
 						</ul>
 					</div>
-				</div>
+				</div> -->
 			</div>
 			<div class="row">
 				<div class="col-md-12 text-center">
@@ -167,42 +180,42 @@
 					</div>
 				</div>
 			</div>
-			</font>
-		</footer>
-		<!-- End footer -->
-		<!-- loader -->
-		<div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#04233a"/></svg></div>
-		<!-- End loader -->
-		<script src="{{ asset('js/jquery.min.js') }}"></script>
-		<script src="{{ asset('js/jquery-migrate-3.0.1.min.js') }}"></script>
-		<script src="{{ asset('js/popper.min.js') }}"></script>
-		<script src="{{ asset('js/bootstrap.min.js') }}"></script>
-		<script src="{{ asset('js/jquery.easing.1.3.js') }}"></script>
-		<script src="{{ asset('js/jquery.waypoints.min.js') }}"></script>
-		<script src="{{ asset('js/jquery.stellar.min.js') }}"></script>
-		<script src="{{ asset('js/owl.carousel.min.js') }}"></script>
-		<script src="{{ asset('js/jquery.magnific-popup.min.js') }}"></script>
-		<script src="{{ asset('js/aos.js') }}"></script>
-		<script src="{{ asset('js/jquery.animateNumber.min.js') }}"></script>
-		<script src="{{ asset('js/bootstrap-datepicker.js') }}"></script>
-		<script src="{{ asset('js/jquery.timepicker.min.js') }}"></script>
-		<script src="{{ asset('js/scrollax.min.js') }}"></script>
-		<script src="{{ asset('js/main.js') }}"></script>
-		<script src="{{ asset('js/jquery.scrollUp.js') }}"></script>
-		<script>
-			$(function () {
-				$.scrollUp({
-					scrollName: 'scrollUp',
-					topDistance: '300',
-					topSpeed: 300,
-					animation: 'fade',
-					animationInSpeed: 200,
-					animationOutSpeed: 200,
-					scrollText: '',
-					activeOverlay: false,
-				});
+		</font>
+	</footer>
+	<!-- End footer -->
+	<!-- loader -->
+	<div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#04233a"/></svg></div>
+	<!-- End loader -->
+	<script src="{{ asset('js/jquery.min.js') }}"></script>
+	<script src="{{ asset('js/jquery-migrate-3.0.1.min.js') }}"></script>
+	<script src="{{ asset('js/popper.min.js') }}"></script>
+	<script src="{{ asset('js/bootstrap.min.js') }}"></script>
+	<script src="{{ asset('js/jquery.easing.1.3.js') }}"></script>
+	<script src="{{ asset('js/jquery.waypoints.min.js') }}"></script>
+	<script src="{{ asset('js/jquery.stellar.min.js') }}"></script>
+	<script src="{{ asset('js/owl.carousel.min.js') }}"></script>
+	<script src="{{ asset('js/jquery.magnific-popup.min.js') }}"></script>
+	<script src="{{ asset('js/aos.js') }}"></script>
+	<script src="{{ asset('js/jquery.animateNumber.min.js') }}"></script>
+	<script src="{{ asset('js/bootstrap-datepicker.js') }}"></script>
+	<script src="{{ asset('js/jquery.timepicker.min.js') }}"></script>
+	<script src="{{ asset('js/scrollax.min.js') }}"></script>
+	<script src="{{ asset('js/main.js') }}"></script>
+	<script src="{{ asset('js/jquery.scrollUp.js') }}"></script>
+	<script>
+		$(function () {
+			$.scrollUp({
+				scrollName: 'scrollUp',
+				topDistance: '300',
+				topSpeed: 300,
+				animation: 'fade',
+				animationInSpeed: 200,
+				animationOutSpeed: 200,
+				scrollText: '',
+				activeOverlay: false,
 			});
-		</script>
-		@yield('scripts')
-	</body>
-	</html>
+		});
+	</script>
+	@yield('scripts')
+</body>
+</html>

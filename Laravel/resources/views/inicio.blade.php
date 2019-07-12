@@ -99,10 +99,12 @@ Inicio
 					<div class="row justify-content-center	">
 						<div class="col-md-7 wrap-about py-5 px-4 px-md-4 ftco-animate" >
 							<div class="heading-section mb-5">
-								<h2 class="mb-4"><font face="Verdana">Quiénes somos</font></h2>
+								<h2 class="mb-4"><font face="Endode Sans">Quiénes somos</font></h2>
 							</div>
 							<div class="col-md-12" style="text-align: justify; ">
+								<font face="Verdana">
 								<p><strong>MC Plásticos</strong> es una empresa consolidada al 100%, que ofrece a sus clientes soluciones integrales dentro de la industria del plástico, a nivel internacional</p>
+								</font>
 							</div>
 						</div>
 						<div  class="col-md-4 p-md-5 img img-2 mt-6 mt-md-0" style="background-image: url(images/Imagen1.jpg);">
@@ -118,7 +120,7 @@ Inicio
 					<div class="row no-gutters justify-content-center mb-5 pb-2">
 						<div class="col-md-6 text-center heading-section ftco-animate">
 							<br><br>
-							<h2 class="mb-4"><font face="Verdana">Nuestros productos</font></h2>
+							<h2 class="mb-4"><font face="Encode Sans">Nuestros productos</font></h2>
 							<!--<p>Separated they live in. A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country</p>-->
 						</div>
 					</div>
@@ -232,8 +234,8 @@ Inicio
 			<!-- Quiénes somos -->
 			
 			<!-- End quienes somos -->
-			<!-- Counter -->
-			<section class="ftco-counter img" id="section-counter" style="background-image: url(images/bg_3.jpg);" data-stellar-background-ratio="0.5">
+			<!--cunter -->
+			<!-- <section class="ftco-counter img" id="section-counter" style="background-image: url(images/bg_3.jpg);" data-stellar-background-ratio="0.5">
 				<div class="container">
 					<div class="row">
 						<div class="col-md-6 col-lg-4 d-flex justify-content-center counter-wrap ftco-animate">
@@ -269,7 +271,7 @@ Inicio
 						
 					</div>
 				</div>
-			</section>
+			</section> --> 
 			<!-- End counter -->
 			<br><br>
 			<!-- Nuestros clientes -->
@@ -333,7 +335,7 @@ Inicio
 				<div class="container">
 					<div class="row d-flex align-items-stretch no-gutters">
 						<div class="col-md-6 p-4 p-md-5 order-md-last bg-light">
-							<h2 class="pull-right"><font face="Encode Sans Black">Tu opinión es importante</font></h2>
+							<h2 class="pull-right"><font face="Encode Sans ">Tu opinión es importante</font></h2>
 							<form action="#">
 								<div class="form-group">
 									<input type="text" class="form-control" placeholder="Nombre">

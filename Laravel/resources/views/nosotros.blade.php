@@ -11,13 +11,12 @@ Nosotros
 	<div class="container">
 		<div class="row no-gutters slider-text align-items-center justify-content-center">
 			<div class="col-md-9 ftco-animate text-center">
-				<h1 class="mb-2 bread">Nuestra compañía</h1>
-				<p class="breadcrumbs"><span class="mr-2"><a href="{{ route('inicio') }}">Inicio <i class="ion-ios-arrow-forward"></i></a></span> <span>Nuestra compañía<i class="ion-ios-arrow-forward"></i></span></p>
+				<h1 class="mb-2 bread">Nuestra filosofía</h1>
 			</div>
 		</div>
 	</div>
 </section>
-<center>
+<!-- <center>
 	<div class="col-md-8 wrap-about py-5 ftco-animate">
 		<div class="heading-section mb-5">
 			<h2 class="mb-4">Nuestra filosofía</h2>
@@ -26,8 +25,8 @@ Nosotros
 			<p class="mb-5" style="text-align: justify;">En <strong>Grupo MC</strong>, estamos comprometidos con nuestros clientes a brindar productos y  servicios de calidad que cumplan con las  especificaciones requeridas. Trabajamos con colaboradores enfocados al cumplimiento de los objetivos de calidad. Nos esforzamos por la mejora continua en nuestros procesos y nos aseguramos de cumplir con los requisitos legales y reglamentarios.</p>
 		</div>
 	</div>
-</center>
-<section class="ftco-counter img" id="section-counter" style="background-image: url(images/bg_3.jpg);" data-stellar-background-ratio="0.5">
+</center> -->
+<!-- <section class="ftco-counter img" id="section-counter" style="background-image: url(images/bg_3.jpg);" data-stellar-background-ratio="0.5">
 	<div class="container">
 		<div class="row">
 			<div class="col-md-6 col-lg-4 d-flex justify-content-center counter-wrap ftco-animate">
@@ -62,7 +61,7 @@ Nosotros
 			</div>
 		</div>
 	</div>
-</section>
+</section> -->
 
 <section class="ftco-section" style="padding-bottom: 20px; padding-top: 20px;">
 	<div class="container">
@@ -71,7 +70,7 @@ Nosotros
 			</div>
 			<div class="col-md-7 wrap-about py-5 px-4 px-md-5 ftco-animate">
 				<div class="heading-section mb-5">
-					<h2 class="mb-4"><font face="Encode Sans Black">Misión</font></h2>
+					<h2 class="mb-4"><font face="Encode Sans ">Misión</font></h2>
 				</div>
 				<div class="" style="text-align: justify; " >
 					<font face="Verdana">
@@ -87,7 +86,7 @@ Nosotros
 		<div class="row no-gutters">
 			<div class="col-md-7 wrap-about py-5 px-4 px-md-5 ftco-animate">
 				<div class="heading-section mb-5">
-					<h2 class="mb-4"><font face="Encode Sans Black">Visión</font></h2>
+					<h2 class="mb-4"><font face="Encode Sans ">Visión</font></h2>
 				</div>
 				<div class="">
 					<font face="Verdana">
@@ -100,7 +99,7 @@ Nosotros
 		</div>
 	</div>
 </section>
-<section class="ftco-section" style="padding-bottom: 20px; padding-top: 20px;">
+<!-- <section class="ftco-section" style="padding-bottom: 20px; padding-top: 20px;">
 	<div class="container">
 		<div class="row no-gutters">
 			<div class="col-md-5 p-md-5 img img-2 mt-5 mt-md-0" style="background-image: url(images/inicio1.png); ">
@@ -117,7 +116,7 @@ Nosotros
 			</div>
 		</div>
 	</div>
-</section>
+</section> -->
 <section class="ftco-section ftco-no-pt ftco-no-pb">
 	<div class="container p-0">
 		<div class="row justify-content-center my-4">
@@ -146,7 +145,7 @@ Nosotros
 	<div class="container">
 		<div class="row justify-content-center mb-5 pb-2">
 			<div class="col-md-8 text-center heading-section ftco-animate">
-				<h2 class="mb-4">Nuestros valores</h2>
+				<font face="Encode Sans"><h2 class="mb-4">Nuestros valores</h2></font>
 			</div>
 		</div>
 		<div class="row">

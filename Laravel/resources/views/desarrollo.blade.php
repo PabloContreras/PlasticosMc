@@ -10,8 +10,8 @@ Desarrollo
 	<div class="container">
 		<div class="row no-gutters slider-text align-items-center justify-content-center">
 			<div class="col-md-9 ftco-animate text-center">
-				<h1 class="mb-2 bread">Desarrollo<h1>
-					<p class="breadcrumbs"><span class="mr-2"><a href="{{ route('inicio') }}">Inicio <i class="ion-ios-arrow-forward"></i></a></span> <span>Desarrollo<i class="ion-ios-arrow-forward"></i></span></p>
+				<font face="Encode Sans"><h1 class="mb-2 bread">Desarrollo<h1></font>
+					<!-- <p class="breadcrumbs"><span class="mr-2"><a href="{{ route('inicio') }}">Inicio <i class="ion-ios-arrow-forward"></i></a></span> <span>Desarrollo<i class="ion-ios-arrow-forward"></i></span></p> -->
 				</div>
 			</div>
 		</div>

@@ -80,19 +80,7 @@
               @csrf
               <div class="card-header card-header-primary text-center">
                 <h4 class="card-title">Inicio</h4>
-                <div class="social-line">
-                  <a href="#pablo" class="btn btn-just-icon btn-link">
-                    <i class="fa fa-facebook-square"></i>
-                  </a>
-                  <a href="#pablo" class="btn btn-just-icon btn-link">
-                    <i class="fa fa-twitter"></i>
-                  </a>
-                  <a href="#pablo" class="btn btn-just-icon btn-link">
-                    <i class="fa fa-google-plus"></i>
-                  </a>
-                </div>
               </div>
-              <p class="description text-center">O inicio clásico</p>
               <div class="card-body">
                 <div class="input-group">
                   <div class="input-group-prepend">
@@ -142,7 +130,7 @@
     <div class="container">
       <nav class="float-left">
         <ul>
-          <li>
+          <!-- <li>
             <a class="nav-link" rel="tooltip" title="" data-placement="bottom" href="#" target="_blank" data-original-title="Síguenos en Twitter">
               <i class="fa fa-twitter"></i>
             </a>
@@ -156,7 +144,7 @@
             <a class="nav-link" rel="tooltip" title="" data-placement="bottom" href="#" target="_blank" data-original-title="Síguenos en Instagram">
               <i class="fa fa-instagram"></i>
             </a>
-          </li>
+          </li> -->
         </ul>
       </nav>
       <div class="copyright float-right">

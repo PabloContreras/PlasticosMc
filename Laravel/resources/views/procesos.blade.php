@@ -10,8 +10,8 @@ Mercados y clientes
 	<div class="container">
 		<div class="row no-gutters slider-text align-items-center justify-content-center">
 			<div class="col-md-9 ftco-animate text-center">
-				<h1 class="mb-2 bread">Mercados<h1>
-					<p class="breadcrumbs"><span class="mr-2"><a href="{{ route('inicio') }}">Inicio <i class="ion-ios-arrow-forward"></i></a></span> <span>Mercados<i class="ion-ios-arrow-forward"></i></span></p>
+				<font face="Encode Sans"><h1 class="mb-2 bread" >Mercados<h1></font>
+					<!-- <p class="breadcrumbs"><span class="mr-2"><a href="{{ route('inicio') }}">Inicio <i class="ion-ios-arrow-forward"></i></a></span> <span>Mercados<i class="ion-ios-arrow-forward"></i></span></p> -->
 				</div>
 			</div>
 		</div>
@@ -31,7 +31,7 @@ Mercados y clientes
 		<div class="container p-0">
 			<div class="row no-gutters justify-content-center mb-4">
 				<div class="col-auto">
-					<h2>Nuestros clientes</h2>
+					<font face="Encode Sans"><h2 style="color:navy;">Nuestros clientes</h2></font>
 				</div>
 			</div>
 			<div class="row justify-content-center">

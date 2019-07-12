@@ -10,12 +10,12 @@ Responsabilidad social
 <center>
 	<div class="col-md-8 wrap-about py-5 ftco-animate" style="color:navy;">
 		<div class="heading-section mb-5">
-			<h2 class="mb-4">Responsabilidad Social</h2>
+			<h2 class="mb-4"><font face="Encode Sans">Responsabilidad Social</font></h2>
 		</div>
-		<div class="container p-0">
+		<div class="container ">
 			<div class="row justify-content-center my-4">
 				<div class="col-12">
-					<img src="{{ asset('images/responsabilidad.png') }}" style="margin-right: auto; margin-left: auto; display: block" alt="" width="70%">
+					<img src="{{ asset('images/responsabilidad.png') }}" style="margin-right: auto; margin-left: auto; display: block" alt="" width="100%">
 				</div>
 			</div>
 		</div>
