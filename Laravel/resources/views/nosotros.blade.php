@@ -6,7 +6,7 @@ Nosotros
 
 @section('contenido')
 <!-- END nav -->
-<section class="hero-wrap hero-wrap-2" style="background-image: url('images/bg_1.jpg');" data-stellar-background-ratio="0.5">
+<section class="hero-wrap hero-wrap-2" style="background-image: url('images/bg_1.png');" data-stellar-background-ratio="0.5">
 	<div class="overlay"></div>
 	<div class="container">
 		<div class="row no-gutters slider-text align-items-center justify-content-center">
@@ -66,7 +66,7 @@ Nosotros
 <section class="ftco-section" style="padding-bottom: 20px; padding-top: 20px;">
 	<div class="container">
 		<div class="row no-gutters">
-			<div class="col-md-5 p-md-5 img img-2 mt-5 mt-md-0" style="background-image: url(images/mision.JPG);">
+			<div class="col-md-5 p-md-5 img img-2 mt-5 mt-md-0" style="background-image: url(images/IMG_0363.JPG);">
 			</div>
 			<div class="col-md-7 wrap-about py-5 px-4 px-md-5 ftco-animate">
 				<div class="heading-section mb-5">
@@ -99,10 +99,10 @@ Nosotros
 		</div>
 	</div>
 </section>
-<!-- <section class="ftco-section" style="padding-bottom: 20px; padding-top: 20px;">
+<section class="ftco-section" style="padding-bottom: 20px; padding-top: 20px;">
 	<div class="container">
 		<div class="row no-gutters">
-			<div class="col-md-5 p-md-5 img img-2 mt-5 mt-md-0" style="background-image: url(images/inicio1.png); ">
+			<div class="col-md-5 p-md-5 img img-2 mt-5 mt-md-0" style="background-image: url(images/innovacion.png); ">
 			</div>
 			<div class="col-md-7 wrap-about py-5 px-4 px-md-5 ftco-animate">
 				<div class="heading-section mb-5">
@@ -116,16 +116,8 @@ Nosotros
 			</div>
 		</div>
 	</div>
-</section> -->
-<section class="ftco-section ftco-no-pt ftco-no-pb">
-	<div class="container p-0">
-		<div class="row justify-content-center my-4">
-			<div class="col-12">
-				<img src="{{ asset('images/POLITCA-DE-CALIDA-MC-WEB.jpg') }}" style="margin-right: auto; margin-left: auto; display: block" alt="" width="70%">
-			</div>
-		</div>
-	</div>
 </section>
+
 
 
 
@@ -152,7 +144,7 @@ Nosotros
 			<div class="col-md-6 col-lg-3 ftco-animate">
 				<div class="staff">
 					<div class="img-wrap d-flex align-items-stretch">
-						<div class="img align-self-stretch" style="background-image: url(images/team-1.jpg);"></div>
+						<div class="img align-self-stretch" style="background-image: url(images/IMG_0375.JPG);"></div>
 					</div>
 					<div class="text pt-3 text-center">
 						<span class="position mb-2">Trabajo en equipo</span>
@@ -162,7 +154,7 @@ Nosotros
 			<div class="col-md-6 col-lg-3 ftco-animate">
 				<div class="staff">
 					<div class="img-wrap d-flex align-items-stretch">
-						<div class="img align-self-stretch" style="background-image: url(images/team-2.jpg);"></div>
+						<div class="img align-self-stretch" style="background-image: url(images/IMG_0146.JPG);"></div>
 					</div>
 					<div class="text pt-3 text-center">
 						<span class="position mb-2">Innovación</span>
@@ -172,7 +164,7 @@ Nosotros
 			<div class="col-md-6 col-lg-3 ftco-animate">
 				<div class="staff">
 					<div class="img-wrap d-flex align-items-stretch">
-						<div class="img align-self-stretch" style="background-image: url(images/team-3.jpg);"></div>
+						<div class="img align-self-stretch" style="background-image: url(images/IMG_0226.JPG);"></div>
 					</div>
 					<div class="text pt-3 text-center">
 						<span class="position mb-2">Integridad</span>

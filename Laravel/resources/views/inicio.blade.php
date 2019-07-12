@@ -99,7 +99,7 @@ Inicio
 					<div class="row justify-content-center	">
 						<div class="col-md-7 wrap-about py-5 px-4 px-md-4 ftco-animate" >
 							<div class="heading-section mb-5">
-								<h2 class="mb-4"><font face="Endode Sans">Quiénes somos</font></h2>
+								<h2 class="mb-4"><font face="Endode Sans">Nuestra Compañía</font></h2>
 							</div>
 							<div class="col-md-12" style="text-align: justify; ">
 								<font face="Verdana">
@@ -132,7 +132,7 @@ Inicio
 							<div id="carouselTiempo" class="carousel slide" data-ride="carousel">
 								<div class="carousel-inner" >
 									<div class="carousel-item active">
-										<img class="d-block w-100" src="images/productos_marca-Agua/collage productos-02.png">
+										<img class="d-block w-100"  style="height: 566px;"  src="images/productos_marca-Agua/collage productos-02.png">
 									</div>
 									<div class="carousel-item">
 										<img class="d-block w-100"  style="height: 566px;" src="images/productos_marca-Agua/collage productos-03.png" >
