@@ -16,54 +16,69 @@ Calidad
 			</div>
 		</div>
 	</section>
+	<!-- <section class="ftco-intro" style="background-image: url(images/bg_3.jpg);" >
+				<div class="overlay"></div>
+				<div class="container">
+					<div class="row justify-content-center">
+						<div class="col-md-9 text-center">
+							<font face="Verdana"><h3>
+								Estamos comprometidos en cumplir con las expectativas y requerimientos de nuestros clientes. Hacer bien las cosas a la primera  a través de la filosofía “Cero defectos”
+							</h3></font>
+						</div>
+					</div>
+				</div>
+			</section> -->
 
-<section class="ftco-section ftco-no-pt ftco-no-pb">
-	<div class="container p-0">
-		<div class="row justify-content-center my-4">
-			<div class="col-12">
-				<img src="{{ asset('images/POLITCA-DE-CALIDA-MC-WEB.jpg') }}" style="margin-right: auto; margin-left: auto; display: block" alt="" width="70%">
-			</div>
-		</div>
-	</div>
-</section>
+			<section>
+				<center>
+					<div class="col-md-11 py-5" style="text-align: justify;">
+						<font face="Verdana">
+							<h2>
+								Estamos comprometidos en cumplir con las expectativas y requerimientos de nuestros clientes. Hacer bien las cosas a la primera  a través de la filosofía “Cero defectos”
+							</h2>
+						</font>
+					</div>
+				</center>
 
-	<section class="ftco-section ftco-no-pt ftco-no-pb">
-		<div class="container p-0">
-			<div class="row no-gutters justify-content-center mb-4">
-				<div class="col-auto">
-					<font face="Encode Sans"><h2 style="color:navy;">Nuestros clientes</h2></font>
+			</section>
+
+			<section>
+				<center>
+					<div class="col-md-11 py-5 text-center" style="text-align: justify;">
+						<font face="Encode Sans">
+							<h1>
+								Política de Calidad
+							</h1>
+						</font>
+
+						<font face="Verdana" style="text-align: justify;">
+							<h3>
+								En <strong>Grupo MC</strong>, estamos comprometidos con nuestros clientes a brindar productos y                servicios de calidad que cumplan con las  especificaciones requeridas. Trabajamos con             colaboradores enfocados al cumplimiento de los objetivos de calidad. Nos esforzamos por la mejora continua en nuestros procesos y nos aseguramos de cumplir con los requisitos                     legales y reglamentarios.
+							</h3>
+						</font>
+					</div>
+				</center>
+
+			</section>
+
+			<section class="ftco-section" style="padding-bottom: 20px; padding-top: 20px;">
+				<div class="container">
+					<div class="row no-gutters">
+						<div class="col-md-5 p-md-5 img img-2 mt-5 mt-md-0" style="background-image: url(images/innovacion.png); ">
+						</div>
+						<div class="col-md-7 wrap-about py-5 px-4 px-md-5 ftco-animate">
+							<div class="heading-section mb-5">
+								<h2 class="mb-4"><font face="Encode Sans Black">Innovación</font></h2>
+							</div>
+							<font face="Verdana">
+								<div class=""  style=" fac text-align: justify;  ">
+									<p>MC Plásticos tiene diferentes productos, trabajamos de la mano con nuestros clientes, basándonos en sus diseños, especificaciones y muestras para la elaboración de cada producto, anteponiendo la innovación en nuestros procesos y la más alta tecnología en plástico.</p>
+								</div>
+							</font>
+						</div>
+					</div>
 				</div>
-			</div>
-			<div class="row justify-content-center">
-				<div class="col-4">
-					<img class="img-fluid" src="{{ asset('images/clientes/avon.png') }}" style="margin-right: auto; margin-left: auto; display: block" alt="" width="60%">
-				</div>
-				<div class="col-4">
-					<img src="{{ asset('images/clientes/coty.png') }}" style="margin-right: auto; margin-left: auto; display: block" alt="" width="60%">
-				</div>
-				<div class="col-4">
-					<img src="{{ asset('images/clientes/loreal.png') }}" style="margin-right: auto; margin-left: auto; display: block" alt="" width="60%">
-				</div>
-			</div>
-			<div class="row justify-content-center my-4">
-				<div class="col-4">
-					<img src="{{ asset('images/clientes/revlon.png') }}" style="margin-right: auto; margin-left: auto; display: block" alt="" width="60%">
-				</div>
-				<div class="col-4">
-					<img src="{{ asset('images/clientes/missionhills.png') }}" style="margin-right: auto; margin-left: auto; display: block" alt="" width="60%">
-				</div>
-				<div class="col-4">
-					<img src="{{ asset('images/clientes/fortalab.png') }}" style="margin-right: auto; margin-left: auto; display: block" alt="" width="60%">
-				</div>
-			</div>
-			<div class="row justify-content-center my-4">
-				<div class="col-4">
-					<img src="{{ asset('images/clientes/wella.png') }}" style="margin-right: auto; margin-left: auto; display: block" alt="" width="60%">
-				</div>
-				<div class="col-4">
-					<img src="{{ asset('images/clientes/smasac.png') }}" style="margin-right: auto; margin-left: auto; display: block" alt="" width="60%">
-				</div>
-			</div>
-		</div>
-	</section>
-	@endsection
+			</section>
+
+
+			@endsection

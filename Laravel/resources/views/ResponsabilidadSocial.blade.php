@@ -8,7 +8,7 @@ Responsabilidad social
 
 
 <center>
-	<div class="col-md-10 wrap-about py-5 ftco-animate justify-content-center" style="color:navy;">
+	<div class="col-md-10	 wrap-about py-5 ftco-animate justify-content-center" style="color:navy;">
 		<div class="heading-section mb-5">
 			<h2 class="mb-4"><font face="Encode Sans">Responsabilidad Social</font></h2>
 		</div>

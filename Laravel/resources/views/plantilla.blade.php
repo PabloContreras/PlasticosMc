@@ -52,7 +52,7 @@
 				<div class="collapse navbar-collapse" id="ftco-nav" style="background-color: white">
 					<ul class="navbar-nav mr-auto">
 						<li class="nav-item active">
-							<a class="nav-link" href="{{ url('/nosotros') }}">Nuestra Compañía</a>
+							<a class="nav-link" href="{{ url('/nosotros') }}">Nuestra Filosofía</a>
 							{{--<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Nuestra compañía</a>
 							<div class="dropdown-menu">
 								<a class="dropdown-item" href="#">Historia</a>
@@ -63,7 +63,16 @@
 								<a class="dropdown-item" href="#">Responsabilidad social</a>
 							</div>--}}
 						</li>
-						<li class="nav-item active"><a href="{{ url('/procesos') }}" class="nav-link pl-0" >Procesos, Servicios y Mercados</a></li>
+						<li class="nav-item active">
+							<a class="nav-link" href="{{ route('mercados.clientes') }}">Calidad</a>
+							{{-- 						<div class="dropdown-menu">
+								<a class="dropdown-item"> Mercados</a>
+								<a class="dropdown-item"> Clientes</a>
+								<a class="dropdown-item" href="#">Clientes internacionales</a>
+								<a class="dropdown-item"> Buzón de clientes</a>
+							</div> --}}
+						</li>
+						<li class="nav-item active"><a href="{{ url('/procesos') }}" class="nav-link pl-0" >Procesos, Servicios y Clientes</a></li>
 						{{--<li class="nav-item dropdown">
 							<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Procesos y servicios</a>
 							<div class="dropdown-menu">
@@ -76,15 +85,7 @@
 								<a class="dropdown-item" href="#">Soplo</a>
 							</div>--}}
 						</li>
-						<li class="nav-item active">
-							<a class="nav-link" href="{{ route('mercados.clientes') }}">Calidad</a>
-							{{-- 						<div class="dropdown-menu">
-								<a class="dropdown-item"> Mercados</a>
-								<a class="dropdown-item"> Clientes</a>
-								<a class="dropdown-item" href="#">Clientes internacionales</a>
-								<a class="dropdown-item"> Buzón de clientes</a>
-							</div> --}}
-						</li>
+						
 						<li class="nav-item active">
 							<a class="nav-link" href="{{ url('/desarrollo') }}">Desarrollo</a>
 							{{--<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Desarrollo</a>
