@@ -10,7 +10,7 @@ Calidad
 	<div class="container">
 		<div class="row no-gutters slider-text align-items-center justify-content-center">
 			<div class="col-md-9 ftco-animate text-center">
-				<font face="Encode Sans"><h1 class="mb-2 bread" >Mercados<h1></font>
+				<font face="Encode Sans"><h1 class="mb-2 bread" >Calidad<h1></font>
 					<!-- <p class="breadcrumbs"><span class="mr-2"><a href="{{ route('inicio') }}">Inicio <i class="ion-ios-arrow-forward"></i></a></span> <span>Mercados<i class="ion-ios-arrow-forward"></i></span></p> -->
 				</div>
 			</div>
