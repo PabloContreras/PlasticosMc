@@ -132,21 +132,21 @@ Inicio
 							<div id="carouselTiempo" class="carousel slide" data-ride="carousel">
 								<div class="carousel-inner" >
 									<div class="carousel-item active">
-										<img class="d-block w-100" src="images/productos_marca-Agua/productos con base-03.png">
+										<img class="d-block w-100" src="images/productos_marca-Agua/collage productos-02.png">
 									</div>
 									<div class="carousel-item">
-										<img class="d-block w-100"  style="height: 566px;" src="images/productos_marca-Agua/productos con base-04.png" >
+										<img class="d-block w-100"  style="height: 566px;" src="images/productos_marca-Agua/collage productos-03.png" >
 									</div>
 									<div class="carousel-item">
-										<img class="d-block w-100" style="height: 566px;" src="images/productos_marca-Agua/productos con base-05.png" >
+										<img class="d-block w-100" style="height: 566px;" src="images/productos_marca-Agua/collage productos-04.png" >
 									</div>
 									<div class="carousel-item">
-										<img class="d-block w-100" style="height: 566px;" src="images/productos_marca-Agua/productos con base-06.png" >
+										<img class="d-block w-100" style="height: 566px;" src="images/productos_marca-Agua/collage productos-05.png" >
 									</div>
 									<div class="carousel-item">
-										<img class="d-block w-100" style="height: 566px;" src="images/productos_marca-Agua/productos con base-07.png" >
+										<img class="d-block w-100" style="height: 566px;" src="images/productos_marca-Agua/collage productos_Mesa de trabajo 1.png" >
 									</div>
-									<div class="carousel-item ">
+									<!--<div class="carousel-item ">
 										<img class="d-block w-100" style="height: 566px;" src="images/productos_marca-Agua/productos con base-09.png">
 									</div>
 									<div class="carousel-item">
@@ -211,7 +211,7 @@ Inicio
 									</div>
 									<div class="carousel-item">
 										<img class="d-block w-100" style="height: 566px;" scr="images/productos_marca-Agua/productos-con-base-02.png" >
-									</div>
+									</div> -->
 								</div>
 							</div>
 						</div>
