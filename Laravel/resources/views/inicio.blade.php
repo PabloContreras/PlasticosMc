@@ -86,7 +86,7 @@ Inicio
 				<div class="container">
 					<div class="row justify-content-center">
 						<div class="col-md-9 text-center">
-							<h2>MC Plásticos es el resultado de una historia de más de 40 años de esfuerzo y dedicación...</h2>
+							<font face="Verdana"><h2>MC Plásticos es el resultado de una historia de más de 40 años de esfuerzo y dedicación...</h2></font>
 						</div>
 					</div>
 				</div>
@@ -146,72 +146,6 @@ Inicio
 									<div class="carousel-item">
 										<img class="d-block w-100" style="height: 566px;" src="images/productos_marca-Agua/collage productos_Mesa de trabajo 1.png" >
 									</div>
-									{!--<div class="carousel-item ">
-										<img class="d-block w-100" style="height: 566px;" src="images/productos_marca-Agua/productos con base-09.png">
-									</div>
-									<div class="carousel-item">
-										<img class="d-block w-100" style="height: 566px;" src="images/productos_marca-Agua/productos con base-14.png" >
-									</div>
-									<div class="carousel-item">
-										<img class="d-block w-100" style="height: 566px;" src="images/productos_marca-Agua/productos con base-15.png" >
-									</div>
-									<div class="carousel-item">
-										<img class="d-block w-100" style="height: 566px;" src="images/productos_marca-Agua/productos con base-16.png" >
-									</div>
-									<div class="carousel-item">
-										<img class="d-block w-100" style="height: 566px;" src="images/productos_marca-Agua/productos con base-17.png" >
-									</div>
-									<div class="carousel-item ">
-										<img class="d-block w-100" style="height: 566px;" src="images/productos_marca-Agua/productos con base-18.png">
-									</div>
-									<div class="carousel-item">
-										<img class="d-block w-100" style="height: 566px;" src="images/productos_marca-Agua/productos con base-19.png" >
-									</div>
-									<div class="carousel-item">
-										<img class="d-block w-100" style="height: 566px;" src="images/productos_marca-Agua/productos con base-21.png" >
-									</div>
-									<div class="carousel-item">
-										<img class="d-block w-100" style="height: 566px;" src="images/productos_marca-Agua/productos con base-23.png" >
-									</div>
-									<div class="carousel-item">
-										<img class="d-block w-100" style="height: 566px;" src="images/productos_marca-Agua/productos con base-24.png" >
-									</div>
-									<div class="carousel-item ">
-										<img class="d-block w-100" style="height: 566px;" src="images/productos_marca-Agua/productos con base-25.png">
-									</div>
-									<div class="carousel-item">
-										<img class="d-block w-100" style="height: 566px;" src="images/productos_marca-Agua/productos con base-26.png" >
-									</div>
-									<div class="carousel-item">
-										<img class="d-block w-100" style="height: 566px;"src="images/productos_marca-Agua/productos con base-27.png" >
-									</div>
-									<div class="carousel-item">
-										<img class="d-block w-100" style="height: 566px;"src="images/productos_marca-Agua/productos con base-28.png" >
-									</div>
-									<div class="carousel-item">
-										<img class="d-block w-100" style="height: 566px;"src="images/productos_marca-Agua/productos con base-29.png" >
-									</div>
-									<div class="carousel-item">
-										<img class="d-block w-100"style="height: 566px;" src="images/productos_marca-Agua/productos con base-30.png">
-									</div>
-									<div class="carousel-item">
-										<img class="d-block w-100" style="height: 566px;"src="images/productos_marca-Agua/productos con base-31.png" >
-									</div>
-									<div class="carousel-item">
-										<img class="d-block w-100" style="height: 566px;"src="images/productos_marca-Agua/productos con base-32.png" >
-									</div>
-									<div class="carousel-item">
-										<img class="d-block w-100" style="height: 566px;"src="images/productos_marca-Agua/productos con base-33.png" >
-									</div>
-									<div class="carousel-item">
-										<img class="d-block w-100" style="height: 566px;"src="images/productos_marca-Agua/productos con base-34.png" >
-									</div>
-									<div class="carousel-item">
-										<img class="d-block w-100" style="height: 566px;" src="images/productos_marca-Agua/productos con base_Mesa de trabajo 1.png" >
-									</div>
-									<div class="carousel-item">
-										<img class="d-block w-100" style="height: 566px;" scr="images/productos_marca-Agua/productos-con-base-02.png" >
-									</div> --}
 								</div>
 							</div>
 						</div>

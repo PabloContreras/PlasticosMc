@@ -125,7 +125,7 @@
 		@yield('contenido')
 		<!-- End contacto -->
 		<!-- Footer -->
-		<font face="Verdana">
+		<font face="Encode Sans">
 			<footer class="ftco-footer ftco-bg-dark ftco-section" style="padding-top: 20px; padding-bottom: 0px; ">
 				<div class="container">
 					<div class="row mb-5">

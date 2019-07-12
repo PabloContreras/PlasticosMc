@@ -1591,6 +1591,7 @@ pre {
     border: 0; }
 
 .form-control {
+  font-family: Verdana !important;
   display: block;
   width: 100%;
   height: calc(2.25rem + 2px);
@@ -7984,7 +7985,7 @@ a.text-dark:hover, a.text-dark:focus {
     border-color: #dee2e6; } }
 
 body {
-  font-family: "Poppins", Arial, sans-serif;
+  font-family: "Poppins", Arial,Verdana, sans-serif;
   background: #fff;
   font-size: 16px;
   line-height: 1.8;

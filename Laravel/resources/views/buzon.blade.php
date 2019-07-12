@@ -10,8 +10,11 @@ Buzon para clientes
 	<div class="container">
 		<div class="row no-gutters slider-text align-items-center justify-content-center">
 			<div class="col-md-9 ftco-animate text-center">
+				<font face="Encode Sans">
 				<h1 class="mb-2 bread">Buzón para clientes</h1>
-				<p class="breadcrumbs"><span class="mr-2"><a href="{{ route('inicio') }}">Inicio <i class="ion-ios-arrow-forward"></i></a></span> <span>Buzón para clientes <i class="ion-ios-arrow-forward"></i></span></p>
+					
+				</font>
+				<!-- <p class="breadcrumbs"><span class="mr-2"><a href="{{ route('inicio') }}">Inicio <i class="ion-ios-arrow-forward"></i></a></span> <span>Buzón para clientes <i class="ion-ios-arrow-forward"></i></span></p> -->
 			</div>
 		</div>
 	</div>
@@ -46,11 +49,14 @@ Buzon para clientes
 	</div>
 </section>
 
-<section class="ftco-section contact-section">
+<!-- <section class="ftco-section contact-section">
 	<div class="container">
 		<div class="row d-flex mb-5 contact-info">
 			<div class="col-md-12 mb-4">
+				<font face="Encode Sans">
 				<h2 class="h4">Información de contacto</h2>
+					
+				</font>
 			</div>
 			<div class="w-100"></div>
 			<div class="col-md-3 d-flex">
@@ -70,6 +76,6 @@ Buzon para clientes
 			</div>
 		</div>
 	</div>
-</section>
+</section> -->
 
 @endsection

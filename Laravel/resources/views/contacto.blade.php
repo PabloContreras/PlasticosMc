@@ -44,12 +44,15 @@ Contacto
 		</div>
 	</div>
 </section>
-
+<!-- 
 <section class="ftco-section contact-section">
 	<div class="container">
 		<div class="row d-flex mb-5 contact-info">
 			<div class="col-md-12 mb-4">
+				<font face="Encode Sans">
 				<h2 class="h4">Información de contacto</h2>
+					
+				</font>
 			</div>
 			<div class="w-100"></div>
 			<div class="col-md-3 d-flex">
@@ -69,5 +72,5 @@ Contacto
 			</div>
 		</div>
 	</div>
-</section>
+</section> -->
 @endsection
