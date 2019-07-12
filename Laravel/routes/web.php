@@ -36,7 +36,7 @@ Route::get('/',['as'=>'inicio','uses'=>'PageController@inicio']);
 
 Route::get('/nosotros',['as'=>'nosotros','uses'=>'PageController@nosotros']);
 
-Route::get('/mercados-clientes',['as'=>'mercados.clientes','uses'=>'PageController@servicios']);
+Route::get('/calidad',['as'=>'mercados.clientes','uses'=>'PageController@servicios']);
 
 Route::get('/contacto',['as'=>'contacto','uses'=>'PageController@contacto']);
 

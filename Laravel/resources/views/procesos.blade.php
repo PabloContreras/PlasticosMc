@@ -1,7 +1,7 @@
 @extends('plantilla')
 
 @section('titulo')
-Mercados y clientes
+Calidad
 @endsection
 
 @section('contenido')
