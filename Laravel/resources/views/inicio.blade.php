@@ -99,7 +99,7 @@ Inicio
 					<div class="row justify-content-center	">
 						<div class="col-md-7 wrap-about py-5 px-4 px-md-4 ftco-animate" >
 							<div class="heading-section mb-5">
-								<h2 class="mb-4"><font face="Endode Sans">Nuestra Compañía</font></h2>
+								<h2 class="mb-4"><font face="Encode Sans">Nuestra Compañía</font></h2>
 							</div>
 							<div class="col-md-12" style="text-align: justify; ">
 								<font face="Verdana">
