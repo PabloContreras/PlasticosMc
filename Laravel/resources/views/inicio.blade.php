@@ -146,7 +146,7 @@ Inicio
 									<div class="carousel-item">
 										<img class="d-block w-100" style="height: 566px;" src="images/productos_marca-Agua/collage productos_Mesa de trabajo 1.png" >
 									</div>
-									<!--<div class="carousel-item ">
+									{!--<div class="carousel-item ">
 										<img class="d-block w-100" style="height: 566px;" src="images/productos_marca-Agua/productos con base-09.png">
 									</div>
 									<div class="carousel-item">
@@ -211,7 +211,7 @@ Inicio
 									</div>
 									<div class="carousel-item">
 										<img class="d-block w-100" style="height: 566px;" scr="images/productos_marca-Agua/productos-con-base-02.png" >
-									</div> -->
+									</div> --}
 								</div>
 							</div>
 						</div>
