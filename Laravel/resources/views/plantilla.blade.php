@@ -63,7 +63,7 @@
 								<a class="dropdown-item" href="#">Responsabilidad social</a>
 							</div>--}}
 						</li>
-						<li class="nav-item active"><a href="{{ url('/procesos') }}" class="nav-link pl-0" >Procesos y Servicios</a></li>
+						<li class="nav-item active"><a href="{{ url('/procesos') }}" class="nav-link pl-0" >Procesos, Servicios y Mercados</a></li>
 						{{--<li class="nav-item dropdown">
 							<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Procesos y servicios</a>
 							<div class="dropdown-menu">
@@ -77,7 +77,7 @@
 							</div>--}}
 						</li>
 						<li class="nav-item active">
-							<a class="nav-link" href="{{ route('mercados.clientes') }}">Mercados</a>
+							<a class="nav-link" href="{{ route('mercados.clientes') }}">Calidad</a>
 							{{-- 						<div class="dropdown-menu">
 								<a class="dropdown-item"> Mercados</a>
 								<a class="dropdown-item"> Clientes</a>
@@ -95,6 +95,8 @@
 								<a class="dropdown-item" href="#">Desarrollo de ideas y nuevos productos</a>
 							</div>--}}
 						</li>
+						
+						<li class="nav-item active"><a href="{{ route('ResponsabilidadSocial') }}" class="nav-link pl-0" style="margin-left: 15px">Responsabilidad social</a></li>
 						<li class="nav-item dropdown">
 							<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Carrera</a>
 							<div class="dropdown-menu">
@@ -103,62 +105,62 @@
 								
 							</div>
 						</li>
-						<li class="nav-item active"><a href="{{ route('ResponsabilidadSocial') }}" class="nav-link pl-0" style="margin-left: 15px">Responsabilidad social</a></li>
 						<li class="nav-item active">
-							<a href="{{ url('/buzon')}}" class="nav-link pl-0" style="margin-left: 15px">Buzón para clientes</a></li>
-							<li class="nav-item dropdown">
-								<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Contacto</a>
-								<div class="dropdown-menu">
-									<a class="dropdown-item" href="#">Teléfono: (722) 276 65 70</a>
-									<a class="dropdown-item" href="#">Correo: info@mcplasticos.com</a>
-								</div>
-							</li>
-							<li class="nav-item dropdown">
-								<a class="nav-link" href="{{ url('/employee/login') }}" role="button" aria-haspopup="true" aria-expanded="false"><i class="icon-person"></i></a>
-							</li>
+							<a href="{{ url('/buzon')}}" class="nav-link pl-0" style="margin-left: 15px">Buzón Clientes</a>
+						</li>
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Contacto</a>
+							<div class="dropdown-menu">
+								<a class="dropdown-item" href="#">Teléfono: (722) 276 65 70</a>
+								<a class="dropdown-item" href="#">Correo: info@mcplasticos.com</a>
+							</div>
+						</li>
+						<li class="nav-item dropdown">
+							<a class="nav-link" href="{{ url('/employee/login') }}" role="button" aria-haspopup="true" aria-expanded="false"><i class="icon-person"></i></a>
+						</li>
 
-						</ul>
-					</div>
+					</ul>
 				</div>
-			</nav>
-		</font>
-		@yield('contenido')
-		<!-- End contacto -->
-		<!-- Footer -->
-		<font face="Encode Sans">
-			<footer class="ftco-footer ftco-bg-dark ftco-section" style="padding-top: 20px; padding-bottom: 0px; ">
-				<div class="container">
-					<div class="row mb-5">
-						<div class="col-md">
-							<div class="ftco-footer-widget mb-5">
-								<font face="Encode Sans">
-									<h2 class="ftco-heading-2 logo"><img src="images/mc.png" width="80" height="80" class="d-inline-block align-top" alt="" style="margin-left: 30px; "><br>MC Plásticos</h2>
-								</font>
-								<!--<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>-->
-								<p><i class="fas fa-map-marker-alt"></i> <span style="color:navy;">Dirección:</span> <a href="maps://Av. Central No. 211, Parque Industrial Toluca 2000 C.P. 50200, Toluca, Estado de México."> <br>Av. Central No. 211, Parque Industrial Toluca 2000 C.P. 50233, Toluca, Estado de México.</a> </p>
+			</div>
+		</nav>
+	</font>
+	@yield('contenido')
+	<!-- End contacto -->
+	<!-- Footer -->
+	<font face="Encode Sans">
+		<footer class="ftco-footer ftco-bg-dark ftco-section" style="padding-top: 20px; padding-bottom: 0px; ">
+			<div class="container">
+				<div class="row mb-5">
+					<div class="col-md">
+						<div class="ftco-footer-widget mb-5">
+							<font face="Encode Sans">
+								<h2 class="ftco-heading-2 logo"><img src="images/mc.png" width="80" height="80" class="d-inline-block align-top" alt="" style="margin-left: 30px; "><br>MC Plásticos</h2>
+							</font>
+							<!--<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>-->
+							<p><i class="fas fa-map-marker-alt"></i> <span style="color:navy;">Dirección:</span> <a href="maps://Av. Central No. 211, Parque Industrial Toluca 2000 C.P. 50200, Toluca, Estado de México."> <br>Av. Central No. 211, Parque Industrial Toluca 2000 C.P. 50233, Toluca, Estado de México.</a> </p>
 
-								<p><i class="fas fa-phone"></i><span style="color:navy;"> Llámanos: <br>
-								</span>
-								01 (722) 2766570
-							</p>
+							<p><i class="fas fa-phone"></i><span style="color:navy;"> Llámanos: <br>
+							</span>
+							01 (722) 2766570
+						</p>
 
 
-							<p>
-								<i class="fas fa-globe-americas"></i>
-								<span style="color: navy;"> Sitio web: <br>
-									<a href="http://mcplasticos.com">www.mcplasticos.com</a>
-								</span>
-							</p>
+						<p>
+							<i class="fas fa-globe-americas"></i>
+							<span style="color: navy;"> Sitio web: <br>
+								<a href="http://mcplasticos.com">www.mcplasticos.com</a>
+							</span>
+						</p>
 
-							<p><i class="fas fa-at"></i> <span style="color:navy;">info@mcplasticos.com</span></p>
-							{{--<ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-3">
-								<li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
-								<li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
-								<li class="ftco-animate"><a href="#"><span class="icon-instagram"></span></a></li>
-							</ul>--}}
-						</div>
-
+						<p><i class="fas fa-at"></i> <span style="color:navy;">info@mcplasticos.com</span></p>
+						{{--<ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-3">
+							<li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
+							<li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
+							<li class="ftco-animate"><a href="#"><span class="icon-instagram"></span></a></li>
+						</ul>--}}
 					</div>
+
+				</div>
 				<!-- <div class="col-md">
 					<div class="ftco-footer-widget mb-5 ml-md-4">
 						<h2 class="ftco-heading-2">Servicios</h2>
