@@ -107,7 +107,7 @@ Inicio
 								</font>
 							</div>
 						</div>
-						<div  class="col-md-4 p-md-5 img img-2 mt-6 mt-md-0" style="background-image: url(images/Imagen1.jpg);">
+						<div  class="col-md-4 p-md-5 img img-2 mt-6 mt-md-0" style="background-image: url(images/IMG_0356.JPG);">
 						</div>
 					</div>
 				</div>
