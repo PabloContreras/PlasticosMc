@@ -8986,7 +8986,8 @@ h1, h2, h3, h4, h5,
 
 .form-control {
   height: 52px !important;
-  background: #fff !important;
+  /*background: #fff;*/
+  background: #E8E5EC;
   color: #000000 !important;
   font-size: 18px;
   border-radius: 0px;

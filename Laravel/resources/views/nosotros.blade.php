@@ -66,7 +66,7 @@ Nosotros
 <section class="ftco-section" style="padding-bottom: 20px; padding-top: 20px;">
 	<div class="container">
 		<div class="row no-gutters">
-			<div class="col-md-5 p-md-5 img img-2 mt-5 mt-md-0" style="background-image: url(images/IMG_0363.JPG);">
+			<div class="col-md-5 p-md-5 img img-2 mt-5 mt-md-0" style="background-image: url(images/mision1.jpg);">
 			</div>
 			<div class="col-md-7 wrap-about py-5 px-4 px-md-5 ftco-animate">
 				<div class="heading-section mb-5">
@@ -123,27 +123,27 @@ Nosotros
 	<div class="container">
 		<div class="row justify-content-center mb-5 pb-2">
 			<div class="col-md-8 text-center heading-section ftco-animate">
-				<font face="Encode Sans"><h2 class="mb-4">Nuestros valores</h2></font>
+				<font face="Encode Sans"><h2 class="mb-4" >Nuestros valores</h2></font>
 			</div>
 		</div>
 		<div class="row">
 			<div class="col-md-6 col-lg-3 ftco-animate">
 				<div class="staff">
 					<div class="img-wrap d-flex align-items-stretch">
-						<div class="img align-self-stretch" style="background-image: url(images/IMG_0375.JPG);"></div>
+						<div class="img align-self-stretch" style="background-image: url(images/equipo.jpg);"></div>
 					</div>
-					<div class="text pt-3 text-center">
-						<span class="position mb-2">Trabajo en equipo</span>	
+					<div class="text pt-3 text-center" style="background-color: #0d3a5c;">
+						<span class="position mb-2" style="color: white;">Trabajo en equipo</span>	
 					</div>
 				</div>
 			</div>
 			<div class="col-md-6 col-lg-3 ftco-animate">
 				<div class="staff">
 					<div class="img-wrap d-flex align-items-stretch">
-						<div class="img align-items-center" style="background-image: url(images/IMG_0146.png);  "></div>
+						<div class="img align-items-center" style="background-image: url(images/innova.jpg);  "></div>
 					</div>
-					<div class="text pt-3 text-center">
-						<span class="position mb-2">Innovación</span>
+					<div class="text pt-3 text-center" style="background-color: #0d3a5c;">
+						<span class="position mb-2" style="color: white;">Innovación</span>
 					</div>
 				</div>
 			</div>
@@ -152,18 +152,18 @@ Nosotros
 					<div class="img-wrap d-flex align-items-stretch">
 						<div class="img align-self-stretch" style="background-image: url(images/IMG_0226.JPG);"></div>
 					</div>
-					<div class="text pt-3 text-center">
-						<span class="position mb-2">Integridad</span>
+					<div class="text pt-3 text-center" style="background-color: #0d3a5c;">
+						<span class="position mb-2" style="color: white;">Integridad</span>
 					</div>
 				</div>
 			</div>
 			<div class="col-md-6 col-lg-3 ftco-animate">
 				<div class="staff">
 					<div class="img-wrap d-flex align-items-stretch">
-						<div class="img align-self-stretch" style=" background-image: url(images/team-4.jpg);"></div>
+						<div class="img align-self-stretch" style=" background-image: url(images/servicio_excelencia.jpg);"></div>
 					</div>
-					<div class="text pt-3 text-center">
-						<span class="position mb-2">Servicio de excelencia</span>
+					<div class="text pt-3 text-center" style="background-color: #0d3a5c;">
+						<span class="position mb-2" style="color: white;">Servicio de excelencia</span>
 					</div>
 				</div>
 			</div>

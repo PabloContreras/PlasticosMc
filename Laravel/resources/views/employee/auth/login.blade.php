@@ -19,34 +19,42 @@
   <link href="{{ asset('/css/material-kit.css?v=2.0.4') }}" rel="stylesheet" />
   <!-- CSS Just for demo purpose, don't include it in your project -->
   <!--<link href="../assets/demo/demo.css" rel="stylesheet" />-->
+  <style>          
+           body::after {
+             content: "";
+             background: url(/images/work-5.jpg);
+             opacity: 0.4;
+             top: 0;
+             left: 0;
+             bottom: 0;
+             right: 0;
+             background-size: cover; 
+             background-position: top center;
+             position: absolute;
+             z-index: -1;   
+           }           
+        </style>
 </head>
-
 <body class="landing-page sidebar-collapse">
   <nav class="navbar navbar-transparent navbar-color-on-scroll fixed-top navbar-expand-lg" color-on-scroll="100" id="sectionsNav">
     <div class="container">
       <div class="navbar-translate">
         <a class="navbar-brand" href="{{ url('/')}}">
-          <img src="/images/favicon.png" style="width: 40px"> </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="sr-only">Toggle navigation</span>
-          <span class="navbar-toggler-icon"></span>
-          <span class="navbar-toggler-icon"></span>
-          <span class="navbar-toggler-icon"></span>
-        </button>
+          <img src="/images/favicon.png" style="width: 40px;"> </a>
       </div>
       <div class="collapse navbar-collapse">
         <ul class="navbar-nav ml-auto">
           
           <!-- Authentication Links -->
           @guest
-              <li class="nav-item">
-                  <a class="nav-link" href="{{ route('login') }}">{{ __('Entrar') }}</a>
+              {{--<li class="nav-item">
+                  <a class="nav-link" href="{{ url('employee/login') }}">{{ __('Entrar') }}</a>
               </li>
               @if (Route::has('register'))
                   <li class="nav-item">
-                      <a class="nav-link" href="{{ route('register') }}">{{ __('Registro') }}</a>
+                      <a class="nav-link" href="{{ url('employee/register') }}">{{ __('Registro') }}</a>
                   </li>
-              @endif
+              @endif--}}
           @else
               <li class="nav-item dropdown">
                   <a id="navbarDropdown" class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
@@ -71,8 +79,17 @@
       </div>
     </div>
   </nav>
-  <div class="page-header header-filter" style="background-image: url('/images/work-5.jpg'); background-size: cover; background-position: top center;">
+  <div class="page-header header-filter" >
     <div class="container">
+      <center>
+        <b>
+          <br>
+          <h1 style="font-weight:200px;">Todos somos... 
+          <img src="{{ asset('/images/favicon.png') }}" style="width: 150px;">
+          </h1> 
+        </b>
+      </center>
+      <br><br>
       <div class="row">
         <div class="col-lg-4 col-md-6 ml-auto mr-auto">
           <div class="card card-login">

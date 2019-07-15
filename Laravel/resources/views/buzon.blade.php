@@ -20,13 +20,13 @@ Buzon para clientes
 	</div>
 </section>
 
-<section class="ftco-section ftco-no-pt ftco-no-pb contact-section ">
+<section class="ftco-section ftco-no-pt ftco-no-pb contact-section" >
 	<div class="container">
 		<div class="row d-flex align-items-stretch no-gutters justify-content-around">
 			<div class="col-md-6 p-6 p-md-5 order-md-last bg-light">
 				<form action="#">
 					<div class="form-group">
-						<input type="text" class="form-control" placeholder="Clave de cliente">
+						<input type="text" class="form-control" placeholder="Clave de cliente" >
 					</div>
 					<div class="form-group">
 						<input type="text" class="form-control" placeholder="Nombre">
