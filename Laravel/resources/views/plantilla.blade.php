@@ -31,19 +31,26 @@
 	<link rel="stylesheet" href="{{ asset('css/icomoon.css') }}">
 	<link rel="stylesheet" href="{{ asset('css/style.css') }}">
 	<link rel="stylesheet" href="{{ asset('css/misestilos.css') }}">
-	<link rel="apple-touch-icon" sizes="96x96" href="{{ asset('images/favicon.png') }}" />	
+	<link rel="apple-touch-icon" sizes="96x96" href="{{ asset('images/favicon.png') }}" />
 	<link rel="icon" type="image/png" href="{{ asset('images/favicon.png') }}" />
+	<style>
+		.active{
+			background: #0f3a5d;
+		}
 
+		.active a {
+			color: white !important;
+		}
+	</style>
 
 </head>
-<body >
-
+<body>
 	<font face="Encode Sans">
 		<nav class="navbar navbar-expand-lg navbar-dark bg-dark ftco-navbar-light" id="ftco-navbar">
 			<div class="container d-flex align-items-center" style="height: 110px">
 				<div class="d-flex align-items-center py-4">
 					<a class="navbar-brand" href="{{route('inicio')}}">
-						<img src="images/mc.png" width="60" height="60" class="d-inline-block align-top" alt="Grupo MC">
+						<img src="images/mc.png" width="90" class="d-inline-block align-top" alt="Grupo MC">
 					</a>
 				</div>
 				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
@@ -51,73 +58,33 @@
 				</button>
 				<div class="collapse navbar-collapse" id="ftco-nav" style="background-color: white">
 					<ul class="navbar-nav mr-auto">
-						<li class="nav-item active">
+						<li class="nav-item {{ isActive('nosotros') ? 'active' : '' }}">
 							<a class="nav-link" href="{{ url('/nosotros') }}">Nuestra Filosofía</a>
-							{{--<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Nuestra compañía</a>
-							<div class="dropdown-menu">
-								<a class="dropdown-item" href="#">Historia</a>
-								<a class="dropdown-item" href="#">Nuestra Filosofía</a>
-								<a class="dropdown-item" href="#">Calidad</a>
-								<a class="dropdown-item" href="#">Innovación</a>
-								<a class="dropdown-item" href="#">Full service</a>
-								<a class="dropdown-item" href="#">Responsabilidad social</a>
-							</div>--}}
 						</li>
-						<li class="nav-item active">
-							<a class="nav-link" href="{{ route('mercados.clientes') }}">Calidad</a>
-							{{-- 						<div class="dropdown-menu">
-								<a class="dropdown-item"> Mercados</a>
-								<a class="dropdown-item"> Clientes</a>
-								<a class="dropdown-item" href="#">Clientes internacionales</a>
-								<a class="dropdown-item"> Buzón de clientes</a>
-							</div> --}}
+						<li class="nav-item {{ isActive('procesos') ? 'active' : '' }}"><a href="{{ url('/procesos') }}" class="nav-link " >Procesos y Servicios</a>
 						</li>
-						<li class="nav-item active"><a href="{{ url('/procesos') }}" class="nav-link pl-0" >Procesos, Servicios y Clientes</a></li>
-						{{--<li class="nav-item dropdown">
-							<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Procesos y servicios</a>
-							<div class="dropdown-menu">
-								<a class="dropdown-item" href="#">Decorado</a>
-								<a class="dropdown-item" href="#">Ensamble</a>
-								<a class="dropdown-item" href="#">Esferas</a>
-								<a class="dropdown-item" href="#">Inyección</a>
-								<a class="dropdown-item" href="#">Metalizado</a>
-								<a class="dropdown-item" href="#">Moldes</a>
-								<a class="dropdown-item" href="#">Soplo</a>
-							</div>--}}
-						</li>
-						
-						<li class="nav-item active">
+						<li class="nav-item {{ isActive('desarrollo') ? 'active' : '' }}">
 							<a class="nav-link" href="{{ url('/desarrollo') }}">Desarrollo</a>
-							{{--<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Desarrollo</a>
-							<div class="dropdown-menu">
-								<a class="dropdown-item" href="#">Diseño de prototipos</a>
-								<a class="dropdown-item" href="#">Ingeniería de nuevos productos</a>
-								<a class="dropdown-item" href="#">Generación de dummies</a>
-								<a class="dropdown-item" href="#">Desarrollo de ideas y nuevos productos</a>
-							</div>--}}
 						</li>
-						
-						<li class="nav-item active"><a href="{{ route('ResponsabilidadSocial') }}" class="nav-link pl-0" style="margin-left: 15px">Responsabilidad social</a></li>
+						<li class="nav-item {{ isActive('calidad') ? 'active' : '' }}">
+							<a class="nav-link" href="{{ route('mercados.clientes') }}">Calidad</a>
+						</li>
+						<li class="nav-item {{ isActive('Responsabilidad-social') ? 'active' : '' }}"><a href="{{ route('ResponsabilidadSocial') }}" class="nav-link pl-0" style="margin-left: 15px">Responsabilidad social</a></li>
+						<li class="nav-item {{ isActive('buzon') ? 'active' : '' }}">
+							<a href="{{ url('/buzon')}}" class="nav-link pl-0" style="margin-left: 15px">Buzón Clientes y Proveedores</a>
+						</li>
 						<li class="nav-item dropdown">
 							<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Carrera</a>
 							<div class="dropdown-menu">
 								<a class="dropdown-item" href="#">Vacantes</a>
 								<a class="dropdown-item" href="{{ url('/reclutamiento') }}">Reclutamiento</a>
-								
 							</div>
 						</li>
-						<li class="nav-item active">
-							<a href="{{ url('/buzon')}}" class="nav-link pl-0" style="margin-left: 15px">Buzón Clientes</a>
+						<li class="nav-item">
+							<a class="nav-link" href="#datos-contacto">Contacto</a>
 						</li>
 						<li class="nav-item dropdown">
-							<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Contacto</a>
-							<div class="dropdown-menu">
-								<a class="dropdown-item" href="#">Teléfono: (722) 276 65 70</a>
-								<a class="dropdown-item" href="#">Correo: info@mcplasticos.com</a>
-							</div>
-						</li>
-						<li class="nav-item dropdown">
-							<a class="nav-link" href="{{ url('/employee/login') }}" role="button" aria-haspopup="true" aria-expanded="false"><i class="icon-person"></i></a>
+							<a class="nav-link" href="{{ url('/employee/login') }}" role="button" aria-haspopup="true" aria-expanded="false"><i class="icon-person" style="font-size: 35px"></i></a>
 						</li>
 
 					</ul>
@@ -129,7 +96,7 @@
 	<!-- End contacto -->
 	<!-- Footer -->
 	<font face="Encode Sans">
-		<footer class="ftco-footer ftco-bg-dark ftco-section" style="padding-top: 20px; padding-bottom: 0px; ">
+		<footer class="ftco-footer ftco-bg-dark ftco-section" style="padding-top: 20px; padding-bottom: 0px; " id="datos-contacto">
 			<div class="container">
 				<div class="row mb-5">
 					<div class="col-md">
