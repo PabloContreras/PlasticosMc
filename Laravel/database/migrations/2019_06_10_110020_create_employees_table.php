@@ -17,6 +17,10 @@ class CreateEmployeesTable extends Migration
             $table->string('name');
             $table->string('email')->unique();
             $table->string('password');
+            $table->string('empresa')->nullable();
+            $table->string('area')->nullable();
+            $table->string('puesto_intranet')->nullable();
+            $table->string('puesto_real')->nullable();
             $table->rememberToken();
             $table->timestamps();
         });

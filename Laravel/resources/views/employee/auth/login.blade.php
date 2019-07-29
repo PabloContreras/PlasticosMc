@@ -68,7 +68,7 @@
                           {{ __('Salir') }}
                       </a>
 
-                      <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
+                      <form id="logout-form" action="{{ url('/employee/logout') }}" method="POST" style="display: none;">
                           @csrf
                       </form>
                   </div>
@@ -93,7 +93,7 @@
       <div class="row">
         <div class="col-lg-4 col-md-6 ml-auto mr-auto">
           <div class="card card-login">
-            <form method="POST" action="{{ route('login') }}">
+            <form method="POST" action="{{ url('/employee/login') }}">
               @csrf
               <div class="card-header card-header-primary text-center">
                 <h4 class="card-title">Inicio</h4>
