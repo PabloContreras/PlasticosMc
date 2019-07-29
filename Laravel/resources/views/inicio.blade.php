@@ -85,8 +85,11 @@ Inicio
 				<div class="overlay"></div>
 				<div class="container">
 					<div class="row justify-content-center">
-						<div class="col-md-9 text-center">
-							<font face="Verdana"><h2>MC Plásticos es el resultado de una historia de más de 40 años de esfuerzo y dedicación...</h2></font>
+						<div class="col-md-12 text-center">
+							<font face="Verdana">
+{{-- 								<h2>MC Plásticos es el resultado de una historia de más de 40 años de esfuerzo y dedicación...</h2> --}}
+								<h2>MC Plásticos es una empresa consolidada con presencia nacional e internacional, que ofrece a sus clientes soluciones integrales dentro de la industria de la transformación del plástico. </h2>
+							</font>
 						</div>
 					</div>
 				</div>
@@ -155,7 +158,7 @@ Inicio
 			<br><br>
 			<!-- cd /var/www/plasticosmc/html/
 </section>
-					
+
 					<center>
 						<br>
 						<div style="width: 360px; margin: 0 auto;">
@@ -166,7 +169,7 @@ Inicio
 			</section> -->
 			<!-- End our products-->
 			<!-- Quiénes somos -->
-			
+
 			<!-- End quienes somos -->
 			<!--cunter -->
 			<!-- <section class="ftco-counter img" id="section-counter" style="background-image: url(images/bg_3.jpg);" data-stellar-background-ratio="0.5">
@@ -202,10 +205,10 @@ Inicio
 								</div>
 							</div>
 						</div>
-						
+
 					</div>
 				</div>
-			</section> --> 
+			</section> -->
 			<!-- End counter -->
 			<br><br>
 			<!-- Nuestros clientes -->
@@ -263,7 +266,7 @@ Inicio
 				</div>
 			</section>--}}
 			<!-- End nuestros clientes -->
-			
+
 			<!-- Contacto -->
 			<section class="ftco-section ftco-no-pt ftco-no-pb contact-section">
 				<div class="container">
