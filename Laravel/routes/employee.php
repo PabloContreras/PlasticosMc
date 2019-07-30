@@ -1,6 +1,6 @@
 <?php
 
-Route::get('/home', function () {
+Route::get('/inicio', function () {
     $users[] = Auth::user();
     $users[] = Auth::guard()->user();
     $users[] = Auth::guard('employee')->user();
@@ -8,5 +8,9 @@ Route::get('/home', function () {
     //dd($users);
 
     return view('employee.home');
-})->name('home');
+});
 
+Route::get('/inicio', 'EmployeeController@home');
+Route::get('/', 'EmployeeController@home');
+Route::get('/home', 'EmployeeController@home');
+Route::get('/perfil', 'EmployeeController@profile');

@@ -84,7 +84,11 @@
 							<a class="nav-link" href="#datos-contacto">Contacto</a>
 						</li>
 						<li class="nav-item dropdown">
-							<a class="nav-link" href="{{ url('/employee/login') }}" role="button" aria-haspopup="true" aria-expanded="false"><i class="icon-person" style="font-size: 35px"></i></a>
+							@guest
+								<a class="nav-link" href="{{ url('/employee/login') }}" role="button" aria-haspopup="true" aria-expanded="false"><i class="icon-person" style="font-size: 35px"></i></a>
+							@else
+								<a class="nav-link" href="{{ url('/employee/') }}" role="button" aria-haspopup="true" aria-expanded="false"><i class="icon-person" style="font-size: 35px"></i></a>
+							@endguest
 						</li>
 
 					</ul>

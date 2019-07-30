@@ -17,7 +17,6 @@
 
   <!-- CSS Files -->
   <link href="{{ asset('/css/material-kit.css?v=2.0.4') }}" rel="stylesheet" />
-  <!-- CSS Just for demo purpose, don't include it in your project -->
   <!--<link href="../assets/demo/demo.css" rel="stylesheet" />-->
   <style>          
            body::after {

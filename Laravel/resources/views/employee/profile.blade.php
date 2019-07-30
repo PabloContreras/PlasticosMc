@@ -9,6 +9,12 @@
                             <div class="card border-info mb-3" style="max-width: 20rem;">
                                 <div class="card-header">
                                     <center><img src="/images/uploads/avatars/{{ $empleado->avatar }}" class="img-responsive" alt="Responsive image"></center>
+                                    <form action="{{ url('/'.$empleado->id) }}" method="POST">
+                                        {{ csrf_field() }}
+                                        <center><label>Actualizar foto de perfil</label></center>
+                                        <input type="file" name="avatar" class="btn-block">
+                                        <input type="submit" value="Actualizar" class="pull-right btn btn-xs btn-default">
+                                    </form>
                                 </div>
                                 <div class="card-body">
                                     <h4 class="card-title"><p><strong>{{ $empleado->name }}</strong></p></h4>
@@ -25,8 +31,7 @@
                 <div class="col-md-8">              
                     <div class="card border-primary mb-3" >
                         <div class="card-header">
-                            {{-- $post->user->name --}} <small> {{-- '@' . $post->user->username --}} </small>
-                            <small> &bull; {{-- $post->created_at->diffForHumans() --}} </small>
+                            Aquí puedes consultar tu información
                         </div>
                         <div class="card-body">
                             <div class="pull-left">
@@ -42,4 +47,3 @@
         </div>   
     </center>
 @endsection
-

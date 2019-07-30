@@ -8,5 +8,5 @@ Route::get('/home', function () {
     //dd($users);
 
     return view('editor.home');
-})->name('home');
+});
 

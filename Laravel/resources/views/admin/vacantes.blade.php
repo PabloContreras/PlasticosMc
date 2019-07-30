@@ -1,4 +1,4 @@
-@extends('admin/layout')
+@extends('admin.layout')
 
 @section('links')
 	<style>
@@ -30,7 +30,7 @@
 			</div>
 			<div class="form-group row">
 				<div class="col-12">
-					<textarea class="form-control" name="" id="" rows="5" placeholder="Descripcion"></textarea>
+					<textarea class="form-control" name="" id="" rows="5" placeholder="Descripción"></textarea>
 				</div>
 			</div>
 			<div class="form-group row justify-content-center">

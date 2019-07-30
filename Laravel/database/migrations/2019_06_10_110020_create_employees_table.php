@@ -21,6 +21,8 @@ class CreateEmployeesTable extends Migration
             $table->string('area')->nullable();
             $table->string('puesto_intranet')->nullable();
             $table->string('puesto_real')->nullable();
+            $table->string('avatar')->default('default.jpg');
+            $table->string('cumpleaños')->nullable();
             $table->rememberToken();
             $table->timestamps();
         });
