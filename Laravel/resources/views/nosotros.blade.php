@@ -6,22 +6,30 @@ Nosotros
 
 @section('contenido')
 <!-- END nav -->
-<section class="hero-wrap hero-wrap-2" style="background-image: url('images/bg_1.jpg');" data-stellar-background-ratio="0.5">
+<section class="hero-wrap hero-wrap-2" style="background-image: url('images/bg_1.png');" data-stellar-background-ratio="0.5">
 	<div class="overlay"></div>
 	<div class="container">
 		<div class="row no-gutters slider-text align-items-center justify-content-center">
 			<div class="col-md-9 ftco-animate text-center">
-				<h1 class="mb-2 bread">Nuestra compañía</h1>
-				<p class="breadcrumbs"><span class="mr-2"><a href="{{ route('inicio') }}">Inicio <i class="ion-ios-arrow-forward"></i></a></span> <span>Nuestra compañía<i class="ion-ios-arrow-forward"></i></span></p>
+				<font face="Encode Sans"><h1 class="mb-2 bread">Nuestra Filosofía</h1></font>
 			</div>
 		</div>
 	</div>
 </section>
-
-<section class="ftco-counter img" id="section-counter" style="background-image: url(images/bg_3.jpg);" data-stellar-background-ratio="0.5">
+<!-- <center>
+	<div class="col-md-8 wrap-about py-5 ftco-animate">
+		<div class="heading-section mb-5">
+			<h2 class="mb-4">Nuestra filosofía</h2>
+		</div>
+		<div class="">
+			<p class="mb-5" style="text-align: justify;">En <strong>Grupo MC</strong>, estamos comprometidos con nuestros clientes a brindar productos y  servicios de calidad que cumplan con las  especificaciones requeridas. Trabajamos con colaboradores enfocados al cumplimiento de los objetivos de calidad. Nos esforzamos por la mejora continua en nuestros procesos y nos aseguramos de cumplir con los requisitos legales y reglamentarios.</p>
+		</div>
+	</div>
+</center> -->
+<!-- <section class="ftco-counter img" id="section-counter" style="background-image: url(images/bg_3.jpg);" data-stellar-background-ratio="0.5">
 	<div class="container">
 		<div class="row">
-			<div class="col-md-6 col-lg-3 d-flex justify-content-center counter-wrap ftco-animate">
+			<div class="col-md-6 col-lg-4 d-flex justify-content-center counter-wrap ftco-animate">
 				<div class="block-18 d-flex">
 					<div class="text d-flex align-items-center">
 						<strong class="number" data-number="45">0</strong>
@@ -31,7 +39,7 @@ Nosotros
 					</div>
 				</div>
 			</div>
-			<div class="col-md-6 col-lg-3 d-flex justify-content-center counter-wrap ftco-animate">
+			<div class="col-md-6 col-lg-4 d-flex justify-content-center counter-wrap ftco-animate">
 				<div class="block-18 d-flex">
 					<div class="text d-flex align-items-center">
 						<strong class="number" data-number="1500">0</strong>
@@ -41,7 +49,7 @@ Nosotros
 					</div>
 				</div>
 			</div>
-			<div class="col-md-6 col-lg-3 d-flex justify-content-center counter-wrap ftco-animate">
+			<div class="col-md-6 col-lg-4 d-flex justify-content-center counter-wrap ftco-animate">
 				<div class="block-18 d-flex">
 					<div class="text d-flex align-items-center">
 						<strong class="number" data-number="100">0</strong>
@@ -51,31 +59,23 @@ Nosotros
 					</div>
 				</div>
 			</div>
-			<div class="col-md-6 col-lg-3 d-flex justify-content-center counter-wrap ftco-animate">
-				<div class="block-18 d-flex">
-					<div class="text d-flex align-items-center">
-						<strong class="number" data-number="300">0</strong>
-					</div>
-					<div class="text-2">
-						<span>Clientes <br>Felices</span>
-					</div>
-				</div>
-			</div>
 		</div>
 	</div>
-</section>
+</section> -->
 
 <section class="ftco-section" style="padding-bottom: 20px; padding-top: 20px;">
 	<div class="container">
 		<div class="row no-gutters">
-			<div class="col-md-5 p-md-5 img img-2 mt-5 mt-md-0" style="background-image: url(images/bg_2.jpg);">
+			<div class="col-md-5 p-md-5 img img-2 mt-5 mt-md-0" style="background-image: url(images/mision1.jpg);">
 			</div>
 			<div class="col-md-7 wrap-about py-5 px-4 px-md-5 ftco-animate">
 				<div class="heading-section mb-5">
-					<h2 class="mb-4">Misión</h2>
+					<h2 class="mb-4"><font face="Encode Sans ">Misión</font></h2>
 				</div>
-				<div class="">
-					<p>Ser la mejor propuesta de valor para nuestros clientes a través del cumplimiento de sus necesidades y expectativas, que generen beneficios económicos para nuestros socios comerciales, nuestro personal y la comunidad buscando siempre la excelencia en todo lo que hacemos.</p>
+				<div class="" style="text-align: justify; " >
+					<font face="Verdana">
+						<p>Ser la mejor propuesta de valor para nuestros clientes a través del cumplimiento de sus necesidades y expectativas, que generen beneficios económicos para nuestros socios comerciales, nuestro personal y la comunidad buscando siempre la excelencia en todo lo que hacemos.</p>
+					</font>
 				</div>
 			</div>
 		</div>
@@ -86,11 +86,13 @@ Nosotros
 		<div class="row no-gutters">
 			<div class="col-md-7 wrap-about py-5 px-4 px-md-5 ftco-animate">
 				<div class="heading-section mb-5">
-					<h2 class="mb-4">Visión</h2>
+					<h2 class="mb-4"><font face="Encode Sans ">Visión</font></h2>
 				</div>
 				<div class="">
-					<p style="color: black">Ser la empresa líder en la transformación del plástico a nivel mundial en componentes para la industria cosmética y de cuidado personal, a través de la ejecución de procesos primarios y secundarios, adquiriendo continuamente tecnología de punta que nos ayude a incursionar en nuevos mercados, siempre siendo responsables de nuestro entorno.</p>
-				</div>
+					<font face="Verdana">
+						<p style=" text-align: justify;" >Ser la empresa líder en la transformación del plástico a nivel mundial en componentes para la industria cosmética y de cuidado personal, a través de la ejecución de procesos primarios y secundarios, adquiriendo continuamente tecnología de punta que nos ayude a incursionar en nuevos mercados, siempre siendo responsables de nuestro entorno.</p>
+					</div>
+				</font>
 			</div>
 			<div class="col-md-5 p-md-5 img img-2 mt-5 mt-md-0" style="background-image: url(images/bg_4.jpg);">
 			</div>
@@ -101,12 +103,17 @@ Nosotros
 
 
 
+
+
 <section class="ftco-intro" style="background-image: url(images/bg_3.jpg);" data-stellar-background-ratio="0.5">
 	<div class="overlay"></div>
 	<div class="container">
 		<div class="row justify-content-center">
 			<div class="col-md-9 text-center">
-				<h2>En MC Plásticos vivimos con pasión nuestros valores</h2>
+				<font face="Verdana">
+					<h2>En MC Plásticos vivimos con pasión nuestros valores</h2>
+					
+				</font>
 			</div>
 		</div>
 	</div>
@@ -116,47 +123,47 @@ Nosotros
 	<div class="container">
 		<div class="row justify-content-center mb-5 pb-2">
 			<div class="col-md-8 text-center heading-section ftco-animate">
-				<h2 class="mb-4">Nuestros valores</h2>
+				<font face="Encode Sans"><h2 class="mb-4" >Nuestros valores</h2></font>
 			</div>
 		</div>
 		<div class="row">
 			<div class="col-md-6 col-lg-3 ftco-animate">
 				<div class="staff">
 					<div class="img-wrap d-flex align-items-stretch">
-						<div class="img align-self-stretch" style="background-image: url(images/team-1.jpg);"></div>
+						<div class="img align-self-stretch" style="background-image: url(images/equipo.jpg);"></div>
 					</div>
-					<div class="text pt-3 text-center">
-						<span class="position mb-2">Trabajo en equipo</span>
-					</div>
-				</div>
-			</div>
-			<div class="col-md-6 col-lg-3 ftco-animate">
-				<div class="staff">
-					<div class="img-wrap d-flex align-items-stretch">
-						<div class="img align-self-stretch" style="background-image: url(images/team-2.jpg);"></div>
-					</div>
-					<div class="text pt-3 text-center">
-						<span class="position mb-2">Innovación</span>
+					<div class="text pt-3 text-center" style="background-color: #0d3a5c;">
+						<span class="position mb-2" style="color: white;">Trabajo en equipo</span>	
 					</div>
 				</div>
 			</div>
 			<div class="col-md-6 col-lg-3 ftco-animate">
 				<div class="staff">
 					<div class="img-wrap d-flex align-items-stretch">
-						<div class="img align-self-stretch" style="background-image: url(images/team-3.jpg);"></div>
+						<div class="img align-items-center" style="background-image: url(images/innova.jpg);  "></div>
 					</div>
-					<div class="text pt-3 text-center">
-						<span class="position mb-2">Integridad</span>
+					<div class="text pt-3 text-center" style="background-color: #0d3a5c;">
+						<span class="position mb-2" style="color: white;">Innovación</span>
 					</div>
 				</div>
 			</div>
 			<div class="col-md-6 col-lg-3 ftco-animate">
 				<div class="staff">
 					<div class="img-wrap d-flex align-items-stretch">
-						<div class="img align-self-stretch" style="background-image: url(images/team-4.jpg);"></div>
+						<div class="img align-self-stretch" style="background-image: url(images/IMG_0226.JPG);"></div>
 					</div>
-					<div class="text pt-3 text-center">
-						<span class="position mb-2">Servicio de excelencia</span>
+					<div class="text pt-3 text-center" style="background-color: #0d3a5c;">
+						<span class="position mb-2" style="color: white;">Integridad</span>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-6 col-lg-3 ftco-animate">
+				<div class="staff">
+					<div class="img-wrap d-flex align-items-stretch">
+						<div class="img align-self-stretch" style=" background-image: url(images/servicio_excelencia.jpg);"></div>
+					</div>
+					<div class="text pt-3 text-center" style="background-color: #0d3a5c;">
+						<span class="position mb-2" style="color: white;">Servicio de excelencia</span>
 					</div>
 				</div>
 			</div>
@@ -164,14 +171,6 @@ Nosotros
 		</div>
 	</div>
 </section>
-<center>
-	<div class="col-md-8 wrap-about py-5 ftco-animate">
-		<div class="heading-section mb-5">
-			<h2 class="mb-4">Nuestra filosofía</h2>
-		</div>
-		<div class="">
-			<p class="mb-5">En MC Plásticos S.A. de C.V. ofrecemos a nuestros clientes productos de calidad, fabricados de acuerdo a sus específicaciones, con un alto nivel de servicio y precios competitivos, empleando tecnología de vanguardia.</p>
-		</div>
-	</div>
-</center>
+
+
 @endsection

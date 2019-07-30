@@ -18,7 +18,7 @@ class PageController extends Controller
 
     public function servicios()
     {
-    	return view('servicios');
+    	return view('procesos');
     }
 
     public function contacto()
