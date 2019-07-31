@@ -3,8 +3,10 @@
 namespace App\Http\Controllers;
 
 use App\Curriculo;
+use App\Mail\CurriculoMail;
 use Carbon\Carbon;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Mail;
 
 class ReclutamientoController extends Controller
 {
@@ -23,6 +25,10 @@ class ReclutamientoController extends Controller
     		'url_cv' => $url_cv
     	]);
         $curriculo->save();
+
+        Mail::to('bronkbsgck@gmail.com')->send(new CurriculoMail($curriculo));
+
+
         return back()->with([
             'guardado' => 'Hemos recibido tu información, pronto nos pondremos en contacto contigo.'
         ]);
