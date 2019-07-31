@@ -54,22 +54,25 @@ class EmpleadosController extends Controller
     }
 
     public function avisos(){
+        $tipo = 'avisos';
         $empleado = Auth::user();
         $publicaciones = Publicaciones::where('tipo_publicacion', 'aviso')->get();
         //return $publicaciones;
-        return view('employee.publicaciones', compact('empleado', 'publicaciones'));
+        return view('employee.publicaciones', compact('empleado', 'publicaciones', 'tipo'));
     }
     public function eventos(){
+        $tipo = 'eventos';
         $empleado = Auth::user();
         $publicaciones = Publicaciones::where('tipo_publicacion', 'evento')->get();
         //return $publicaciones;
-        return view('employee.publicaciones', compact('empleado', 'publicaciones'));
+        return view('employee.publicaciones', compact('empleado', 'publicaciones', 'tipo'));
     }
     public function documentos(){
+        $tipo = 'documentos';
         $empleado = Auth::user();
         $publicaciones = Publicaciones::where('tipo_publicacion', 'documento')->get();
         //return $publicaciones;
-        return view('employee.publicaciones', compact('empleado', 'publicaciones'));
+        return view('employee.publicaciones', compact('empleado', 'publicaciones', 'tipo'));
     }
     public function show($id){
         $publicacion = Publicaciones::find($id);
