@@ -78,19 +78,19 @@
 						<a class="nav-link collapsed" href="{{ url('/admin/publicaciones/avisos') }}">
 							<i class="fas fa-exclamation-circle"></i>
 							<span>Avisos</span>
-						</a>						
+						</a>
 					</li>
 					<li class="nav-item {{ Request::path() == 'admin/publicaciones/eventos' ? ' active' : '' }}">
 						<a class="nav-link collapsed" href="{{ url('/admin/publicaciones/eventos') }}">
 							<i class="fas fa-calendar-week"></i>
 							<span>Eventos</span>
-						</a>						
+						</a>
 					</li>
 					<li class="nav-item {{ Request::path() == 'admin/publicaciones/documentos' ? ' active' : '' }}">
 						<a class="nav-link collapsed" href="{{ url('/admin/publicaciones/documentos') }}">
 							<i class="fas fa-folder-open"></i>
 							<span>Documentos</span>
-						</a>						
+						</a>
 					</li>
 
 
@@ -226,5 +226,6 @@
 			<script src="{{ asset('js/admin/sb-admin-2.min.js') }}"></script>
 			<script src="{{ asset('js/admin/Chart.js') }}"></script>
 			<script src="https://kit.fontawesome.com/0017b15585.js"></script>
+			@yield('scripts')
 		</body>
 		</html>
