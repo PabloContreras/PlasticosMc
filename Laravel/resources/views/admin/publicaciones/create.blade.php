@@ -1,3 +1,4 @@
+
 @extends('admin.layout')
 
 @section('links')
@@ -47,7 +48,7 @@
 					                        <div class="row">					                        	
 											    <div class="form-group col-md-3">
 											      	<label for="exampleSelect1">Empresa</label>
-											        <select class="form-control" id="exampleSelect1" name="empresa">
+											        <select class="form-control" id="exampleSelect1" name="empresa" id="empresa">
 											        	<option selected=""></option>
 												    	<option value="MC Plásticos">MC Plásticos</option>
 												        <option value="Fortalab">Fortalab</option>
@@ -95,8 +96,6 @@
 	var img = document.getElementById('imagen');
 	var imagen = document.getElementById('img');
 	var archivo = document.getElementById('archivo');
-	console.log(archivo);
-
 	function tipoArchivo(){
         if ( img.checked ) {
             //ocultar imagen

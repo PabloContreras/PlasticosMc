@@ -1,3 +1,4 @@
+
 @extends('employee.layout.auth')
 @section('contenido')
     <center>

@@ -9,7 +9,6 @@
 	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 	@yield('links')
 </head>
-<body>
 	<body id="page-top">
 		<!-- Page Wrapper -->
 		<div id="wrapper">
@@ -226,5 +225,6 @@
 			<script src="{{ asset('js/admin/sb-admin-2.min.js') }}"></script>
 			<script src="{{ asset('js/admin/Chart.js') }}"></script>
 			<script src="https://kit.fontawesome.com/0017b15585.js"></script>
-		</body>
-		</html>
+
+	</body>
+</html>
