@@ -32,4 +32,10 @@ class ReclutamientoController extends Controller
     	$file = $r->file('cv');
         return $r->file('cv')->store('public');
     }
+
+    public function getViewCurriculos()
+    {
+        $curriculos = Curriculo::all();
+        return view('admin.curriculosList', compact('curriculos'));
+    }
 }
