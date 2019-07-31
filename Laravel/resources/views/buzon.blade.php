@@ -11,7 +11,7 @@ Buzon para clientes
 		<div class="row no-gutters slider-text align-items-center justify-content-center">
 			<div class="col-md-9 ftco-animate text-center">
 				<font face="Encode Sans">
-				<h1 class="mb-2 bread">Buzón para clientes</h1>
+				<h1 class="mb-2 bread">Buzón para clientes y proveedores</h1>
 
 				</font>
 				<!-- <p class="breadcrumbs"><span class="mr-2"><a href="{{ route('inicio') }}">Inicio <i class="ion-ios-arrow-forward"></i></a></span> <span>Buzón para clientes <i class="ion-ios-arrow-forward"></i></span></p> -->
@@ -26,7 +26,7 @@ Buzon para clientes
 			<div class="col-md-6 p-6 p-md-5 order-md-last bg-light">
 				<form action="#">
 					<div class="form-group">
-						<input type="text" class="form-control" placeholder="Clave de cliente" >
+						<input type="text" class="form-control" placeholder="Clave de cliente/proveedor" >
 					</div>
 					<div class="form-group">
 						<input type="text" class="form-control" placeholder="Nombre">

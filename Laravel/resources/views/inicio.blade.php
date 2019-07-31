@@ -124,7 +124,7 @@ Inicio
 						<div class="col-md-6 text-center heading-section ftco-animate">
 							<br><br>
 							<h2 class="mb-4"><font face="Encode Sans">Nuestros productos</font></h2>
-							<!--<p>Separated they live in. A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country</p>-->
+							<!<p>Separated they live in. A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country</p>>
 						</div>
 					</div>
 			</section>

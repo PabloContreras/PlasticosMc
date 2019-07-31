@@ -69,7 +69,7 @@
 						<li class="nav-item {{ isActive('calidad') ? 'active' : '' }}">
 							<a class="nav-link" href="{{ route('mercados.clientes') }}">Calidad</a>
 						</li>
-						<li class="nav-item {{ isActive('Responsabilidad-social') ? 'active' : '' }}"><a href="{{ route('ResponsabilidadSocial') }}" class="nav-link pl-0" style="margin-left: 15px">Responsabilidad social</a></li>
+						<li class="nav-item {{ isActive('Responsabilidad-social') ? 'active' : '' }}"><a href="{{ route('ResponsabilidadSocial') }}" class="nav-link pl-0" style="margin-left: 15px">Responsabilidad Social</a></li>
 						<li class="nav-item {{ isActive('buzon') ? 'active' : '' }}">
 							<a href="{{ url('/buzon')}}" class="nav-link pl-0" style="margin-left: 15px">Buzón Clientes y Proveedores</a>
 						</li>
@@ -77,7 +77,7 @@
 							<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Carrera</a>
 							<div class="dropdown-menu">
 								<a class="dropdown-item" href="#">Vacantes</a>
-								<a class="dropdown-item" href="{{ url('/reclutamiento') }}">Reclutamiento</a>
+								<a class="dropdown-item" href="{{ url('/reclutamiento') }}">Atracción de talento</a>
 							</div>
 						</li>
 						<li class="nav-item">
@@ -87,7 +87,7 @@
 							@guest
 								<a class="nav-link" href="{{ url('/employee/login') }}" role="button" aria-haspopup="true" aria-expanded="false"><i class="icon-person" style="font-size: 35px"></i></a>
 							@else
-								<a class="nav-link" href="{{ url('/employee/') }}" role="button" aria-haspopup="true" aria-expanded="false"><i class="icon-person" style="font-size: 35px"></i></a>
+								<a class="nav-link" href="{{ url('/employee/perfil') }}" role="button" aria-haspopup="true" aria-expanded="false"><i class="icon-person" style="font-size: 35px"></i></a>
 							@endguest
 						</li>
 

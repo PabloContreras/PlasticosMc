@@ -71,9 +71,6 @@
 											      	<label for="exampleSelect1">Persona</label>
 											        <select class="form-control" id="exampleSelect1" name="persona">
 										        		<option selected=""></option>
-												    	<option value="MC Plásticos">MC Plásticos</option>
-												        <option value="Fortalab">Fortalab</option>
-												        <option value="Prosentec">Prosentec</option>
 											    	</select>
 											    </div>
 
@@ -95,7 +92,6 @@
         </div>
     </div>
 </div>
-<<<<<<< HEAD
 @endsection
 
 @section('scripts')
@@ -117,26 +113,22 @@
 				});
 			}
 		}
+		var img = document.getElementById('imagen');
+		var imagen = document.getElementById('img');
+		var archivo = document.getElementById('archivo');
+		function tipoArchivo(){
+	        if ( img.checked ) {
+	            //ocultar imagen
+	            $(imagen).hide();
+	            $(archivo).show();
+	        }else{
+	        	//ocultar archivo
+	        	$(imagen).show();
+	            $(archivo).hide();
+	        }
+	    }
+	    img.addEventListener('click',function(){
+	        tipoArchivo();
+	    });
 	</script>
-=======
-<script type="text/javascript">
-	var img = document.getElementById('imagen');
-	var imagen = document.getElementById('img');
-	var archivo = document.getElementById('archivo');
-	function tipoArchivo(){
-        if ( img.checked ) {
-            //ocultar imagen
-            $(imagen).hide();
-            $(archivo).show();
-        }else{
-        	//ocultar archivo
-        	$(imagen).show();
-            $(archivo).hide();
-        }
-    }
-    img.addEventListener('click',function(){
-        tipoArchivo();
-    });
-</script>
->>>>>>> bffadeebaee7d24bbb723518e6bda5c938d6531f
 @endsection
