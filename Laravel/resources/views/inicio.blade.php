@@ -62,7 +62,7 @@ Inicio
 										<img class="d-block w-100" src="images/slider/s4.png" alt="Third slide">
 									</div>
 									<div class="carousel-item">
-										<img class="d-block w-100" src="images/slider/s5.png" alt="Third slide">
+										<img class="d-block w-100" src="images/slider/s6.png" alt="Third slide">
 									</div>
 								</div>
 								<a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -212,7 +212,7 @@ Inicio
 
 
 			<!-- Contacto -->
-			<section class="ftco-section ftco-no-pt ftco-no-pb contact-section">
+{{-- 			<section class="ftco-section ftco-no-pt ftco-no-pb contact-section">
 				<div class="container">
 					<div class="row d-flex align-items-stretch no-gutters">
 						<div class="col-md-6 p-4 p-md-5 order-md-last bg-light">
@@ -239,7 +239,7 @@ Inicio
 						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3763.913598872037!2d-99.57222699764404!3d19.372893475459726!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d2b07012dbd093%3A0x8e75b555c71c1a31!2sMC+Pl%C3%A1sticos+de+M%C3%A9xico+SA+de+CV!5e0!3m2!1ses-419!2smx!4v1555362423348!5m2!1ses-419!2smx" width="600" height="450" frameborder="0" style="border:0; margin-top: 100px; margin-bottom: 50px;" allowfullscreen></iframe>
 					</div>
 				</div>
-			</section>
+			</section> --}}
 			@endsection
 
 @section('scripts')

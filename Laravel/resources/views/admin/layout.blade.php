@@ -51,19 +51,25 @@
 						<a class="nav-link collapsed" href="{{ url('/admin/editores') }}">
 							<i class="fas fa-user-edit"></i>
 							<span>Editores</span>
-						</a>						
+						</a>
 					</li>
 					<li class="nav-item {{ Request::path() == 'admin/empleados' ? ' active' : '' }}">
 						<a class="nav-link collapsed" href="{{ url('/admin/empleados') }}">
 							<i class="fas fa-users-cog"></i>
 							<span>Empleados</span>
-						</a>						
+						</a>
 					</li>
 					<li class="nav-item {{ Request::path() == 'admin/vacantes' ? ' active' : '' }}">
 						<a class="nav-link collapsed" href="{{ url('/admin/vacantes') }}">
 							<i class="fas fa-user-plus"></i>
 							<span>Vacantes</span>
-						</a>						
+						</a>
+					</li>
+					<li class="nav-item {{ Request::path() == 'admin/curriculos' ? ' active' : '' }}">
+						<a class="nav-link collapsed" href="{{ url('/admin/curriculos') }}">
+							<i class="fas fa-users-cog"></i>
+							<span>Curriculos</span>
+						</a>
 					</li>
 
 					<!-- Divider -->
@@ -140,7 +146,7 @@
 									</div>
 								</li>
 
-	
+
 
 								<div class="topbar-divider d-none d-sm-block"></div>
 
@@ -163,7 +169,7 @@
 											</a>
 
 											<form id="logout-form" action="{{ url('/admin/logout') }}" method="POST" style="display: none;">
-											@csrf
+												@csrf
 											</form>
 										</a>
 									</div>
@@ -192,11 +198,11 @@
 						<div class="container my-auto">
 							<div class="copyright text-center my-auto">
 								<p class="copyright text-center">
-						            &copy;
-						          <script>
-						            document.write(new Date().getFullYear())
-						          </script>, Hecho con <i class="fa fa-heart" style="color: red;"></i> & <i class="fa fa-coffee" style="color: black;"></i> por <a href="https://www.eostechnology.mx" target="_blank">EOS Technology</a>.
-						        </p>
+									&copy;
+									<script>
+										document.write(new Date().getFullYear())
+									</script>, Hecho con <i class="fa fa-heart" style="color: red;"></i> & <i class="fa fa-coffee" style="color: black;"></i> por <a href="https://www.eostechnology.mx" target="_blank">EOS Technology</a>.
+								</p>
 							</div>
 						</div>
 					</footer>
@@ -221,4 +227,4 @@
 			<script src="{{ asset('js/admin/Chart.js') }}"></script>
 			<script src="https://kit.fontawesome.com/0017b15585.js"></script>
 		</body>
-</html>
+		</html>

@@ -42,8 +42,8 @@ Calidad
 				</div>
 			</div>
 			<div class="row justify-content-center">
-				<div class="col-md-2 p-md-5 img img-2 mt-5 mt-md-0 mx-2" style="height: 250px; background: black"></div>
-				<div class="col-md-2 p-md-5 img img-2 mt-5 mt-md-0 mx-2" style="height: 250px; background: black"></div>
+				<div class="col-md-2 p-md-5 img img-2 mt-5 mt-md-0 mx-2" style="height: 250px; background-image: url({{ asset('images/calidad/calidad1.jpg') }})"></div>
+				<div class="col-md-2 p-md-5 img img-2 mt-5 mt-md-0 mx-2" style="height: 250px; background-image: url({{ asset('images/calidad/calidad2.jpg') }})"></div>
 			</div>
 		</div>
 	</section>
@@ -78,7 +78,7 @@ Calidad
 		</center>
 	</section>
 
-	<section class="ftco-section" style="padding-bottom: 20px; padding-top: 20px;">
+{{-- 	<section class="ftco-section" style="padding-bottom: 20px; padding-top: 20px;">
 		<div class="container">
 			<div class="row no-gutters">
 				<div class="col-md-5 p-md-5 img img-2 mt-5 mt-md-0" style="background-image: url(images/innovacion.png); ">
@@ -95,7 +95,7 @@ Calidad
 				</div>
 			</div>
 		</div>
-	</section>
+	</section> --}}
 
 
 	@endsection
