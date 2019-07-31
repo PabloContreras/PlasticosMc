@@ -22,6 +22,11 @@ class EmpleadosController extends Controller
     	$empleado = new Employee;
     	$empleado->name = $request->name;
     	$empleado->email = $request->email;
+        $empleado->empresa = $request->empresa;
+        $empleado->area =   $request->area;
+        $empleado->puesto_real = $request->puesto_real;
+        $empleado->puesto_intranet = $request->puesto_intranet;
+
     	$empleado->password = bcrypt($request->password);
     	//return $empleado;
     	$empleado->save();

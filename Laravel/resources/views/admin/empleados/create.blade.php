@@ -31,6 +31,23 @@
 											<label class="form-control-label" for="inputSuccess1">Nombre</label>
 											<input type="text" class="form-control" id="inputValid" name="name" value="@yield('editNombre')">
 										</div>
+										<div class="form-group has-success">
+											<label class="form-control-label" for="inputSuccess1">Empresa</label>
+											<input type="text" class="form-control" id="empresa" name="empresa" value="@yield('editEmpresa')">
+										</div>
+										<div class="form-group has-success">
+											<label class="form-control-label" for="inputSuccess1">Área</label>
+											<input type="text" class="form-control" id="area" name="area" value="@yield('editArea')">
+										</div>
+										<div class="form-group has-success">
+											<label class="form-control-label" for="inputSuccess1">Puesto real</label>
+											<input type="text" class="form-control" id="puesto_real" name="puesto_real" value="@yield('editPuestoReal')">
+										</div>
+										<div class="form-group has-success">
+											<label class="form-control-label" for="inputSuccess1">Puesto en intranet</label>
+											<input type="text" class="form-control" id="puesto_intranet" name="puesto_intranet" value="@yield('editPuestoIntranet')">
+										</div>
+
 				                      	<div class="form-group">
 									    	<label for="exampleInputEmail1">Email</label>
 									    	<input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Ingresa tu email" name="email" value="@yield('editEmail')">
