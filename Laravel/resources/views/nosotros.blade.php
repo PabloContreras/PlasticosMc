@@ -105,7 +105,7 @@ Nosotros
 
 
 
-<section class="ftco-intro" style="background-image: url(images/bg_3.jpg);" data-stellar-background-ratio="0.5">
+<section class="ftco-intro" style="background-image: url(images/fondoPrincipal.jpg);" data-stellar-background-ratio="0.5">
 	<div class="overlay"></div>
 	<div class="container">
 		<div class="row justify-content-center">
@@ -147,7 +147,7 @@ Nosotros
 				<font face="Encode Sans"><h2 class="mb-4" >Nuestros valores</h2></font>
 			</div>
 		</div>
-		<div class="row">
+{{-- 		<div class="row">
 			<div class="col-md-6 col-lg-3 ftco-animate">
 				<div class="staff">
 					<div class="img-wrap d-flex align-items-stretch">
@@ -188,7 +188,62 @@ Nosotros
 					</div>
 				</div>
 			</div>
-
+		</div> --}}
+		<div class="row no-gutters my-5">
+			<div class="col-md-7 wrap-about py-5 px-4 px-md-5 ftco-animate">
+				<div class="heading-section mb-5">
+					<h2 class="mb-4"><font face="Encode Sans ">Trabajo en equipo</font></h2>
+				</div>
+				<div class="">
+					<font face="Verdana">
+						<p style=" text-align: justify;" ><strong>Trabajar en equipo</strong>, a fin de alcanzar los resultados juntos, respetándonos y  comprometiéndonos con nuestros equipos de trabajo.</p>
+					</div>
+				</font>
+			</div>
+			<div class="col-md-5 p-md-5 img img-2 mt-5 mt-md-0" style="background-image: url(images/equipo.jpg); background-size: cover;  height: 300px">
+			</div>
+		</div>
+		<div class="row no-gutters my-5">
+			<div class="col-md-5 p-md-5 img img-2 mt-5 mt-md-0" style="background-image: url(images/innvalores.jpg); background-size: cover;  height: 300px">
+			</div>
+			<div class="col-md-7 wrap-about py-5 px-4 px-md-5 ftco-animate">
+				<div class="heading-section mb-5">
+					<h2 class="mb-4"><font face="Encode Sans ">Innovación</font></h2>
+				</div>
+				<div class="">
+					<font face="Verdana">
+						<p style=" text-align: justify;" ><strong>Innovar</strong>, enfocados siempre en cómo podemos hacer mejor las cosas.</p>
+					</div>
+				</font>
+			</div>
+		</div>
+		<div class="row no-gutters my-5">
+			<div class="col-md-7 wrap-about py-5 px-4 px-md-5 ftco-animate">
+				<div class="heading-section mb-5">
+					<h2 class="mb-4"><font face="Encode Sans ">Integridad</font></h2>
+				</div>
+				<div class="">
+					<font face="Verdana">
+						<p style=" text-align: justify;" >Actuamos siempre con <strong>Integridad</strong>, con congruencia, haciendo lo correcto sin afectar los intereses de nuestros compañeros de trabajo ni de la empresa.</p>
+					</div>
+				</font>
+			</div>
+			<div class="col-md-5 p-md-5 img img-2 mt-5 mt-md-0" style="background-image: url(images/equipo.jpg); background-size: cover;  height: 300px">
+			</div>
+		</div>
+		<div class="row no-gutters my-5">
+			<div class="col-md-5 p-md-5 img img-2 mt-5 mt-md-0" style="background-image: url(images/servicio_excelencia.jpg); background-size: cover;  height: 300px">
+			</div>
+			<div class="col-md-7 wrap-about py-5 px-4 px-md-5 ftco-animate">
+				<div class="heading-section mb-5">
+					<h2 class="mb-4"><font face="Encode Sans ">Servicio de excelencia</font></h2>
+				</div>
+				<div class="">
+					<font face="Verdana">
+						<p style=" text-align: justify;" >Ofrecer en todo momento un <strong>Servicio de Excelencia</strong> a nuestros clientes, tanto para el cliente interno como para el cliente externo.</p>
+					</div>
+				</font>
+			</div>
 		</div>
 	</div>
 </section>

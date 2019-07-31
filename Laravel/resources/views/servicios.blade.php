@@ -1,7 +1,7 @@
 @extends('plantilla')
 
 @section('titulo')
-	Procesos y Servicios
+Procesos y Servicios
 @endsection
 
 @section('contenido')
@@ -20,22 +20,31 @@
 
 
 	<section class="ftco-section ftco-no-pt ftco-no-pb">
-	<div class="container p-0">
-		<div class="row justify-content-center my-4">
-			<div class="col-12">
-				<img src="{{ asset('images/infoProcesos.png') }}" style="margin-right: auto; margin-left: auto; display: block" alt="" width="70%">
+		<div class="container p-0">
+			<div class="row justify-content-center my-4">
+				<div class="col-12">
+					<img src="{{ asset('images/infoProcesos.png') }}" style="margin-right: auto; margin-left: auto; display: block" alt="" width="95%">
+				</div>
 			</div>
 		</div>
-	</div>
-	<section class="ftco-section ftco-no-pt ftco-no-pb">
-	<div class="container p-0">
-		<div class="row justify-content-center my-4">
-			<div class="col-12">
-				<img src="{{ asset('images/infoMercados.png') }}" style="margin-right: auto; margin-left: auto; display: block" alt="" width="70%">
+		<section class="ftco-section ftco-no-pt ftco-no-pb">
+			<div class="container p-0">
+				<div class="row justify-content-center my-4">
+					<div class="col-12">
+						<img src="{{ asset('images/infoMercados.png') }}" style="margin-right: auto; margin-left: auto; display: block" alt="" width="95%">
+					</div>
+				</div>
 			</div>
-		</div>
-	</div>
-</section>
+			<div class="container p-0">
+				<div class="row justify-content-center my-4">
+					<div class="col-12">
+						<img src="{{ asset('images/infografiaFull.png') }}" style="margin-right: auto; margin-left: auto; display: block" alt="" width="95%">
+					</div>
+				</div>
+			</div>
+
+
+		</section>
 
 
 
@@ -88,6 +97,6 @@
 				</div>
 			</div>
 		</div>
-</section> --}}
+	</section> --}}
 
-@endsection
+	@endsection
