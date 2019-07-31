@@ -1,12 +1,12 @@
 @extends('plantilla')
 
 @section('titulo')
-Procesos y Servicios
+	Procesos y Servicios
 @endsection
 
 @section('contenido')
 @include('modales')
-<section class="hero-wrap hero-wrap-2" style="background-image: url('images/bg_1.png');" data-stellar-background-ratio="0.5">
+<section class="hero-wrap hero-wrap-2" style="background-image: url('images/backgrounds/{{ getRandomBackground() }}');" data-stellar-background-ratio="0.5">
 	<div class="overlay"></div>
 	<div class="container">
 		<div class="row no-gutters slider-text align-items-center justify-content-center">
@@ -36,7 +36,10 @@ Procesos y Servicios
 		</div>
 	</div>
 </section>
-<section class="ftco-section ftco-no-pt ftco-no-pb">
+
+
+
+{{-- <section class="ftco-section ftco-no-pt ftco-no-pb">
 		<div class="container p-0">
 			<div class="row no-gutters justify-content-center mb-4">
 				<div class="col-auto">
@@ -85,6 +88,6 @@ Procesos y Servicios
 				</div>
 			</div>
 		</div>
-	</section>
+</section> --}}
 
-	@endsection
+@endsection

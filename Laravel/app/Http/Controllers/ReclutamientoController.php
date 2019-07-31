@@ -11,8 +11,6 @@ class ReclutamientoController extends Controller
     public function formReclutamiento(Request $r)
     {
     	$url_cv = $this->guardarCV($r);
-    	return $url_cv;
-
     	$curriculo = new Curriculo([
     		'nombre' => $r->nombre,
     		'apellidos' => $r->apellidos,
@@ -24,15 +22,14 @@ class ReclutamientoController extends Controller
     		'area_interes' => $r->area_interes,
     		'url_cv' => $url_cv
     	]);
+        $curriculo->save();
+        return back()->with([
+            'guardado' => 'Hemos recibido tu información, pronto nos pondremos en contacto contigo.'
+        ]);
     }
 
     private function guardarCV(Request $r){
     	$file = $r->file('cv');
-    	$nom_u = str_replace(' ', '_', $r->nombre);
-
-    	$nombre = $nom_u . '_' . Carbon::now()->timestamp ;
-
-    	\Storage::disk('local')->put($nombre, \File::get($file));
-    	return "Guardado";
+        return $r->file('cv')->store('public');
     }
 }
