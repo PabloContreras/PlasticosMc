@@ -22,7 +22,8 @@ Desarrollo
 	<div class="container p-0">
 		<div class="row justify-content-center my-4">
 			<div class="col-12">
-				<img src="{{ asset('images/info.png') }}" style="margin-right: auto; margin-left: auto; display: block" alt="" width="70%">
+				<img src="{{ asset('images/info_desarrollo.png') }}" style="margin-right: auto; margin-left: auto; display: block" alt="" width="75%">
+				{{-- <img src="{{ asset('images/info.png') }}" style="margin-right: auto; margin-left: auto; display: block" alt="" width="75%"> --}}
 			</div>
 		</div>
 	</div>
