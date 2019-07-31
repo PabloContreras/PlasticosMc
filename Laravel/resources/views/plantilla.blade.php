@@ -56,7 +56,7 @@
 				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
 					<span class="oi oi-menu"></span> Menú
 				</button>
-				<div class="collapse navbar-collapse" id="ftco-nav" style="background-color: white">
+				<div class="collapse navbar-collapse text-center" id="ftco-nav" style="background-color: white">
 					<ul class="navbar-nav mr-auto">
 						<li class="nav-item {{ isActive('nosotros') ? 'active' : '' }}">
 							<a class="nav-link" href="{{ url('/nosotros') }}">Nuestra Filosofía</a>
