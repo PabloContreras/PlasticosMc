@@ -80,3 +80,9 @@ Route::get('/publicaciones/documentos/{id}', 'PublicacionesController@showDocume
 Route::delete('/publicaciones/documentos/{id}/eliminar', 'PublicacionesController@destroyDocumentosForAdmin');
 
 Route::get('/download/{id}', 'PublicacionesController@getDownload');
+
+
+Route::get('/getAreas/{empresa}',[
+  'as' => 'getAreasAJAX',
+  'uses' => 'ReclutamientoController@getArea'
+]);

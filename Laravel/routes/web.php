@@ -88,8 +88,3 @@ Route::post('/reclutamiento',array(
   'uses' => 'ReclutamientoController@formReclutamiento'
 ));
 
-
-Route::get('/getAreas/{$empresa}',[
-  'as' => 'getAreasAJAX',
-  'uses' => 'ReclutamientoController@getArea'
-]);

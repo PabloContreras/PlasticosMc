@@ -50,14 +50,14 @@
 											      	<label for="exampleSelect1">Empresa</label>
 											        <select class="form-control" id="empresaSelect" name="empresa" onchange="ajax(this)">
 											        	<option selected=""></option>
-												    	<option value="MC Plásticos">MC Plásticos</option>
-												        <option value="Fortalab">Fortalab</option>
-												        <option value="Prosentec">Prosentec</option>
+												    	<option value="1">MC Plásticos</option>
+												        <option value="2">Fortalab</option>
+												        <option value="3">Prosentec</option>
 											    	</select>
 											    </div>
 											    <div class="form-group col-md-3">
 											      	<label for="exampleSelect1">Área</label>
-											        <select class="form-control" id="exampleSelect1" name="area">
+											        <select class="form-control" id="areaSelect" name="area">
 										        		<option selected=""></option>
 											    	</select>
 											    </div>
@@ -95,7 +95,7 @@
         </div>
     </div>
 </div>
-<<<<<<< HEAD
+
 @endsection
 
 @section('scripts')
@@ -104,12 +104,18 @@
 		function ajax(source){
 			if(source.id == 'empresaSelect'){
 				var valueSelect = source.value;
-				var route = '{{ route('getAreasAJAX',":em") }}'.replace(':em', valueSelect);
+				var route = '{{ route('admin.getAreasAJAX',":em") }}'.replace(':em', valueSelect);
 				console.log(route);
 				$.ajax({
 					url: route,
 					success: function(respuesta){
-						console.log(respuesta);
+						var i = 0;
+						$.each(respuesta,function(){
+							$('#areaSelect').append(
+								'<option value='+i+'>'+respuesta.area+'</option>'
+							);
+							i++;
+						});
 					},
 					error: function(error){
 						console.log(error);
@@ -118,7 +124,7 @@
 			}
 		}
 	</script>
-=======
+
 <script type="text/javascript">
 	var img = document.getElementById('imagen');
 	var imagen = document.getElementById('img');
@@ -138,5 +144,4 @@
         tipoArchivo();
     });
 </script>
->>>>>>> bffadeebaee7d24bbb723518e6bda5c938d6531f
 @endsection

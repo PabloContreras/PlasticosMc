@@ -6,6 +6,7 @@ use App\Curriculo;
 use App\Mail\CurriculoMail;
 use Carbon\Carbon;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Mail;
 
 class ReclutamientoController extends Controller
@@ -50,7 +51,17 @@ class ReclutamientoController extends Controller
 
     public function getArea($empresa)
     {
-       return DB::table('employees')->select('area')->where('empresa','=',$empresa)->get();
+        return DB::table('employees')->select('area')->where('empresa','=',$empresa)->distinct()->get();
+    }
+
+    private function getEmpresa($num){
+        if ($num == 1) {
+            return "MC Plásticos";
+        }else if($num == 2){
+            return "Fortalab";
+        }else{
+            return "Prosentec";
+        }
     }
 
 
