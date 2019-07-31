@@ -1,7 +1,7 @@
 @extends('plantilla')
 
 @section('titulo')
-	Procesos y Servicios
+Procesos y Servicios
 @endsection
 
 @section('contenido')
@@ -11,7 +11,7 @@
 	<div class="container">
 		<div class="row no-gutters slider-text align-items-center justify-content-center">
 			<div class="col-md-9 ftco-animate text-center">
-				<h1 class="mb-2 bread">Procesos, Servicios y Clientes <h1>
+				<h1 class="mb-2 bread">Procesos y Servicios<h1>
 					<!-- <p class="breadcrumbs"><span class="mr-2"><a href="{{ route('inicio') }}">Inicio <i class="ion-ios-arrow-forward"></i></a></span> <span>Procesos y Servicios<i class="ion-ios-arrow-forward"></i></span></p> -->
 				</div>
 			</div>
@@ -20,22 +20,31 @@
 
 
 	<section class="ftco-section ftco-no-pt ftco-no-pb">
-	<div class="container p-0">
-		<div class="row justify-content-center my-4">
-			<div class="col-12">
-				<img src="{{ asset('images/infoProcesos.png') }}" style="margin-right: auto; margin-left: auto; display: block" alt="" width="70%">
+		<div class="container p-0">
+			<div class="row justify-content-center my-4">
+				<div class="col-12">
+					<img src="{{ asset('images/infografia_nueva.png') }}" style="margin-right: auto; margin-left: auto; display: block" alt="" width="100%">
+				</div>
 			</div>
 		</div>
-	</div>
-	<section class="ftco-section ftco-no-pt ftco-no-pb">
-	<div class="container p-0">
-		<div class="row justify-content-center my-4">
-			<div class="col-12">
-				<img src="{{ asset('images/infoMercados.png') }}" style="margin-right: auto; margin-left: auto; display: block" alt="" width="70%">
+		<section class="ftco-section ftco-no-pt ftco-no-pb">
+			<div class="container p-0">
+				<div class="row justify-content-center my-4">
+					<div class="col-12">
+						<img src="{{ asset('images/infoMercados.png') }}" style="margin-right: auto; margin-left: auto; display: block" alt="" width="100%">
+					</div>
+				</div>
 			</div>
-		</div>
-	</div>
-</section>
+			<div class="container p-0">
+				<div class="row justify-content-center my-4">
+					<div class="col-12">
+						<img src="{{ asset('images/infografiaFull.png') }}" style="margin-right: auto; margin-left: auto; display: block" alt="" width="100%">
+					</div>
+				</div>
+			</div>
+
+
+		</section>
 
 
 
@@ -88,6 +97,6 @@
 				</div>
 			</div>
 		</div>
-</section> --}}
+	</section> --}}
 
-@endsection
+	@endsection

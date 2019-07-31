@@ -51,6 +51,8 @@ Route::get('/vacantes/{id}/actualizar', 'VacantesController@editForAdmin');
 Route::put('/vacantes/{id}','VacantesController@updateForAdmin');
 Route::get('/vacantes/{id}', 'VacantesController@showForAdmin');
 Route::delete('/vacantes/{id}/eliminar', 'VacantesController@destroyForAdmin');
+
+Route::get('/curriculos', 'ReclutamientoController@getViewCurriculos');
 /*
 		Rutas para Eventos
 */
