@@ -200,7 +200,7 @@ Nosotros
 					</div>
 				</font>
 			</div>
-			<div class="col-md-5 p-md-5 img img-2 mt-5 mt-md-0" style="background-image: url(images/equipo.jpg); background-size: cover;  height: 300px">
+			<div class="col-md-5 p-md-5 img img-2 mt-5 mt-md-0" style="background-image: url(images/fin/tab_equipo.JPG); background-size: cover;  height: 300px">
 			</div>
 		</div>
 		<div class="row no-gutters my-5">
@@ -228,11 +228,11 @@ Nosotros
 					</div>
 				</font>
 			</div>
-			<div class="col-md-5 p-md-5 img img-2 mt-5 mt-md-0" style="background-image: url(images/equipo.jpg); background-size: cover;  height: 300px">
+			<div class="col-md-5 p-md-5 img img-2 mt-5 mt-md-0" style="background-image: url(images/fin/integridad.JPG); background-size: cover;  height: 300px">
 			</div>
 		</div>
 		<div class="row no-gutters my-5">
-			<div class="col-md-5 p-md-5 img img-2 mt-5 mt-md-0" style="background-image: url(images/servicio_excelencia.jpg); background-size: cover;  height: 300px">
+			<div class="col-md-5 p-md-5 img img-2 mt-5 mt-md-0" style="background-image: url(images/fin/excelencia.JPG); background-size: cover;  height: 300px">
 			</div>
 			<div class="col-md-7 wrap-about py-5 px-4 px-md-5 ftco-animate">
 				<div class="heading-section mb-5">

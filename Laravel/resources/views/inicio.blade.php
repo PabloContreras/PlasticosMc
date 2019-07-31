@@ -62,7 +62,7 @@ Inicio
 										<img class="d-block w-100" src="images/slider/s4.png" alt="Third slide">
 									</div>
 									<div class="carousel-item">
-										<img class="d-block w-100" src="images/slider/s6.png" alt="Third slide">
+										<img class="d-block w-100" src="images/slider/s5x3.png" alt="Third slide">
 									</div>
 								</div>
 								<a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -110,7 +110,7 @@ Inicio
 								</font>
 							</div>
 						</div>
-						<div  class="col-md-4 p-md-5 img img-2 mt-6 mt-md-0" style="background-image: url(images/nuestraCom.jpg);">
+						<div  class="col-md-4 p-md-5 img img-2 mt-6 mt-md-0" style="background-image: url(images/fin/nuestra_compañia.png);">
 						</div>
 					</div>
 				</div>
