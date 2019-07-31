@@ -81,13 +81,13 @@ Inicio
 
 			<br><br><br><br>
 			<!-- Frase -->
-			<section class="ftco-intro" style="background-image: url(images/bg_3.jpg);" data-stellar-background-ratio="0.5">
+			<section class="ftco-intro" style="background-image: url(images/fondoPrincipal.jpg);" data-stellar-background-ratio="0.5">
 				<div class="overlay"></div>
 				<div class="container">
 					<div class="row justify-content-center">
 						<div class="col-md-12 text-center">
 							<font face="Verdana">
-{{-- 								<h2>MC Plásticos es el resultado de una historia de más de 40 años de esfuerzo y dedicación...</h2> --}}
+								{{-- 								<h2>MC Plásticos es el resultado de una historia de más de 40 años de esfuerzo y dedicación...</h2> --}}
 								<h2>MC Plásticos es una empresa consolidada con presencia nacional e internacional, que ofrece a sus clientes soluciones integrales dentro de la industria de la transformación del plástico. </h2>
 							</font>
 						</div>
@@ -106,18 +106,18 @@ Inicio
 							</div>
 							<div class="col-md-12" style="text-align: justify; ">
 								<font face="Verdana">
-								<p><strong>MC Plásticos</strong> es una empresa consolidada al 100%, que ofrece a sus clientes soluciones integrales dentro de la industria del plástico, a nivel internacional</p>
+									<p><strong>MC Plásticos</strong> es una empresa consolidada al 100%, que ofrece a sus clientes soluciones integrales dentro de la industria del plástico, a nivel internacional</p>
 								</font>
 							</div>
 						</div>
-						<div  class="col-md-4 p-md-5 img img-2 mt-6 mt-md-0" style="background-image: url(images/IMG_0356.JPG);">
+						<div  class="col-md-4 p-md-5 img img-2 mt-6 mt-md-0" style="background-image: url(images/nuestraCom.jpg);">
 						</div>
 					</div>
 				</div>
 			</section>
 			<!-- Our Products -->
 
-
+{{--
 			<section class="ftco-section ftco-no-pt ftco-no-pb">
 				<div class="container-fluid p-0">
 					<div class="row no-gutters justify-content-center mb-5 pb-2">
@@ -154,118 +154,62 @@ Inicio
 						</div>
 					</div>
 				</div>
+			</section> --}}
+
+			<section class="ftco-section ftco-no-pt ftco-no-pb">
+				<div class="container-fluid p-0">
+					<div class="row no-gutters justify-content-center mb-5 pb-2">
+						<div class="col-md-6 text-center heading-section ftco-animate">
+							<br><br>
+							<h2 class="mb-4"><font face="Encode Sans">Nuestros productos</font></h2>
+						</div>
+					</div>
+				</div>
+				<img src="{{ asset('images/splashPlasticos.png') }}" alt="" style="width: 100%">
 			</section>
-			<br><br>
-			<!-- cd /var/www/plasticosmc/html/
-</section>
 
-					<center>
-						<br>
-						<div style="width: 360px; margin: 0 auto;">
-							<a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger " href="{{ route('productos')}}">Ver mas...</a>
+			<section class="ftco-section ftco-no-pt ftco-no-pb">
+				<div class="container-fluid p-0">
+					<div class="row no-gutters justify-content-center mb-5 pb-2">
+						<div class="col-md-6 text-center heading-section ftco-animate">
+							<br><br>
+							<h2 class="mb-4"><font face="Encode Sans">Nuestros clientes</font></h2>
 						</div>
-					</center>
-				</div>
-			</section> -->
-			<!-- End our products-->
-			<!-- Quiénes somos -->
-
-			<!-- End quienes somos -->
-			<!--cunter -->
-			<!-- <section class="ftco-counter img" id="section-counter" style="background-image: url(images/bg_3.jpg);" data-stellar-background-ratio="0.5">
-				<div class="container">
-					<div class="row">
-						<div class="col-md-6 col-lg-4 d-flex justify-content-center counter-wrap ftco-animate">
-							<div class="block-18 d-flex">
-								<div class="text d-flex align-items-center">
-									<strong class="number" data-number="45">0</strong>
-								</div>
-								<div class="text-2">
-									<span>Años <br> de <br>Experiencia</span>
-								</div>
+					</div>
+					<div id="clientesCarousel" class="carousel slide" data-ride="carousel">
+						<div class="carousel-inner">
+							<div class="carousel-item active">
+								<img class="d-block w-100" src="{{ asset('images/slideClientes/clientes1.png') }}" alt="">
+							</div>
+							<div class="carousel-item">
+								<img class="d-block w-100" src="{{ asset('images/slideClientes/clientes2.png') }}" alt="">
+							</div>
+							<div class="carousel-item">
+								<img class="d-block w-100" src="{{ asset('images/slideClientes/clientes3.png') }}" alt="">
+							</div>
+							<div class="carousel-item">
+								<img class="d-block w-100" src="{{ asset('images/slideClientes/clientes4.png') }}" alt="">
+							</div>
+							<div class="carousel-item">
+								<img class="d-block w-100" src="{{ asset('images/slideClientes/clientes5.png') }}" alt="">
+							</div>
+							<div class="carousel-item">
+								<img class="d-block w-100" src="{{ asset('images/slideClientes/clientes6.png') }}" alt="">
 							</div>
 						</div>
-						<div class="col-md-6 col-lg-4 d-flex justify-content-center counter-wrap ftco-animate">
-							<div class="block-18 d-flex">
-								<div class="text d-flex align-items-center">
-									<strong class="number" data-number="40">0</strong>
-								</div>
-								<div class="text-2">
-									<span>Millones de<br> componentes <br>mensuales</span>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-6 col-lg-4 d-flex justify-content-center counter-wrap ftco-animate">
-							<div class="block-18 d-flex">
-								<div class="text d-flex align-items-center">
-									<strong class="number" data-number="626">0</strong>
-								</div>
-								<div class="text-2">
-									<span>Colaboradores <br>Comprometidos</span>
-								</div>
-							</div>
-						</div>
+						<a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+							<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+							<span class="sr-only">Previous</span>
+						</a>
+						<a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+							<span class="carousel-control-next-icon" aria-hidden="true"></span>
+							<span class="sr-only">Next</span>
+						</a>
+					</div>
+				</div>
+			</section>
 
-					</div>
-				</div>
-			</section> -->
-			<!-- End counter -->
-			<br><br>
-			<!-- Nuestros clientes -->
-			{{--<section class="ftco-services ftco-no-pt">
-				<div class="container">
-					<div class="row justify-content-center mb-5 pb-2">
-						<div class="col-md-8 text-center heading-section ftco-animate">
-							<h2 class="mb-4">Nuestros clientes</h2>
-						</div>
-					</div>
-					<div class="row no-gutters">
-						<div class="col-md-6 col-lg-3 ftco-animate">
-							<img src="images/avon.png" class="img-fluid" alt="AVON">
-						</div>
-						<div class="col-md-6 col-lg-3 ftco-animate">
-							<img src="images/genoma.png" class="img-fluid" alt="Genoma Lab">
-						</div>
-						<div class="col-md-6 col-lg-3 ftco-animate">
-							<img src="images/coty.png" class="img-fluid" alt="COTY">
-						</div>
-						<div class="col-md-6 col-lg-3 ftco-animate">
-							<img src="images/colgate.png" class="img-fluid" alt="Colgate">
-						</div>
-					</div>
-					<br>
-					<div class="row no-gutters">
-						<div class="col-md-6 col-lg-3 ftco-animate">
-							<img src="images/revlon.png" class="img-fluid" alt="Revlon">
-						</div>
-						<div class="col-md-6 col-lg-3 ftco-animate">
-							<img src="images/toms.png" class="img-fluid" alt="Toms">
-						</div>
-						<div class="col-md-6 col-lg-3 ftco-animate">
-							<img src="images/henkel.png" class="img-fluid" alt="Henkel">
-						</div>
-						<div class="col-md-6 col-lg-3 ftco-animate">
-							<img src="images/qualypharm.png" class="img-fluid" alt="qualypharm">
-						</div>
-					</div>
-					<br>
-					<div class="row no-gutters">
-						<div class="col-md-6 col-lg-3 ftco-animate">
-							<img src="images/loreal.png" class="img-fluid" alt="loreal">
-						</div>
-						<div class="col-md-6 col-lg-3 ftco-animate">
-							<img src="images/jafra.png" class="img-fluid" alt="jafra">
-						</div>
-						<div class="col-md-6 col-lg-3 ftco-animate">
-							<img src="images/natura.png" class="img-fluid" alt="natura">
-						</div>
-						<div class="col-md-6 col-lg-3 ftco-animate">
-							<img src="images/opi.png" class="img-fluid" alt="OPI">
-						</div>
-					</div>
-				</div>
-			</section>--}}
-			<!-- End nuestros clientes -->
+
 
 			<!-- Contacto -->
 			<section class="ftco-section ftco-no-pt ftco-no-pb contact-section">
@@ -298,11 +242,16 @@ Inicio
 			</section>
 			@endsection
 
-			@section('scripts')
-				<script type="text/javascript">
-					$('#carouselTiempo').carousel({
-						interval: 1500,
-						pause: false
-					});
-				</script>
-			@endsection
+@section('scripts')
+	<script type="text/javascript">
+		$('#carouselTiempo').carousel({
+			interval: 1500,
+			pause: false
+		});
+
+		$('#clientesCarousel').carousel({
+			interval: 1500,
+			pause: false
+		});
+	</script>
+@endsection

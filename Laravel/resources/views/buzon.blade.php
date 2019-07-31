@@ -5,14 +5,14 @@ Buzon para clientes
 @endsection
 
 @section('contenido')
-<section class="hero-wrap hero-wrap-2" style="background-image: url('images/bg_1.png');" data-stellar-background-ratio="0.5">
+<section class="hero-wrap hero-wrap-2" style="background-image: url('images/backgrounds/{{ getRandomBackground() }}');" data-stellar-background-ratio="0.5">
 	<div class="overlay"></div>
 	<div class="container">
 		<div class="row no-gutters slider-text align-items-center justify-content-center">
 			<div class="col-md-9 ftco-animate text-center">
 				<font face="Encode Sans">
 				<h1 class="mb-2 bread">Buzón para clientes</h1>
-					
+
 				</font>
 				<!-- <p class="breadcrumbs"><span class="mr-2"><a href="{{ route('inicio') }}">Inicio <i class="ion-ios-arrow-forward"></i></a></span> <span>Buzón para clientes <i class="ion-ios-arrow-forward"></i></span></p> -->
 			</div>
@@ -55,7 +55,7 @@ Buzon para clientes
 			<div class="col-md-12 mb-4">
 				<font face="Encode Sans">
 				<h2 class="h4">Información de contacto</h2>
-					
+
 				</font>
 			</div>
 			<div class="w-100"></div>
