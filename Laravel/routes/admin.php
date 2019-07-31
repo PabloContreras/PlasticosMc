@@ -9,7 +9,7 @@ Route::get('/perfil', function () {
 
     return view('admin.profile');
 });
-Route::get('/home', 'AdmininController@profile');
+Route::get('/home', 'AdminController@profile');
 Route::get('/perfil', 'AdminController@profile');
 /*
 		Rutas para Administradores
