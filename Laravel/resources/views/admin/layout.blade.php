@@ -36,19 +36,20 @@
 					<!-- Nav Item - Pages Collapse Menu -->
 					<li class="nav-item {{ Request::path() == 'admin/perfil' ? ' active' : '' }} {{ Request::path() == 'admin/home' ? ' active' : '' }}">
 						<a class="nav-link collapsed" href="{{ url('/admin/perfil') }}">
-							<i class="fas fa-users-cog"></i>
+							<i class="fas fa-user-alt"></i>
 							<span>Perfil</span>
 						</a>
 					</li>
+					<hr class="sidebar-divider d-none d-md-block">
 					<li class="nav-item {{ Request::path() == 'admin/administradores' ? ' active' : '' }}">
 						<a class="nav-link collapsed" href="{{ url('/admin/administradores') }}">
-							<i class="fas fa-users-cog"></i>
+							<i class="fas fa-users"></i>
 							<span>Administradores</span>
 						</a>
 					</li>
 					<li class="nav-item {{ Request::path() == 'admin/editores' ? ' active' : '' }}">
 						<a class="nav-link collapsed" href="{{ url('/admin/editores') }}">
-							<i class="fas fa-users-cog"></i>
+							<i class="fas fa-user-edit"></i>
 							<span>Editores</span>
 						</a>						
 					</li>
@@ -60,13 +61,31 @@
 					</li>
 					<li class="nav-item {{ Request::path() == 'admin/vacantes' ? ' active' : '' }}">
 						<a class="nav-link collapsed" href="{{ url('/admin/vacantes') }}">
-							<i class="fas fa-users-cog"></i>
+							<i class="fas fa-user-plus"></i>
 							<span>Vacantes</span>
 						</a>						
 					</li>
 
 					<!-- Divider -->
 					<hr class="sidebar-divider d-none d-md-block">
+					<li class="nav-item {{ Request::path() == 'admin/publicaciones/avisos' ? ' active' : '' }}">
+						<a class="nav-link collapsed" href="{{ url('/admin/publicaciones/avisos') }}">
+							<i class="fas fa-exclamation-circle"></i>
+							<span>Avisos</span>
+						</a>						
+					</li>
+					<li class="nav-item {{ Request::path() == 'admin/publicaciones/eventos' ? ' active' : '' }}">
+						<a class="nav-link collapsed" href="{{ url('/admin/publicaciones/eventos') }}">
+							<i class="fas fa-calendar-week"></i>
+							<span>Eventos</span>
+						</a>						
+					</li>
+					<li class="nav-item {{ Request::path() == 'admin/publicaciones/documentos' ? ' active' : '' }}">
+						<a class="nav-link collapsed" href="{{ url('/admin/publicaciones/documentos') }}">
+							<i class="fas fa-folder-open"></i>
+							<span>Documentos</span>
+						</a>						
+					</li>
 
 
 				</ul>

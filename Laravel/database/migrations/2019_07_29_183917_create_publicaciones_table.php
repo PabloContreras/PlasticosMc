@@ -15,10 +15,11 @@ class CreatePublicacionesTable extends Migration
     {
         Schema::create('publicaciones', function (Blueprint $table) {
             $table->bigIncrements('id');
-            $table->string('editor_id');
-            $table->string('contenido');
-            $table->integer('tipo_publicacion');
-            $table->string('archivo');
+            $table->string('owner_id');
+            $table->string('contenido')->nullable();
+            $table->string('tipo_publicacion');
+            $table->string('imagen')->nullable();
+            $table->string('archivo')->nullable();
             $table->string('empresa');
             $table->string('area');
             $table->string('puesto');
