@@ -58,9 +58,9 @@
 											      	<label for="exampleSelect1">Área</label>
 											        <select class="form-control" id="exampleSelect1" name="area">
 										        		<option selected=""></option>
-												    	<option value="MC Plásticos">MC Plásticos</option>
-												        <option value="Fortalab">Fortalab</option>
-												        <option value="Prosentec">Prosentec</option>
+										        		@foreach( $areasMC as $area)
+													    	<option value="MC Plásticos">MC Plásticos</option>
+												        @endforeach
 											    	</select>
 											    </div>
 											    <div class="form-group col-md-3">

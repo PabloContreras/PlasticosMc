@@ -4,6 +4,8 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Employee;
+use App\Publicaciones;
+use Auth;
 
 class EmpleadosController extends Controller
 {
@@ -49,5 +51,28 @@ class EmpleadosController extends Controller
     	$empleado = Employee::find($id);
     	$empleado->delete();
     	return redirect('/admin/empleados');
+    }
+
+    public function avisos(){
+        $empleado = Auth::user();
+        $publicaciones = Publicaciones::where('tipo_publicacion', 'aviso')->get();
+        //return $publicaciones;
+        return view('employee.publicaciones', compact('empleado', 'publicaciones'));
+    }
+    public function eventos(){
+        $empleado = Auth::user();
+        $publicaciones = Publicaciones::where('tipo_publicacion', 'evento')->get();
+        //return $publicaciones;
+        return view('employee.publicaciones', compact('empleado', 'publicaciones'));
+    }
+    public function documentos(){
+        $empleado = Auth::user();
+        $publicaciones = Publicaciones::where('tipo_publicacion', 'documento')->get();
+        //return $publicaciones;
+        return view('employee.publicaciones', compact('empleado', 'publicaciones'));
+    }
+    public function show($id){
+        $publicacion = Publicaciones::find($id);
+        return view('employee.show', compact('publicacion'));
     }
 }

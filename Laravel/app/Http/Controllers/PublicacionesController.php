@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Publicaciones;
+use App\Employee;
 use Auth;
 use Image;
 use Illuminate\Support\Facades\File;
@@ -24,7 +25,9 @@ class PublicacionesController extends Controller
     }
     public function createAvisosForAdmin(){
     	$titulo = 'aviso';
-    	return view('admin.publicaciones.create', compact('titulo'));
+        $areasMC = Employee::where('empresa', 'MC Plásticos')->get('area');
+        //return $areas;
+    	return view('admin.publicaciones.create', compact('titulo', 'areasMC'));
     }
     public function storeAvisosForAdmin(Request $request){
     	$aviso = new Publicaciones;

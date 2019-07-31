@@ -59,9 +59,19 @@
                 <div class="collapse navbar-collapse pull-right-lg" id="ftco-nav" style="background-color: white; float: right; ">
                     <ul class="navbar-nav mr-auto">
                         
-                        <li class="nav-item {{ isActive('/employee') ? 'active' : '' }} ">
-                            <a href="{{ url('/employee/') }}" class="nav-link pl-0" style="margin-left: 15px">
-                                Anuncios
+                        <li class="nav-item {{ isActive('/employee/publicaciones/avisos') ? 'active' : '' }} ">
+                            <a href="{{ url('/employee/publicaciones/avisos') }}" class="nav-link pl-0" style="margin-left: 15px">
+                                Avisos
+                            </a>
+                        </li>
+                        <li class="nav-item {{ isActive('/employee/publicaciones/eventos') ? 'active' : '' }} ">
+                            <a href="{{ url('/employee/publicaciones/eventos') }}" class="nav-link pl-0" style="margin-left: 15px">
+                                Eventos
+                            </a>
+                        </li>
+                        <li class="nav-item {{ isActive('/employee/publicaciones/documentos') ? 'active' : '' }} ">
+                            <a href="{{ url('/employee/publicaciones/documentos') }}" class="nav-link pl-0" style="margin-left: 15px">
+                                Documentos
                             </a>
                         </li>
                         <li class="nav-item dropdown">
