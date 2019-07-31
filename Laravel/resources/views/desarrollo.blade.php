@@ -19,13 +19,23 @@ Desarrollo
 
 
 	<section class="ftco-section ftco-no-pt ftco-no-pb">
-	<div class="container p-0">
-		<div class="row justify-content-center my-4">
-			<div class="col-12">
-				<img src="{{ asset('images/info_desarrollo.png') }}" style="margin-right: auto; margin-left: auto; display: block" alt="" width="75%">
-				{{-- <img src="{{ asset('images/info.png') }}" style="margin-right: auto; margin-left: auto; display: block" alt="" width="75%"> --}}
+		<div class="container p-0">
+			<div class="row mt-3 justify-content-center">
+				<div class="col-9">
+					<p style="font-size: 20px; text-align: justify">
+						Nos especializamos en la transferencia e integración de tecnología necesaria para asegurar que
+						los conceptos y diseños con los que iniciamos un nuevo desarrollo o proyecto puedan
+						evolucionar hacia la manufactura de los mismos de manera exitosa. Para ello contamos con el
+						siguiente soporte
+					</p>
+				</div>
+			</div>
+			<div class="row justify-content-center my-4">
+				<div class="col-12">
+					<img src="{{ asset('images/fin/infoDes.png') }}" style="margin-right: auto; margin-left: auto; display: block" alt="" width="75%">
+					{{-- <img src="{{ asset('images/info.png') }}" style="margin-right: auto; margin-left: auto; display: block" alt="" width="75%"> --}}
+				</div>
 			</div>
 		</div>
-	</div>
-</section>
+	</section>
 	@endsection
