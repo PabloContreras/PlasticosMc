@@ -35,11 +35,11 @@
 											      	<input type="checkbox" class="custom-control-input" checked="" id="imagen" name="imagen">
       												<label class="custom-control-label" for="imagen">Imagen/Archivo</label>
 											    </div>
-											    <div class="form-group col-md-4" id="imagen">
-											      	<label for="exampleInputFile">Elige un archivo</label>
+											    <div class="form-group col-md-4" id="img" style="display: none">
+											      	<label for="exampleInputFile">Elige una imagen</label>
 											      	<input type="file" class="form-control-file" id="exampleInputFile" name="avatar">
 											    </div>
-											    <div class="form-group col-md-4" id="archivo">
+											    <div class="form-group col-md-4" id="archivo" >
 											      	<label for="exampleInputFile">Elige un archivo</label>
 											      	<input type="file" class="form-control-file" id="exampleInputFile" name="archivo">
 											    </div>
@@ -58,27 +58,18 @@
 											      	<label for="exampleSelect1">Área</label>
 											        <select class="form-control" id="exampleSelect1" name="area">
 										        		<option selected=""></option>
-										        		@foreach( $areasMC as $area)
-													    	<option value="MC Plásticos">MC Plásticos</option>
-												        @endforeach
 											    	</select>
 											    </div>
 											    <div class="form-group col-md-3">
 											      	<label for="exampleSelect1">Puesto</label>
 											        <select class="form-control" id="exampleSelect1" name="puesto">
 											        	<option selected=""></option>
-												    	<option value="MC Plásticos">MC Plásticos</option>
-												        <option value="Fortalab">Fortalab</option>
-												        <option value="Prosentec">Prosentec</option>
 											    	</select>
 											    </div>
 											    <div class="form-group col-md-3">
 											      	<label for="exampleSelect1">Persona</label>
 											        <select class="form-control" id="exampleSelect1" name="persona">
 										        		<option selected=""></option>		
-												    	<option value="MC Plásticos">MC Plásticos</option>
-												        <option value="Fortalab">Fortalab</option>
-												        <option value="Prosentec">Prosentec</option>
 											    	</select>
 											    </div>
 
@@ -100,4 +91,25 @@
         </div>
     </div>
 </div>
+<script type="text/javascript">
+	var img = document.getElementById('imagen');
+	var imagen = document.getElementById('img');
+	var archivo = document.getElementById('archivo');
+	console.log(archivo);
+
+	function tipoArchivo(){
+        if ( img.checked ) {
+            //ocultar imagen
+            $(imagen).hide();
+            $(archivo).show();
+        }else{
+        	//ocultar archivo
+        	$(imagen).show();
+            $(archivo).hide();
+        }
+    }
+    img.addEventListener('click',function(){
+        tipoArchivo();
+    });
+</script>
 @endsection
