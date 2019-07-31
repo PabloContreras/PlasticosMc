@@ -62,7 +62,7 @@ Inicio
 										<img class="d-block w-100" src="images/slider/s4.png" alt="Third slide">
 									</div>
 									<div class="carousel-item">
-										<img class="d-block w-100" src="images/slider/s5.png" alt="Third slide">
+										<img class="d-block w-100" src="images/slider/s6.png" alt="Third slide">
 									</div>
 								</div>
 								<a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
