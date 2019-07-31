@@ -1,4 +1,4 @@
-@extends('admin.layout')
+@extends('employee.layout.auth')
 
 @section('links')
 	<style>
@@ -61,7 +61,7 @@
 									    	<b><label for="persona">Persona</label></b><br>
 									    	<label> {{ $publicacion->persona }} </label>
 									    </div>
-									    <a href="{{ url('/admin/publicaciones/'.$publicacion->tipo_publicacion.'s') }}" class="btn btn-success">Volver</a>
+									    <a href="{{ url('/employee/publicaciones/'.$publicacion->tipo_publicacion.'s') }}" class="btn btn-success">Volver</a>
 			                    </table>
 		                  	</div>
 		                </div>

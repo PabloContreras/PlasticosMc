@@ -1,3 +1,4 @@
+
 @extends('employee.layout.auth')
 @section('contenido')
     <center>
@@ -23,25 +24,27 @@
                     </div>
                 </div>
                 <div class="col-md-8">  
-                    @foreach( $publicaciones as $publicacion)            
-                    <div class="card border-primary mb-3" >
-                        <div class="card-header">
-                            <small style="color: black;"> {{ $publicacion->created_at->diffForHumans() }} </small>
+                    @forelse( $publicaciones as $publicacion)            
+                        <div class="card border-primary mb-3" >
+                            <div class="card-header">
+                                <small style="color: black;"> {{ $publicacion->created_at->diffForHumans() }} </small>
+                            </div>
+                            <div class="card-body">
+                                @if( $publicacion->imagen != 'on')
+                                    <div class="pull-left">
+                                        <img class="media-object" src="{{ Request::is('tags/*') ? '../' : '' }}/uploads/publications/{{ $publicacion->archivo }}" alt="avatar" style="width: 64px; height: 64px;">
+                                    </div>
+                                @endif
+                                <p class="card-text"> 
+                                    <h2>
+                                        <a href="{{ url('/employee/'.$publicacion->id) }}"> {!! $publicacion->contenido !!} </a>
+                                    </h2>
+                                </p>
+                            </div>
                         </div>
-                        <div class="card-body">
-                            @if( $publicacion->imagen != 'on')
-                                <div class="pull-left">
-                                    <img class="media-object" src="{{ Request::is('tags/*') ? '../' : '' }}/uploads/publications/{{ $publicacion->archivo }}" alt="avatar" style="width: 64px; height: 64px;">
-                                </div>
-                            @endif
-                            <p class="card-text"> 
-                                <h2>
-                                    <a href="{{ url('/employee/'.$publicacion->id) }}"> {!! $publicacion->contenido !!} </a>
-                                </h2>
-                            </p>
-                        </div>
-                    </div>
-                    @endforeach
+                    @empty
+                        <h1> Por el momento no tienes {{ $tipo}} disponibles</h1>
+                    @endforelse
                 </div> 
             </div>
         </div>   
