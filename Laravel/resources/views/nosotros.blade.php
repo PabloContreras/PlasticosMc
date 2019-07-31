@@ -245,6 +245,21 @@ Nosotros
 				</font>
 			</div>
 		</div>
+
+		<div class="row no-gutters my-5">
+			<div class="col-md-7 wrap-about py-5 px-4 px-md-5 ftco-animate">
+				<div class="heading-section mb-5">
+					<h2 class="mb-4"><font face="Encode Sans ">Lealtad</font></h2>
+				</div>
+				<div class="">
+					<font face="Verdana">
+						<p style=" text-align: justify;" >Nuestra <strong>Lealtad</strong> nos permite generar una relación de confianza con nuestros clientes y colaboradores.</p>
+					</div>
+				</font>
+			</div>
+			<div class="col-md-5 p-md-5 img img-2 mt-5 mt-md-0" style="background-image: url(images/LEALTAD.JPG); background-size: cover;  height: 300px">
+			</div>
+		</div>
 	</div>
 </section>
 
