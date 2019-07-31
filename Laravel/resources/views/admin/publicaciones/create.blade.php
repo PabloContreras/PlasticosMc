@@ -45,10 +45,10 @@
 											      	<input type="file" class="form-control-file" id="exampleInputFile" name="archivo">
 											    </div>
 					                        </div>
-					                        <div class="row">					                        	
+					                        <div class="row">
 											    <div class="form-group col-md-3">
 											      	<label for="exampleSelect1">Empresa</label>
-											        <select class="form-control" id="exampleSelect1" name="empresa" id="empresa">
+											        <select class="form-control" id="empresaSelect" name="empresa" onchange="ajax(this)">
 											        	<option selected=""></option>
 												    	<option value="MC Plásticos">MC Plásticos</option>
 												        <option value="Fortalab">Fortalab</option>
@@ -70,7 +70,10 @@
 											    <div class="form-group col-md-3">
 											      	<label for="exampleSelect1">Persona</label>
 											        <select class="form-control" id="exampleSelect1" name="persona">
-										        		<option selected=""></option>		
+										        		<option selected=""></option>
+												    	<option value="MC Plásticos">MC Plásticos</option>
+												        <option value="Fortalab">Fortalab</option>
+												        <option value="Prosentec">Prosentec</option>
 											    	</select>
 											    </div>
 
@@ -92,6 +95,30 @@
         </div>
     </div>
 </div>
+<<<<<<< HEAD
+@endsection
+
+@section('scripts')
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.js"></script>
+	<script>
+		function ajax(source){
+			if(source.id == 'empresaSelect'){
+				var valueSelect = source.value;
+				var route = '{{ route('getAreasAJAX',":em") }}'.replace(':em', valueSelect);
+				console.log(route);
+				$.ajax({
+					url: route,
+					success: function(respuesta){
+						console.log(respuesta);
+					},
+					error: function(error){
+						console.log(error);
+					}
+				});
+			}
+		}
+	</script>
+=======
 <script type="text/javascript">
 	var img = document.getElementById('imagen');
 	var imagen = document.getElementById('img');
@@ -111,4 +138,5 @@
         tipoArchivo();
     });
 </script>
+>>>>>>> bffadeebaee7d24bbb723518e6bda5c938d6531f
 @endsection

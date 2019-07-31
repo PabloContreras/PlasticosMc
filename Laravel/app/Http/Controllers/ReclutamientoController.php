@@ -44,4 +44,14 @@ class ReclutamientoController extends Controller
         $curriculos = Curriculo::all();
         return view('admin.curriculosList', compact('curriculos'));
     }
+
+
+    /*  Funciones publicacion admin */
+
+    public function getArea($empresa)
+    {
+       return DB::table('employees')->select('area')->where('empresa','=',$empresa)->get();
+    }
+
+
 }

@@ -87,3 +87,9 @@ Route::post('/reclutamiento',array(
   'as' => 'enviar.cv',
   'uses' => 'ReclutamientoController@formReclutamiento'
 ));
+
+
+Route::get('/getAreas/{$empresa}',[
+  'as' => 'getAreasAJAX',
+  'uses' => 'ReclutamientoController@getArea'
+]);
