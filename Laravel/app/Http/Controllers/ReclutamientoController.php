@@ -26,7 +26,7 @@ class ReclutamientoController extends Controller
     	]);
         $curriculo->save();
 
-        Mail::to('bronkbsgck@gmail.com')->send(new CurriculoMail($curriculo));
+        /*Mail::to('bronkbsgck@gmail.com')->send(new CurriculoMail($curriculo));*/
 
 
         return back()->with([
