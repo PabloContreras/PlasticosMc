@@ -112,7 +112,28 @@ Nosotros
 			<div class="col-md-9 text-center">
 				<font face="Verdana">
 					<h2>En MC Plásticos vivimos con pasión nuestros valores</h2>
-					
+
+				</font>
+			</div>
+		</div>
+	</div>
+</section>
+
+<section class="ftco-section" style="padding-bottom: 0; padding-top: 20px;">
+	<div class="container">
+		<div class="row no-gutters">
+			<div class="col-md-12 wrap-about py-5 px-4 px-md-5 ftco-animate">
+				<div class="heading-section mb-5">
+					<h2 class="mb-4"><font face="Encode Sans">NUESTRO SERVICIO DE EXCELENCIA</font></h2>
+				</div>
+				<div class="">
+					<font face="Verdana">
+						<p style=" text-align: justify; font-size: 22px" >
+							En MC Plásticos brindamos un servicio de excelencia a través de un gran equipo de trabajo, calificado y con vocación de servicio a nuestros socios de negocio.
+							<br><br>
+							A través de la innovación y de la integración de tecnologías de punta, buscamos brindar a nuestros clientes una oferta competitiva, que cumpla con sus especificaciones y necesidades, mediante un servicio de calidad.
+						</p>
+					</div>
 				</font>
 			</div>
 		</div>
@@ -133,14 +154,14 @@ Nosotros
 						<div class="img align-self-stretch" style="background-image: url(images/equipo.jpg);"></div>
 					</div>
 					<div class="text pt-3 text-center" style="background-color: #0d3a5c;">
-						<span class="position mb-2" style="color: white;">Trabajo en equipo</span>	
+						<span class="position mb-2" style="color: white;">Trabajo en equipo</span>
 					</div>
 				</div>
 			</div>
 			<div class="col-md-6 col-lg-3 ftco-animate">
 				<div class="staff">
 					<div class="img-wrap d-flex align-items-stretch">
-						<div class="img align-items-center" style="background-image: url(images/innova.jpg);  "></div>
+						<div class="img align-items-center" style="background-image: url(images/innvalores.jpg);  "></div>
 					</div>
 					<div class="text pt-3 text-center" style="background-color: #0d3a5c;">
 						<span class="position mb-2" style="color: white;">Innovación</span>

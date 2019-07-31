@@ -82,3 +82,8 @@ Route::group(['prefix' => 'editor'], function () {
   Route::get('/password/reset', 'EditorAuth\ForgotPasswordController@showLinkRequestForm')->name('password.reset');
   Route::get('/password/reset/{token}', 'EditorAuth\ResetPasswordController@showResetForm');
 });
+
+Route::post('/reclutamiento',array(
+  'as' => 'enviar.cv',
+  'uses' => 'ReclutamientoController@formReclutamiento'
+));

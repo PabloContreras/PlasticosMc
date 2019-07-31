@@ -81,13 +81,13 @@ Inicio
 
 			<br><br><br><br>
 			<!-- Frase -->
-			<section class="ftco-intro" style="background-image: url(images/bg_3.jpg);" data-stellar-background-ratio="0.5">
+			<section class="ftco-intro" style="background-image: url(images/fondoPrincipal.jpg);" data-stellar-background-ratio="0.5">
 				<div class="overlay"></div>
 				<div class="container">
 					<div class="row justify-content-center">
 						<div class="col-md-12 text-center">
 							<font face="Verdana">
-{{-- 								<h2>MC Plásticos es el resultado de una historia de más de 40 años de esfuerzo y dedicación...</h2> --}}
+								{{-- 								<h2>MC Plásticos es el resultado de una historia de más de 40 años de esfuerzo y dedicación...</h2> --}}
 								<h2>MC Plásticos es una empresa consolidada con presencia nacional e internacional, que ofrece a sus clientes soluciones integrales dentro de la industria de la transformación del plástico. </h2>
 							</font>
 						</div>
@@ -106,18 +106,18 @@ Inicio
 							</div>
 							<div class="col-md-12" style="text-align: justify; ">
 								<font face="Verdana">
-								<p><strong>MC Plásticos</strong> es una empresa consolidada al 100%, que ofrece a sus clientes soluciones integrales dentro de la industria del plástico, a nivel internacional</p>
+									<p><strong>MC Plásticos</strong> es una empresa consolidada al 100%, que ofrece a sus clientes soluciones integrales dentro de la industria del plástico, a nivel internacional</p>
 								</font>
 							</div>
 						</div>
-						<div  class="col-md-4 p-md-5 img img-2 mt-6 mt-md-0" style="background-image: url(images/IMG_0356.JPG);">
+						<div  class="col-md-4 p-md-5 img img-2 mt-6 mt-md-0" style="background-image: url(images/nuestraCom.jpg);">
 						</div>
 					</div>
 				</div>
 			</section>
 			<!-- Our Products -->
 
-
+{{--
 			<section class="ftco-section ftco-no-pt ftco-no-pb">
 				<div class="container-fluid p-0">
 					<div class="row no-gutters justify-content-center mb-5 pb-2">
@@ -154,8 +154,22 @@ Inicio
 						</div>
 					</div>
 				</div>
-			</section>
-			<br><br>
+			</section> --}}
+
+			<section class="ftco-section ftco-no-pt ftco-no-pb">
+				<div class="container-fluid p-0">
+					<div class="row no-gutters justify-content-center mb-5 pb-2">
+						<div class="col-md-6 text-center heading-section ftco-animate">
+							<br><br>
+							<h2 class="mb-4"><font face="Encode Sans">Nuestros productos</font></h2>
+							<!--<p>Separated they live in. A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country</p>-->
+						</div>
+					</div>
+				</section>
+				<section>
+					<img src="{{ asset('images/splashPlasticos.png') }}" alt="" style="width: 100%">
+				</section>
+				<br><br>
 			<!-- cd /var/www/plasticosmc/html/
 </section>
 
@@ -299,10 +313,10 @@ Inicio
 			@endsection
 
 			@section('scripts')
-				<script type="text/javascript">
-					$('#carouselTiempo').carousel({
-						interval: 1500,
-						pause: false
-					});
-				</script>
+			<script type="text/javascript">
+				$('#carouselTiempo').carousel({
+					interval: 1500,
+					pause: false
+				});
+			</script>
 			@endsection

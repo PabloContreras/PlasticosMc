@@ -33,29 +33,28 @@ Calidad
 				<div class="container">
 					<div class="row" style="font-size: 1.6rem; text-align: justify;">
 						<div class="col-12">
-							<ul>
-								<li>En la actualidad las organizaciones se encuentran con mercados cada vez más exigentes y competitivos; para conseguir el reconocimiento de nuestros clientes y de la sociedad, en <strong>MC Plásticos</strong>.</li>
-								<li>En <strong>MC Plásticos</strong> más allá de los servicios proporcionados día a día a nuestros clientes durante
+
+								<p>En la actualidad las organizaciones se encuentran con mercados cada vez más exigentes y competitivos; para conseguir el reconocimiento de nuestros clientes y de la sociedad, en <strong>MC Plásticos</strong>.</p>
+								<p>En <strong>MC Plásticos</strong> más allá de los servicios proporcionados día a día a nuestros clientes durante
 									más de 45 años, en éste 2019 nos hemos enfocado en obtener la certificación ISO 9001:2015
 									para dar fe de su capacidad de lograr eficiencia y eficacia en nuestro servicio de excelencia.
-								</li>
-							</ul>
+								</p>
 						</div>
 					</div>
 					<div class="row" style="font-size: 1.6rem; text-align: justify;">
 						<div class="col-12">Objectivos de calidad</div>
 						<div class="col-12">
-							<ul>
-								<li>En <strong>MC Plásticos</strong> nos aseguramos de que nuestros clientes estén 100% satisfechos.</li>
-								<li>
-									Estamos comprometidos en la “mejora continua”, alineando las funciones de los colaboradores a
-									nuestros objetivos de Calidad.
-								</li>
-								<li>
-									En <strong>MC Plásticos</strong> nos aseguramos de cumplir el marco legal y reglamentarios requeridos.
-								</li>
-							</ul>
+							<ol>
+								<li>Asegurarnos la satisfacción del cliente</li>
+								<li>Desarrollamos acciones para la mejora continua</li>
+								<li>Alineamos las funciones de nuestros colaboradores a los objetivos de calidad</li>
+								<li>Cumplimos con el marco legal reglamentario</li>
+							</ol>
 						</div>
+					</div>
+					<div class="row">
+						<div class="col-4"></div>
+						<div class="col-4"></div>
 					</div>
 				</div>
 			</section>
