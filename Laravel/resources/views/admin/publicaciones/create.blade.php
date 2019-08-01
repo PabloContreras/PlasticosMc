@@ -57,19 +57,19 @@
 											    </div>
 											    <div class="form-group col-md-3">
 											      	<label for="exampleSelect1">Área</label>
-											        <select class="form-control" id="areaSelect" name="area">
+											        <select class="form-control" id="areaSelecta" name="area" onchange="ajax(this)" onblur="ajax(this)">
 										        		<option selected=""></option>
 											    	</select>
 											    </div>
 											    <div class="form-group col-md-3">
 											      	<label for="exampleSelect1">Puesto</label>
-											        <select class="form-control" id="exampleSelect1" name="puesto">
+											        <select class="form-control" id="puestoSelect" name="puesto" onchange="ajax(this)" onblur="ajax(this)">
 											        	<option selected=""></option>
 											    	</select>
 											    </div>
 											    <div class="form-group col-md-3">
 											      	<label for="exampleSelect1">Persona</label>
-											        <select class="form-control" id="exampleSelect1" name="persona">
+											        <select class="form-control" id="personaSelect" name="persona">
 										        		<option selected=""></option>
 											    	</select>
 											    </div>
@@ -98,7 +98,9 @@
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.js"></script>
 	<script>
 		function ajax(source){
-			if(source.id == 'empresaSelect'){
+			var id = source.id;
+			if(id == 'empresaSelect'){
+				$('#areaSelecta').empty();
 				var valueSelect = source.value;
 				var route = '{{ route('admin.getAreasAJAX',":em") }}'.replace(':em', valueSelect);
 				console.log(route);
@@ -106,12 +108,53 @@
 					url: route,
 					success: function(respuesta){
 						var i = 0;
-						$.each(respuesta,function(){
-							$('#areaSelect').append(
-								'<option value='+i+'>'+respuesta.area+'</option>'
+						console.log(respuesta);
+						for(var i = 0; i<respuesta.length; i++ ){
+							$('#areaSelecta').append(
+								'<option value='+respuesta[i].area+'>'+respuesta[i].area+'</option>'
 							);
 							i++;
-						});
+						}
+					},
+					error: function(error){
+						console.log(error);
+					}
+				});
+			}else if(id == 'areaSelecta'){
+				$('#puestoSelect').empty();
+				var valueSelect = source.value;
+				var route = '{{ route('admin.getpuestosAJAX',":ps") }}'.replace(':ps', valueSelect);
+				$.ajax({
+					url: route,
+					success: function(respuesta){
+						var i = 0;
+						console.log(respuesta);
+						for(var i = 0; i<respuesta.length; i++ ){
+							$('#puestoSelect').append(
+								'<option value='+respuesta[i].puesto_intranet+'>'+respuesta[i].puesto_intranet+'</option>'
+							);
+							i++;
+						}
+					},
+					error: function(error){
+						console.log(error);
+					}
+				});
+			}else{
+				$('#personaSelect').empty();
+				var valueSelect = source.value;
+				var route = '{{ route('admin.getPersonasAJAX',":ps") }}'.replace(':ps', valueSelect);
+				$.ajax({
+					url: route,
+					success: function(respuesta){
+						var i = 0;
+						console.log(respuesta);
+						for(var i = 0; i<respuesta.length; i++ ){
+							$('#personaSelect').append(
+								'<option value='+respuesta[i].name+'>'+respuesta[i].name+'</option>'
+							);
+							i++;
+						}
 					},
 					error: function(error){
 						console.log(error);

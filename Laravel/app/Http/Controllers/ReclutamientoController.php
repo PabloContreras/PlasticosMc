@@ -51,7 +51,21 @@ class ReclutamientoController extends Controller
 
     public function getArea($empresa)
     {
-        return DB::table('employees')->select('area')->where('empresa','=',$empresa)->distinct()->get();
+        $empresa = $this->getEmpresa($empresa);
+        $resultados = DB::table('employees')->select('area')->where('empresa','=',$empresa)->distinct()->get();
+        return $resultados;
+    }
+
+    public function getPuestos($area)
+    {
+        $resultados = DB::table('employees')->select('puesto_intranet')->where('area','=',$area)->distinct()->get();
+        return $resultados;
+    }
+
+    public function getPersona($puesto)
+    {
+        $resultados = DB::table('employees')->select('name')->where('puesto_intranet','=',$puesto)->distinct()->get();
+        return $resultados;
     }
 
     private function getEmpresa($num){

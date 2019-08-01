@@ -86,3 +86,28 @@ Route::get('/getAreas/{empresa}',[
   'as' => 'getAreasAJAX',
   'uses' => 'ReclutamientoController@getArea'
 ]);
+
+Route::get('/getPuestos/{puestos}',[
+  'as' => 'getpuestosAJAX',
+  'uses' => 'ReclutamientoController@getPuestos'
+]);
+
+Route::get('/getPersona/{puestos}',[
+  'as' => 'getPersonasAJAX',
+  'uses' => 'ReclutamientoController@getPersona'
+]);
+
+
+/*
+$e = new Employee();
+
+$e->name = 'alan';
+$e->email = 'adsadsa';
+$e->password = 'asd';
+$e->empresa= 'MC Plásticos';
+$e->area='Sistemas';
+$e->puesto_intranet='Sistemas1';
+$e->puesto_real='sistemas2';
+$e->cumpleaños='10/sep/97';
+$e->save();
+*/
