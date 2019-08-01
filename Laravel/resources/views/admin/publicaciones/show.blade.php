@@ -44,22 +44,6 @@
 										    		@endif
 										    	@endif
 									    	</label>
-									    </div>	
-									    <div class="form-group">
-									    	<b><label for="empresa">Empresa</label></b><br>
-									    	<label> {{ $publicacion->empresa }} </label>
-									    </div>
-									    <div class="form-group">
-									    	<b><label for="area">Área</label></b><br>
-									    	<label> {{ $publicacion->area }} </label>
-									    </div>
-									    <div class="form-group">
-									    	<b><label for="puesto">Puesto</label></b><br>
-									    	<label> {{ $publicacion->puesto }} </label>
-									    </div>
-									    <div class="form-group">
-									    	<b><label for="persona">Persona</label></b><br>
-									    	<label> {{ $publicacion->persona }} </label>
 									    </div>
 									    <a href="{{ url('/admin/publicaciones/'.$publicacion->tipo_publicacion.'s') }}" class="btn btn-success">Volver</a>
 			                    </table>
