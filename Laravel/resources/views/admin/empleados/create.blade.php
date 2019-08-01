@@ -23,7 +23,7 @@
 		                <div class="card-body col-md-6">
 		                  	<div class="table-responsive">
 			                    <table class="table">
-				                    <form method="POST" action="{{ url('/admin/editores') }}/@yield('editId')">
+				                    <form method="POST" action="{{ url('/admin/empleados') }}/@yield('editId')">
 				                    	@csrf
 				                    	@section('editMethod')
                     					@show
