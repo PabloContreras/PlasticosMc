@@ -23,7 +23,7 @@ Procesos y Servicios
 		<div class="container p-0">
 			<div class="row justify-content-center my-4">
 				<div class="col-12">
-					<img src="{{ asset('images/infografia_nueva.png') }}" style="margin-right: auto; margin-left: auto; display: block" alt="" width="100%">
+					<img src="{{ asset('images/infoServicios.png') }}" style="margin-right: auto; margin-left: auto; display: block" alt="" width="100%">
 				</div>
 			</div>
 		</div>
@@ -31,14 +31,14 @@ Procesos y Servicios
 			<div class="container p-0">
 				<div class="row justify-content-center my-4">
 					<div class="col-12">
-						<img src="{{ asset('images/infoMercados.png') }}" style="margin-right: auto; margin-left: auto; display: block" alt="" width="100%">
+						<img src="{{ asset('images/infoNuestrosMercados.png') }}" style="margin-right: auto; margin-left: auto; display: block" alt="" width="100%">
 					</div>
 				</div>
 			</div>
 			<div class="container p-0">
 				<div class="row justify-content-center my-4">
 					<div class="col-12">
-						<img src="{{ asset('images/infografiaFull.png') }}" style="margin-right: auto; margin-left: auto; display: block" alt="" width="100%">
+						<img src="{{ asset('images/infoFullService.png') }}" style="margin-right: auto; margin-left: auto; display: block" alt="" width="100%">
 					</div>
 				</div>
 			</div>
