@@ -26,7 +26,6 @@ Buzon para clientes
 			<div class="col-md-6 p-6 p-md-5 order-md-last bg-light">
 				<form action="#">
 					<div class="form-group">
-						<input type="text" class="form-control" placeholder="Clave de cliente/proveedor" >
 					</div>
 					<div class="form-group">
 						<input type="text" class="form-control" placeholder="Nombre">

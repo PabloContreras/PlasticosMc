@@ -106,7 +106,7 @@
 					<div class="col-md">
 						<div class="ftco-footer-widget mb-5">
 							<font face="Encode Sans">
-								<h2 class="ftco-heading-2 logo"><img src="images/logo.png" width="100" height="80" class="d-inline-block align-top" alt="" style="margin-left: 30px; "><br>MC Plásticos</h2>
+								<h2 class="ftco-heading-2 logo"><img src="images/logo.png" width="100" height="80" class="d-inline-block align-top" alt="" style="margin-left: 30px; "><br>MC Plásticos de México</h2>
 							</font>
 							<!--<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>-->
 							<p><i class="fas fa-map-marker-alt"></i> <span style="color:navy;">Dirección:</span> <a href="maps://Av. Central No. 211, Parque Industrial Toluca 2000 C.P. 50200, Toluca, Estado de México."> <br>Av. Central No. 211, Parque Industrial Toluca 2000 C.P. 50233, Toluca, Estado de México.</a> </p>

@@ -38,7 +38,9 @@ Procesos y Servicios
 			<div class="container p-0">
 				<div class="row justify-content-center my-4">
 					<div class="col-12">
-						<img src="{{ asset('images/infoFullService.png') }}" style="margin-right: auto; margin-left: auto; display: block" alt="" width="100%">
+						<a href="http://www.fortalab.com" target="_blank">
+							<img src="{{ asset('images/infoFullService.png') }}" style="margin-right: auto; margin-left: auto; display: block" alt="" width="100%">
+						</a>
 					</div>
 				</div>
 			</div>
