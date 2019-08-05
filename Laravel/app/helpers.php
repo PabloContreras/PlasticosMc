@@ -10,7 +10,7 @@ function isActive($url)
 
 function getRandomBackground(){
 	$backgrounds = [
-		'bg-1.png',
+		/*'bg-1.png',*/
 		'bg-2.jpg',
 		'bg-3.jpg'
 	];
