@@ -139,7 +139,7 @@ Reclutamiento
 				</button>
 			</div>
 			<div class="modal-body">
-				He leído, comprendido y autorizo a Grupo MC a tener este documento, mismo que contiene información personal, sensible y laboral de mi persona; la cual sea utilizada con la finalidad de recabar información necesaria para el proceso de reclutamiento y selección para ser tomado en consideración como candidato. Además autorizo el uso de mi información personal para ser utilizada como referencias a terceros. Hago constar que todos los datos antes mencionados son verdaderos y autorizo que se puedan investigar.
+				He leído, comprendido y autorizo a Grupo MC a tener este documento, mismo que contiene información personal, sensible y laboral de mi persona; la cuál será utilizada con la finalidad de recabar información necesaria para el proceso de reclutamiento y selección para ser tomado en consideración como candidato. Además autorizo el uso de mi información personal para ser utilizada como referencias a terceros. Hago constar que todos los datos antes mencionados son verdaderos y autorizo que se puedan investigar.
 			</div>
 			<div class="modal-footer">
 				<button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>

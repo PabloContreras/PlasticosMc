@@ -111,15 +111,14 @@ Nosotros
 		<div class="row justify-content-center">
 			<div class="col-md-9 text-center">
 				<font face="Verdana">
-					<h2>En MC Plásticos vivimos con pasión nuestros valores</h2>
-
+					<h2>¡En MC Plásticos de México vivimos con pasión nuestros valores!</h2>
 				</font>
 			</div>
 		</div>
 	</div>
 </section>
 
-<section class="ftco-section" style="padding-bottom: 0; padding-top: 20px;">
+{{-- <section class="ftco-section" style="padding-bottom: 0; padding-top: 20px;">
 	<div class="container">
 		<div class="row no-gutters">
 			<div class="col-md-12 wrap-about py-5 px-4 px-md-5 ftco-animate">
@@ -138,7 +137,7 @@ Nosotros
 			</div>
 		</div>
 	</div>
-</section>
+</section> --}}
 
 <section class="ftco-section" style="padding-bottom: 10px;" id="diseño">
 	<div class="container">
@@ -196,7 +195,7 @@ Nosotros
 				</div>
 				<div class="">
 					<font face="Verdana">
-						<p style=" text-align: justify;" ><strong>Trabajar en equipo</strong>, a fin de alcanzar los resultados juntos, respetándonos y  comprometiéndonos con nuestros equipos de trabajo.</p>
+						<p style=" text-align: justify;" ><strong>Trabajar en equipo</strong>, a fin de alcanzar los resultados juntos, respetándonos y comprometiéndonos con nuestros equipos de trabajo.</p>
 					</div>
 				</font>
 			</div>
@@ -231,7 +230,7 @@ Nosotros
 			<div class="col-md-5 p-md-5 img img-2 mt-5 mt-md-0" style="background-image: url(images/fin/integridad.JPG); background-size: cover;  height: 300px">
 			</div>
 		</div>
-		<div class="row no-gutters my-5">
+		<div class="row no-gutters my-5 align-items-center">
 			<div class="col-md-5 p-md-5 img img-2 mt-5 mt-md-0" style="background-image: url(images/fin/excelencia.JPG); background-size: cover;  height: 300px">
 			</div>
 			<div class="col-md-7 wrap-about py-5 px-4 px-md-5 ftco-animate">
@@ -240,7 +239,11 @@ Nosotros
 				</div>
 				<div class="">
 					<font face="Verdana">
-						<p style=" text-align: justify;" >Ofrecer en todo momento un <strong>Servicio de Excelencia</strong> a nuestros clientes, tanto para el cliente interno como para el cliente externo.</p>
+						<p style=" text-align: justify;" >
+							Ofrecer en todo momento un <strong>Servicio de Excelencia</strong> a nuestros clientes, tanto para el cliente interno como para el cliente externo.
+							En MC Plásticos de México brindamos un servicio de excelencia a través de un gran equipo de trabajo, calificado y con vocación de servicio a nuestros socios de negocio.
+							A través de la innovación y de la integración de tecnologías de punta, buscamos brindar a nuestros clientes una oferta competitiva, que cumpla con sus especificaciones y necesidades, mediante un servicio de calidad.
+						</p>
 					</div>
 				</font>
 			</div>

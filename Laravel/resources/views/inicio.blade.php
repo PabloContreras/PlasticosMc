@@ -88,7 +88,7 @@ Inicio
 						<div class="col-md-12 text-center">
 							<font face="Verdana">
 								{{-- 								<h2>MC Plásticos es el resultado de una historia de más de 40 años de esfuerzo y dedicación...</h2> --}}
-								<h2>MC Plásticos es una empresa consolidada con presencia nacional e internacional, que ofrece a sus clientes soluciones integrales dentro de la industria de la transformación del plástico. </h2>
+								<h2>MC Plásticos de México es una empresa consolidada con presencia nacional e internacional, que ofrece a sus clientes soluciones integrales dentro de la industria de la transformación del plástico.</h2>
 							</font>
 						</div>
 					</div>
@@ -106,7 +106,7 @@ Inicio
 							</div>
 							<div class="col-md-12" style="text-align: justify; ">
 								<font face="Verdana">
-									<p><strong>MC Plásticos</strong> es una empresa consolidada al 100%, que ofrece a sus clientes soluciones integrales dentro de la industria del plástico, a nivel internacional</p>
+									<p><strong>MC Plásticos</strong> de México es una empresa consolidada al 100%, que ofrece a sus clientes soluciones integrales dentro de la industria del plástico, a nivel internacional.</p>
 								</font>
 							</div>
 						</div>
